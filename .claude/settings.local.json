@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /c/Users/gajar/Documents/'NEXA C'/lk_air_travel)",
+      "Bash(pip install:*)",
+      "Bash(PYTHONPATH=\"./src\" python workflows/pipeline.py)",
+      "Bash(PYTHONPATH=\"./src\" python -c \":*)",
+      "Bash(cd:*)",
+      "Bash(xargs rm:*)"
+    ]
+  }
+}
