@@ -1,12 +1,12 @@
-name: pipeline
+name: weekly-leaderboard
 
 on:
     workflow_dispatch:
     schedule:
-        - cron: "*/5 * * * *"
+        - cron: "0 0 * * 1"
 
 jobs:
-    pipeline:
+    leaderboard:
         runs-on: ubuntu-latest
 
         steps:
@@ -26,24 +26,20 @@ jobs:
                   python -m pip install --upgrade pip
                   pip install -r requirements.txt
 
-            - name: "Run pipeline"
-              env:
-                  OPENSKY_USERNAME: ${{ secrets.OPENSKY_USERNAME }}
-                  OPENSKY_PASSWORD: ${{ secrets.OPENSKY_PASSWORD }}
+            - name: "Generate leaderboard"
               run: |
                   export PYTHONPATH="$PYTHONPATH:./src"
-
-                  git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
-                  git config --global user.name "${{ secrets.GIT_USER_NAME }}"
-                  python workflows/pipeline.py
+                  python workflows/weekly_leaderboard.py
 
             - name: "Push"
               run: |
-                  git add data/summary.json data/routes.json data/flights/ data/history.csv images/flight_map.png README.md POST.txt
+                  git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
+                  git config --global user.name "${{ secrets.GIT_USER_NAME }}"
+                  git add LEADERBOARD.md
                   if git diff --cached --quiet; then
                     echo "No changes to commit."
                     exit 0
                   fi
-                  git commit -m "$(date '+%Y-%m-%d-%H%M')"
+                  git commit -m "weekly leaderboard $(date '+%Y-%m-%d')"
                   git pull origin main --rebase
                   git push origin main

@@ -21,6 +21,7 @@ class FlightMap:
         """Create and save the global flight map."""
         in_air = [f for f in self.flights if not f.on_ground]
         top_airports = self.summary.get("top_airports", [])[:30]
+        mode = self.summary.get("mode", "live")
 
         fig = plt.figure(figsize=(24, 12), facecolor="#0a0e27")
         ax = plt.axes(projection=ccrs.Robinson())
@@ -97,10 +98,13 @@ class FlightMap:
                 )
 
         # Title
+        title = "Global Live Air Traffic"
+        if mode == "historical":
+            title = "Global Historical Flight Archive"
         ax.text(
             0.5,
             0.96,
-            "Global Live Air Traffic",
+            title,
             transform=ax.transAxes,
             fontsize=26,
             fontweight="bold",
@@ -114,16 +118,27 @@ class FlightMap:
         dt = datetime.fromtimestamp(ts, timezone.utc)
         time_str = dt.strftime("%Y-%m-%d %H:%M UTC")
 
-        total = self.summary.get("total_aircraft", 0)
-        in_air_count = self.summary.get("in_air", 0)
         n_countries = len(self.summary.get("countries", {}))
         n_airports = len(self.summary.get("top_airports", []))
+        if mode == "historical":
+            total_flights = self.summary.get("total_flights", 0)
+            unique_routes = self.summary.get("unique_routes", 0)
+            subtitle = (
+                f"{total_flights:,} saved flights | {unique_routes:,} unique routes | "
+                f"{n_countries} countries | {n_airports} airports | latest {time_str}"
+            )
+        else:
+            total = self.summary.get("total_aircraft", 0)
+            in_air_count = self.summary.get("in_air", 0)
+            subtitle = (
+                f"{total:,} aircraft tracked | {in_air_count:,} in air | "
+                f"{n_countries} countries | {n_airports} airports | {time_str}"
+            )
 
         ax.text(
             0.5,
             0.92,
-            f"{total:,} aircraft tracked | {in_air_count:,} in air | "
-            f"{n_countries} countries | {n_airports} airports | {time_str}",
+            subtitle,
             transform=ax.transAxes,
             fontsize=12,
             color="#8899bb",

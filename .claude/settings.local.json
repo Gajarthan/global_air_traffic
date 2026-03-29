@@ -6,7 +6,12 @@
       "Bash(PYTHONPATH=\"./src\" python workflows/pipeline.py)",
       "Bash(PYTHONPATH=\"./src\" python -c \":*)",
       "Bash(cd:*)",
-      "Bash(xargs rm:*)"
+      "Bash(xargs rm:*)",
+      "Bash(gh repo:*)",
+      "Bash(git config:*)",
+      "Bash(gh run:*)",
+      "Bash(gh workflow:*)",
+      "Bash(gh secret:*)"
     ]
   }
 }

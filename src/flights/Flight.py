@@ -1,9 +1,11 @@
-"""Fetch live flight data from OpenSky Network API."""
+"""Fetch live flight data from OpenSky Network API and saved history."""
 
 import json
+import math
 import os
 import time
 from collections import Counter
+from glob import glob
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from typing import Optional
@@ -89,6 +91,14 @@ AIRLINE_CODES = {
 }
 
 
+def _callsign_airline(callsign: str) -> str:
+    """Resolve an airline name from a callsign prefix when possible."""
+    prefix = "".join(c for c in (callsign or "").strip()[:3] if c.isalpha())
+    if len(prefix) == 3:
+        return AIRLINE_CODES.get(prefix, prefix)
+    return ""
+
+
 @dataclass
 class FlightRoute:
     """A completed flight with departure and arrival airports."""
@@ -129,6 +139,27 @@ class FlightRoute:
         return max(0, (self.last_seen - self.first_seen) // 60)
 
     @property
+    def distance_km(self) -> float:
+        """Great-circle distance between departure and arrival (km)."""
+        if (
+            self.dep_lat is None or self.dep_lon is None
+            or self.arr_lat is None or self.arr_lon is None
+        ):
+            return 0.0
+        R = 6371.0  # Earth radius in km
+        lat1, lat2 = math.radians(self.dep_lat), math.radians(self.arr_lat)
+        dlat = lat2 - lat1
+        dlon = math.radians(self.arr_lon - self.dep_lon)
+        a = (math.sin(dlat / 2) ** 2
+             + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2)
+        return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+    @property
+    def co2_kg(self) -> float:
+        """Estimated CO2 emissions in kg (ICAO avg: 115g/pax-km, ~150 pax)."""
+        return self.distance_km * 0.115 * 150
+
+    @property
     def duration_str(self) -> str:
         """Flight duration as 'Xh Ym'."""
         mins = self.duration_minutes
@@ -143,6 +174,8 @@ class FlightRoute:
         d["arrival_time"] = self.arrival_time
         d["duration_minutes"] = self.duration_minutes
         d["duration_str"] = self.duration_str
+        d["distance_km"] = round(self.distance_km, 1)
+        d["co2_kg"] = round(self.co2_kg, 1)
         return d
 
     @classmethod
@@ -153,7 +186,7 @@ class FlightRoute:
             for k, v in data.items()
             if k
             not in ("departure_time", "arrival_time", "duration_minutes",
-                     "duration_str")
+                     "duration_str", "distance_km", "co2_kg")
         }
         return cls(**filtered)
 
@@ -169,6 +202,24 @@ class FlightRoute:
     def to_json_file(self, path: str):
         with open(path, "w", encoding="utf-8") as f:
             json.dump(self.to_dict(), f, indent=2)
+
+    @classmethod
+    def load_saved_routes(cls, flights_dir: str | None = None) -> list["FlightRoute"]:
+        """Load all archived route files from disk."""
+        base_dir = flights_dir or os.path.join("data", "flights")
+        if not os.path.isdir(base_dir):
+            return []
+
+        routes: list[FlightRoute] = []
+        for path in sorted(glob(os.path.join(base_dir, "*.json"))):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    routes.append(cls.from_dict(json.load(f)))
+            except (OSError, json.JSONDecodeError, TypeError) as exc:
+                print(f"Skipping invalid route file {path}: {exc}")
+
+        print(f"Loaded {len(routes)} saved routes from {base_dir}")
+        return routes
 
     @classmethod
     def fetch_routes(cls, hours: int = 2) -> list["FlightRoute"]:
@@ -220,8 +271,7 @@ class FlightRoute:
             arr_ap = airports_db.get(arr_icao)
 
             callsign = (r.get("callsign") or "").strip()
-            code = "".join(c for c in callsign[:3] if c.isalpha())
-            airline = AIRLINE_CODES.get(code, code) if len(code) == 3 else ""
+            airline = _callsign_airline(callsign)
 
             routes.append(
                 cls(
@@ -482,6 +532,7 @@ class Flight:
         avg_dur_str = f"{avg_h}h {avg_m}m" if avg_h > 0 else f"{avg_m}m"
 
         return {
+            "mode": "live",
             "timestamp": (
                 flights[0].timestamp if flights else int(time.time())
             ),
@@ -496,4 +547,175 @@ class Flight:
             "avg_duration_min": avg_duration,
             "top_routes": top_routes,
             "recent_flights": recent_flights,
+        }
+
+    @classmethod
+    def compute_historical_summary(cls, routes: list["FlightRoute"]) -> dict:
+        """Compute summary statistics from all archived route files."""
+        if not routes:
+            return {
+                "mode": "historical",
+                "timestamp": int(time.time()),
+                "archive_start": 0,
+                "archive_end": 0,
+                "total_flights": 0,
+                "unique_routes": 0,
+                "countries": {},
+                "top_airports": [],
+                "airlines": {},
+                "route_count": 0,
+                "avg_duration": "0m",
+                "avg_duration_min": 0,
+                "top_routes": [],
+                "recent_flights": [],
+            }
+
+        route_count = len(routes)
+        archive_start = min(r.first_seen for r in routes)
+        archive_end = max(r.last_seen for r in routes)
+
+        airport_counts: Counter = Counter()
+        airport_info: dict[str, dict] = {}
+        country_counts: Counter = Counter()
+        airline_counts: Counter = Counter()
+        route_pairs: Counter = Counter()
+        route_details: dict[str, dict] = {}
+        route_durations: dict[str, list[int]] = {}
+
+        for route in routes:
+            for prefix, icao, name, country, lat, lon in (
+                (
+                    "dep",
+                    route.dep_airport_icao,
+                    route.dep_airport_name,
+                    route.dep_country,
+                    route.dep_lat,
+                    route.dep_lon,
+                ),
+                (
+                    "arr",
+                    route.arr_airport_icao,
+                    route.arr_airport_name,
+                    route.arr_country,
+                    route.arr_lat,
+                    route.arr_lon,
+                ),
+            ):
+                if icao:
+                    airport_counts[icao] += 1
+                    airport_info.setdefault(
+                        icao,
+                        {
+                            "icao": icao,
+                            "name": name or icao,
+                            "city": "",
+                            "country": country or "",
+                            "lat": lat,
+                            "lon": lon,
+                        },
+                    )
+                if country:
+                    country_counts[country] += 1
+
+            airline = route.airline or _callsign_airline(route.callsign)
+            if airline:
+                airline_counts[airline] += 1
+
+            key = f"{route.dep_airport_icao}-{route.arr_airport_icao}"
+            route_pairs[key] += 1
+            route_durations.setdefault(key, []).append(route.duration_minutes)
+            route_details.setdefault(
+                key,
+                {
+                    "dep_icao": route.dep_airport_icao,
+                    "dep_name": route.dep_airport_name,
+                    "dep_country": route.dep_country,
+                    "dep_lat": route.dep_lat,
+                    "dep_lon": route.dep_lon,
+                    "arr_icao": route.arr_airport_icao,
+                    "arr_name": route.arr_airport_name,
+                    "arr_country": route.arr_country,
+                    "arr_lat": route.arr_lat,
+                    "arr_lon": route.arr_lon,
+                },
+            )
+
+        top_airports = [
+            {**airport_info[icao], "count": count}
+            for icao, count in airport_counts.most_common(100)
+            if icao in airport_info
+        ]
+
+        durations = [r.duration_minutes for r in routes if r.duration_minutes > 0]
+        avg_duration = round(sum(durations) / len(durations)) if durations else 0
+
+        # Carbon emissions
+        distances = [r.distance_km for r in routes if r.distance_km > 0]
+        total_distance_km = sum(distances)
+        total_co2_kg = sum(r.co2_kg for r in routes if r.distance_km > 0)
+        avg_distance_km = round(total_distance_km / len(distances)) if distances else 0
+
+        top_routes: list[dict] = []
+        for key, count in route_pairs.most_common(50):
+            durs = route_durations[key]
+            avg_dur = round(sum(durs) / len(durs)) if durs else 0
+            h, m = divmod(avg_dur, 60)
+            dur_str = f"{h}h {m}m" if h > 0 else f"{m}m"
+            # Distance for this route pair (from first occurrence)
+            detail = route_details[key]
+            sample_route = next(
+                (r for r in routes
+                 if r.dep_airport_icao == detail["dep_icao"]
+                 and r.arr_airport_icao == detail["arr_icao"]),
+                None,
+            )
+            dist = round(sample_route.distance_km, 1) if sample_route else 0
+            co2 = round(dist * 0.115 * 150 * count, 1)
+            top_routes.append(
+                {
+                    **detail,
+                    "flights": count,
+                    "avg_duration_min": avg_dur,
+                    "avg_duration": dur_str,
+                    "distance_km": dist,
+                    "total_co2_kg": co2,
+                }
+            )
+
+        recent_flights: list[dict] = []
+        for route in sorted(routes, key=lambda r: r.last_seen, reverse=True)[:20]:
+            recent_flights.append(
+                {
+                    "callsign": route.callsign,
+                    "airline": route.airline or _callsign_airline(route.callsign),
+                    "from": f"{route.dep_airport_name} ({route.dep_airport_icao})",
+                    "to": f"{route.arr_airport_name} ({route.arr_airport_icao})",
+                    "departure": route.departure_time,
+                    "arrival": route.arrival_time,
+                    "duration": route.duration_str,
+                }
+            )
+
+        avg_h, avg_m = divmod(avg_duration, 60)
+        avg_dur_str = f"{avg_h}h {avg_m}m" if avg_h > 0 else f"{avg_m}m"
+
+        return {
+            "mode": "historical",
+            "timestamp": archive_end,
+            "archive_start": archive_start,
+            "archive_end": archive_end,
+            "total_flights": route_count,
+            "unique_routes": len(route_pairs),
+            "countries": dict(country_counts.most_common()),
+            "top_airports": top_airports,
+            "airlines": dict(airline_counts.most_common(50)),
+            "route_count": route_count,
+            "avg_duration": avg_dur_str,
+            "avg_duration_min": avg_duration,
+            "top_routes": top_routes,
+            "recent_flights": recent_flights,
+            "total_distance_km": round(total_distance_km, 1),
+            "total_co2_kg": round(total_co2_kg, 1),
+            "total_co2_tonnes": round(total_co2_kg / 1000, 2),
+            "avg_distance_km": avg_distance_km,
         }

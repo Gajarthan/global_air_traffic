@@ -45,9 +45,8 @@ class Post:
         ts = self.summary.get("timestamp", 0)
         dt = datetime.fromtimestamp(ts, timezone.utc)
         time_str = dt.strftime("%Y-%m-%d %H:%M UTC")
+        mode = self.summary.get("mode", "live")
 
-        total = self.summary.get("total_aircraft", 0)
-        in_air = self.summary.get("in_air", 0)
         n_countries = len(self.summary.get("countries", {}))
         n_airports = len(self.summary.get("top_airports", []))
         n_airlines = len(self.summary.get("airlines", {}))
@@ -55,15 +54,29 @@ class Post:
         lines = []
 
         # Tweet 1: Introduction
-        lines.append("1/ Global Air Traffic - Live Snapshot")
+        title = "1/ Global Air Traffic - Live Snapshot"
+        if mode == "historical":
+            title = "1/ Global Air Traffic - Historical Archive"
+        lines.append(title)
         lines.append("")
         lines.append(f"As of {time_str}:")
         lines.append("")
-        lines.append(f"- {total:,} aircraft tracked worldwide")
-        lines.append(f"- {in_air:,} currently in the air")
-        lines.append(f"- {n_countries} countries")
-        lines.append(f"- {n_airports} airports with ground traffic")
-        lines.append(f"- {n_airlines} airlines identified")
+        if mode == "historical":
+            total_flights = self.summary.get("total_flights", 0)
+            unique_routes = self.summary.get("unique_routes", 0)
+            lines.append(f"- {total_flights:,} saved flights in the archive")
+            lines.append(f"- {unique_routes:,} unique routes")
+            lines.append(f"- {n_countries} countries across saved endpoints")
+            lines.append(f"- {n_airports} airports in the archive")
+            lines.append(f"- {n_airlines} airlines identified")
+        else:
+            total = self.summary.get("total_aircraft", 0)
+            in_air = self.summary.get("in_air", 0)
+            lines.append(f"- {total:,} aircraft tracked worldwide")
+            lines.append(f"- {in_air:,} currently in the air")
+            lines.append(f"- {n_countries} countries")
+            lines.append(f"- {n_airports} airports with ground traffic")
+            lines.append(f"- {n_airlines} airlines identified")
         lines.append("")
         lines.append("#Aviation #FlightTracking #OpenData")
         lines.append("")
@@ -91,7 +104,10 @@ class Post:
         lines.append("")
 
         # Tweet 4: Airports
-        lines.append("4/ Busiest Airports Right Now")
+        airport_title = "4/ Busiest Airports Right Now"
+        if mode == "historical":
+            airport_title = "4/ Busiest Airports In The Archive"
+        lines.append(airport_title)
         lines.append("")
         lines.append(self._top_airports(10))
         lines.append("")
@@ -103,16 +119,27 @@ class Post:
         # Tweet 5: About
         lines.append("5/ About This Data")
         lines.append("")
-        lines.append(
-            "Live data from OpenSky Network - a free, community-driven "
-            "flight tracking platform."
-        )
+        if mode == "historical":
+            lines.append(
+                "Historical route archive built from saved OpenSky route fetches."
+            )
+        else:
+            lines.append(
+                "Live data from OpenSky Network - a free, community-driven "
+                "flight tracking platform."
+            )
         lines.append("")
-        lines.append(
-            "This dataset updates automatically every 5 minutes via "
-            "GitHub Actions. Aircraft are mapped to 28,000+ airports "
-            "worldwide."
-        )
+        if mode == "historical":
+            lines.append(
+                "The archive updates automatically every 5 minutes via "
+                "GitHub Actions and rebuilds aggregate stats from all saved routes."
+            )
+        else:
+            lines.append(
+                "This dataset updates automatically every 5 minutes via "
+                "GitHub Actions. Aircraft are mapped to 28,000+ airports "
+                "worldwide."
+            )
         lines.append("")
         lines.append("Data: https://opensky-network.org/")
         lines.append(
