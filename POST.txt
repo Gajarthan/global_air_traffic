@@ -1,11 +1,11 @@
-1/ Global Air Traffic - Live Snapshot
+1/ Global Air Traffic - Historical Archive
 
-As of 2026-03-29 06:03 UTC:
+As of 2026-03-29 06:19 UTC:
 
-- 4,978 aircraft tracked worldwide
-- 4,422 currently in the air
-- 90 countries
-- 100 airports with ground traffic
+- 1,375 saved flights in the archive
+- 1,161 unique routes
+- 72 countries across saved endpoints
+- 100 airports in the archive
 - 50 airlines identified
 
 #Aviation #FlightTracking #OpenData
@@ -14,16 +14,16 @@ As of 2026-03-29 06:03 UTC:
 
 2/ Top Airlines by Aircraft Count
 
-1. Ryanair: 329 aircraft
-2. Turkish Airlines: 135 aircraft
-3. Southwest Airlines: 121 aircraft
-4. American Airlines: 109 aircraft
-5. United Airlines: 96 aircraft
-6. Delta Air Lines: 95 aircraft
-7. Lufthansa: 95 aircraft
-8. Air France: 95 aircraft
-9. IndiGo: 93 aircraft
-10. EJU: 93 aircraft
+1. SkyWest Airlines: 91 aircraft
+2. Southwest Airlines: 40 aircraft
+3. Ryanair: 38 aircraft
+4. American Airlines: 33 aircraft
+5. EJA: 33 aircraft
+6. ENY: 30 aircraft
+7. United Airlines: 21 aircraft
+8. Delta Air Lines: 20 aircraft
+9. IndiGo: 20 aircraft
+10. BRC: 17 aircraft
 
 #Airlines #AviationIndustry
 
@@ -31,33 +31,33 @@ As of 2026-03-29 06:03 UTC:
 
 3/ Top Countries by Registered Aircraft
 
-1. 🇺🇸 United States: 1013
-2. 🇦🇺 Australia: 289
-3. 🇬🇧 United Kingdom: 249
-4. 🇮🇪 Ireland: 235
-5. 🇹🇷 Turkey: 233
-6. 🇨🇳 China: 214
-7. 🇮🇳 India: 190
-8. 🇩🇪 Germany: 190
-9. 🇯🇵 Japan: 182
-10. 🇪🇸 Spain: 164
+1. 🇺🇸 US: 1537
+2. 🇦🇺 AU: 89
+3. 🇨🇴 CO: 89
+4. 🇨🇦 CA: 69
+5. 🇲🇽 MX: 65
+6. 🇪🇸 ES: 64
+7. 🇮🇳 IN: 58
+8. 🇬🇹 GT: 55
+9. 🇯🇵 JP: 54
+10. 🇧🇷 BR: 53
 
 #GlobalAviation
 
 ---
 
-4/ Busiest Airports Right Now
+4/ Busiest Airports In The Archive
 
-1. Tokyo International Airport (RJTT), Tokyo: 24 aircraft
-2. Zurich Airport (LSZH), Zurich: 21 aircraft
-3. San Francisco International Airport (KSFO), San Francisco: 21 aircraft
-4. Chek Lap Kok International Airport (VHHH), Hong Kong: 18 aircraft
-5. Los Angeles International Airport (KLAX), Los Angeles: 17 aircraft
-6. Frankfurt am Main International Airport (EDDF), Frankfurt am Main: 17 aircraft
-7. Phoenix Sky Harbor International Airport (KPHX), Phoenix: 16 aircraft
-8. Calgary International Airport (CYYC), Calgary: 15 aircraft
-9. Harry Reid International Airport (KLAS), Las Vegas: 14 aircraft
-10. Indira Gandhi International Airport (VIDP), New Delhi: 13 aircraft
+1. Dallas-Fort Worth International Airport (KDFW), : 42 aircraft
+2. Denver International Airport (KDEN), : 35 aircraft
+3. La Aurora Airport (MGGT), : 34 aircraft
+4. El Dorado International Airport (SKBO), : 32 aircraft
+5. Guaymaral Airport (SKGY), : 24 aircraft
+6. Phoenix Sky Harbor International Airport (KPHX), : 23 aircraft
+7. Chicago O'Hare International Airport (KORD), : 22 aircraft
+8. Harry Reid International Airport (KLAS), : 21 aircraft
+9. Hartsfield/Jackson Atlanta International Airport (KATL), : 20 aircraft
+10. Atizapan De Zaragoza Airport (MMJC), : 18 aircraft
 
 #Airports #AirTraffic
 
@@ -65,9 +65,9 @@ As of 2026-03-29 06:03 UTC:
 
 5/ About This Data
 
-Live data from OpenSky Network - a free, community-driven flight tracking platform.
+Historical route archive built from saved OpenSky route fetches.
 
-This dataset updates automatically every 5 minutes via GitHub Actions. Aircraft are mapped to 28,000+ airports worldwide.
+The archive updates automatically every 5 minutes via GitHub Actions and rebuilds aggregate stats from all saved routes.
 
 Data: https://opensky-network.org/
 Map: https://github.com/gajarthan/global_air_traffic/blob/main/images/flight_map.png
