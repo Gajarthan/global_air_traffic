@@ -1,70 +1,70 @@
 {
   "mode": "historical",
-  "timestamp": 1775147301,
+  "timestamp": 1775150619,
   "archive_start": 1774648826,
-  "archive_end": 1775147301,
-  "total_flights": 11328,
-  "unique_routes": 6542,
+  "archive_end": 1775150619,
+  "total_flights": 11489,
+  "unique_routes": 6622,
   "countries": {
-    "US": 8931,
-    "IN": 993,
+    "US": 9087,
+    "IN": 1002,
+    "ES": 909,
     "AU": 904,
-    "ES": 900,
-    "DE": 650,
-    "BR": 609,
+    "DE": 657,
+    "BR": 625,
     "JP": 593,
-    "CO": 565,
-    "CA": 523,
-    "IT": 521,
-    "GB": 428,
-    "MX": 402,
-    "FR": 371,
-    "NO": 294,
-    "GR": 288,
-    "CH": 279,
+    "CO": 571,
+    "CA": 531,
+    "IT": 525,
+    "GB": 433,
+    "MX": 410,
+    "FR": 383,
+    "NO": 300,
+    "GR": 295,
+    "CH": 283,
     "MY": 272,
     "NZ": 260,
-    "ZA": 231,
-    "GT": 221,
+    "ZA": 233,
+    "GT": 223,
     "PH": 216,
     "KR": 204,
-    "TR": 187,
-    "PL": 163,
-    "TH": 147,
+    "TR": 194,
+    "PL": 167,
+    "TH": 149,
     "ID": 143,
-    "MA": 135,
+    "MA": 136,
     "MO": 134,
-    "NL": 116,
+    "NL": 119,
     "ME": 114,
-    "BS": 101,
+    "BS": 105,
     "BE": 96,
     "IS": 88,
     "FI": 84,
+    "AT": 79,
     "HR": 79,
-    "AT": 78,
     "CZ": 66,
     "AR": 65,
-    "SE": 62,
-    "AL": 59,
+    "SE": 64,
+    "AL": 61,
     "BA": 55,
-    "HN": 44,
+    "HN": 45,
     "BT": 44,
     "TW": 44,
     "BD": 44,
+    "PT": 44,
+    "CL": 43,
     "RU": 42,
     "DK": 42,
-    "PT": 42,
-    "CL": 41,
     "IE": 38,
     "CN": 36,
     "RO": 36,
     "HK": 35,
+    "XK": 32,
+    "CY": 31,
     "RS": 31,
-    "XK": 31,
-    "CY": 29,
     "HU": 27,
+    "VG": 25,
     "PE": 25,
-    "VG": 23,
     "DZ": 22,
     "NP": 21,
     "SV": 20,
@@ -76,13 +76,13 @@
     "SA": 13,
     "MK": 13,
     "LV": 11,
+    "AO": 11,
     "AE": 10,
     "LT": 10,
     "GI": 10,
     "CU": 9,
     "GG": 9,
     "SG": 9,
-    "AO": 9,
     "VN": 8,
     "GE": 8,
     "MT": 8,
@@ -126,7 +126,16 @@
       "country": "US",
       "lat": 32.897233,
       "lon": -97.037695,
-      "count": 262
+      "count": 266
+    },
+    {
+      "icao": "VIDP",
+      "name": "Indira Gandhi International Airport",
+      "city": "",
+      "country": "IN",
+      "lat": 28.5665,
+      "lon": 77.1031,
+      "count": 215
     },
     {
       "icao": "RJTT",
@@ -138,22 +147,13 @@
       "count": 213
     },
     {
-      "icao": "VIDP",
-      "name": "Indira Gandhi International Airport",
-      "city": "",
-      "country": "IN",
-      "lat": 28.5665,
-      "lon": 77.1031,
-      "count": 213
-    },
-    {
       "icao": "KDEN",
       "name": "Denver International Airport",
       "city": "",
       "country": "US",
       "lat": 39.861667,
       "lon": -104.673167,
-      "count": 196
+      "count": 198
     },
     {
       "icao": "SKBO",
@@ -162,7 +162,7 @@
       "country": "CO",
       "lat": 4.70159,
       "lon": -74.1469,
-      "count": 191
+      "count": 193
     },
     {
       "icao": "EDDF",
@@ -171,7 +171,7 @@
       "country": "DE",
       "lat": 50.0264,
       "lon": 8.54313,
-      "count": 182
+      "count": 184
     },
     {
       "icao": "KLAS",
@@ -180,7 +180,7 @@
       "country": "US",
       "lat": 36.080343,
       "lon": -115.152449,
-      "count": 156
+      "count": 157
     },
     {
       "icao": "MGGT",
@@ -189,7 +189,7 @@
       "country": "GT",
       "lat": 14.5833,
       "lon": -90.5275,
-      "count": 154
+      "count": 155
     },
     {
       "icao": "SKGY",
@@ -201,21 +201,30 @@
       "count": 152
     },
     {
-      "icao": "VMMC",
-      "name": "Macau International Airport",
-      "city": "",
-      "country": "MO",
-      "lat": 22.1496,
-      "lon": 113.592,
-      "count": 134
-    },
-    {
       "icao": "LSZH",
       "name": "Zurich Airport",
       "city": "",
       "country": "CH",
       "lat": 47.4647,
       "lon": 8.54917,
+      "count": 137
+    },
+    {
+      "icao": "LGAV",
+      "name": "Eleftherios Venizelos International Airport",
+      "city": "",
+      "country": "GR",
+      "lat": 37.9364,
+      "lon": 23.9445,
+      "count": 134
+    },
+    {
+      "icao": "VMMC",
+      "name": "Macau International Airport",
+      "city": "",
+      "country": "MO",
+      "lat": 22.1496,
+      "lon": 113.592,
       "count": 134
     },
     {
@@ -228,22 +237,13 @@
       "count": 133
     },
     {
-      "icao": "LGAV",
-      "name": "Eleftherios Venizelos International Airport",
-      "city": "",
-      "country": "GR",
-      "lat": 37.9364,
-      "lon": 23.9445,
-      "count": 131
-    },
-    {
       "icao": "KPHX",
       "name": "Phoenix Sky Harbor International Airport",
       "city": "",
       "country": "US",
       "lat": 33.434278,
       "lon": -112.011583,
-      "count": 127
+      "count": 128
     },
     {
       "icao": "KATL",
@@ -252,6 +252,15 @@
       "country": "US",
       "lat": 33.6367,
       "lon": -84.427864,
+      "count": 114
+    },
+    {
+      "icao": "VOBL",
+      "name": "Bengaluru International Airport",
+      "city": "",
+      "country": "IN",
+      "lat": 13.1979,
+      "lon": 77.7063,
       "count": 112
     },
     {
@@ -261,16 +270,7 @@
       "country": "US",
       "lat": 41.97694,
       "lon": -87.90815,
-      "count": 110
-    },
-    {
-      "icao": "VOBL",
-      "name": "Bengaluru International Airport",
-      "city": "",
-      "country": "IN",
-      "lat": 13.1979,
-      "lon": 77.7063,
-      "count": 110
+      "count": 111
     },
     {
       "icao": "WMKK",
@@ -306,7 +306,7 @@
       "country": "MX",
       "lat": 19.5748,
       "lon": -99.2888,
-      "count": 99
+      "count": 100
     },
     {
       "icao": "KCLT",
@@ -315,7 +315,7 @@
       "country": "US",
       "lat": 35.213187,
       "lon": -80.951379,
-      "count": 97
+      "count": 99
     },
     {
       "icao": "RPLL",
@@ -327,6 +327,15 @@
       "count": 97
     },
     {
+      "icao": "SBSP",
+      "name": "Congonhas Airport",
+      "city": "",
+      "country": "BR",
+      "lat": -23.62611,
+      "lon": -46.65639,
+      "count": 97
+    },
+    {
       "icao": "KRNO",
       "name": "Reno/Tahoe International Airport",
       "city": "",
@@ -334,15 +343,6 @@
       "lat": 39.499111,
       "lon": -119.768111,
       "count": 96
-    },
-    {
-      "icao": "SBSP",
-      "name": "Congonhas Airport",
-      "city": "",
-      "country": "BR",
-      "lat": -23.62611,
-      "lon": -46.65639,
-      "count": 93
     },
     {
       "icao": "VECC",
@@ -360,7 +360,16 @@
       "country": "IT",
       "lat": 45.6306,
       "lon": 8.72811,
-      "count": 87
+      "count": 88
+    },
+    {
+      "icao": "LEVT",
+      "name": "Vitoria/Foronda Airport",
+      "city": "",
+      "country": "ES",
+      "lat": 42.8828,
+      "lon": -2.72447,
+      "count": 86
     },
     {
       "icao": "SBGR",
@@ -372,21 +381,21 @@
       "count": 86
     },
     {
-      "icao": "LEVT",
-      "name": "Vitoria/Foronda Airport",
-      "city": "",
-      "country": "ES",
-      "lat": 42.8828,
-      "lon": -2.72447,
-      "count": 85
-    },
-    {
       "icao": "PHNL",
       "name": "Daniel K Inouye International Airport",
       "city": "",
       "country": "US",
       "lat": 21.317825,
       "lon": -157.92025,
+      "count": 83
+    },
+    {
+      "icao": "LFPG",
+      "name": "Charles de Gaulle International Airport",
+      "city": "",
+      "country": "FR",
+      "lat": 49.0128,
+      "lon": 2.55,
       "count": 82
     },
     {
@@ -396,16 +405,7 @@
       "country": "ES",
       "lat": 41.2971,
       "lon": 2.07846,
-      "count": 81
-    },
-    {
-      "icao": "LFPG",
-      "name": "Charles de Gaulle International Airport",
-      "city": "",
-      "country": "FR",
-      "lat": 49.0128,
-      "lon": 2.55,
-      "count": 79
+      "count": 82
     },
     {
       "icao": "VAPO",
@@ -417,6 +417,24 @@
       "count": 78
     },
     {
+      "icao": "ENBO",
+      "name": "Bod\u00f8 Airport",
+      "city": "",
+      "country": "NO",
+      "lat": 67.2692,
+      "lon": 14.3653,
+      "count": 78
+    },
+    {
+      "icao": "KSLC",
+      "name": "Salt Lake City International Airport",
+      "city": "",
+      "country": "US",
+      "lat": 40.788393,
+      "lon": -111.977773,
+      "count": 77
+    },
+    {
       "icao": "KMSP",
       "name": "Minneapolis-St Paul International/Wold-Chamberlain Airport",
       "city": "",
@@ -426,22 +444,13 @@
       "count": 77
     },
     {
-      "icao": "ENBO",
-      "name": "Bod\u00f8 Airport",
-      "city": "",
-      "country": "NO",
-      "lat": 67.2692,
-      "lon": 14.3653,
-      "count": 76
-    },
-    {
       "icao": "KAUS",
       "name": "Austin-Bergstrom International Airport",
       "city": "",
       "country": "US",
       "lat": 30.194527,
       "lon": -97.669876,
-      "count": 75
+      "count": 76
     },
     {
       "icao": "RKSS",
@@ -453,22 +462,13 @@
       "count": 75
     },
     {
-      "icao": "KSLC",
-      "name": "Salt Lake City International Airport",
-      "city": "",
-      "country": "US",
-      "lat": 40.788393,
-      "lon": -111.977773,
-      "count": 75
-    },
-    {
       "icao": "KSEA",
       "name": "Seattle-Tacoma International Airport",
       "city": "",
       "country": "US",
       "lat": 47.449889,
       "lon": -122.311778,
-      "count": 72
+      "count": 74
     },
     {
       "icao": "EHAM",
@@ -477,7 +477,25 @@
       "country": "NL",
       "lat": 52.3086,
       "lon": 4.76389,
+      "count": 73
+    },
+    {
+      "icao": "KIAH",
+      "name": "George Bush Intcntl/Houston Airport",
+      "city": "",
+      "country": "US",
+      "lat": 29.984435,
+      "lon": -95.341442,
       "count": 71
+    },
+    {
+      "icao": "KMIA",
+      "name": "Miami International Airport",
+      "city": "",
+      "country": "US",
+      "lat": 25.795361,
+      "lon": -80.290116,
+      "count": 68
     },
     {
       "icao": "CYYC",
@@ -489,31 +507,13 @@
       "count": 68
     },
     {
-      "icao": "KIAH",
-      "name": "George Bush Intcntl/Houston Airport",
-      "city": "",
-      "country": "US",
-      "lat": 29.984435,
-      "lon": -95.341442,
-      "count": 68
-    },
-    {
-      "icao": "KMIA",
-      "name": "Miami International Airport",
-      "city": "",
-      "country": "US",
-      "lat": 25.795361,
-      "lon": -80.290116,
-      "count": 67
-    },
-    {
       "icao": "KBOS",
       "name": "General Edward Lawrence Logan International Airport",
       "city": "",
       "country": "US",
       "lat": 42.362944,
       "lon": -71.006389,
-      "count": 66
+      "count": 67
     },
     {
       "icao": "EPKK",
@@ -522,7 +522,7 @@
       "country": "PL",
       "lat": 50.0777,
       "lon": 19.7848,
-      "count": 64
+      "count": 66
     },
     {
       "icao": "FAOR",
@@ -531,16 +531,7 @@
       "country": "ZA",
       "lat": -26.13367,
       "lon": 28.24233,
-      "count": 63
-    },
-    {
-      "icao": "VGZR",
-      "name": "VGZR",
-      "city": "",
-      "country": "",
-      "lat": null,
-      "lon": null,
-      "count": 61
+      "count": 64
     },
     {
       "icao": "KAPA",
@@ -549,6 +540,15 @@
       "country": "US",
       "lat": 39.570119,
       "lon": -104.849293,
+      "count": 62
+    },
+    {
+      "icao": "VGZR",
+      "name": "VGZR",
+      "city": "",
+      "country": "",
+      "lat": null,
+      "lon": null,
       "count": 61
     },
     {
@@ -570,6 +570,24 @@
       "count": 59
     },
     {
+      "icao": "CYVR",
+      "name": "Vancouver International Airport",
+      "city": "",
+      "country": "CA",
+      "lat": 49.1939,
+      "lon": -123.184,
+      "count": 58
+    },
+    {
+      "icao": "EDDM",
+      "name": "Munich International Airport",
+      "city": "",
+      "country": "DE",
+      "lat": 48.3538,
+      "lon": 11.7861,
+      "count": 58
+    },
+    {
       "icao": "YBBN",
       "name": "Brisbane International Airport",
       "city": "",
@@ -577,15 +595,6 @@
       "lat": -27.3842,
       "lon": 153.117,
       "count": 58
-    },
-    {
-      "icao": "CYVR",
-      "name": "Vancouver International Airport",
-      "city": "",
-      "country": "CA",
-      "lat": 49.1939,
-      "lon": -123.184,
-      "count": 57
     },
     {
       "icao": "RJOI",
@@ -624,15 +633,6 @@
       "count": 56
     },
     {
-      "icao": "EDDM",
-      "name": "Munich International Airport",
-      "city": "",
-      "country": "DE",
-      "lat": 48.3538,
-      "lon": 11.7861,
-      "count": 56
-    },
-    {
       "icao": "EDDH",
       "name": "Hamburg Airport",
       "city": "",
@@ -648,6 +648,15 @@
       "country": "CO",
       "lat": 4.42161,
       "lon": -75.1333,
+      "count": 56
+    },
+    {
+      "icao": "KDAL",
+      "name": "Dallas Love Field",
+      "city": "",
+      "country": "US",
+      "lat": 32.845945,
+      "lon": -96.850877,
       "count": 56
     },
     {
@@ -675,15 +684,15 @@
       "country": "FR",
       "lat": 48.7253,
       "lon": 2.35944,
-      "count": 54
+      "count": 55
     },
     {
-      "icao": "KDAL",
-      "name": "Dallas Love Field",
+      "icao": "LEPA",
+      "name": "Palma De Mallorca Airport",
       "city": "",
-      "country": "US",
-      "lat": 32.845945,
-      "lon": -96.850877,
+      "country": "ES",
+      "lat": 39.5517,
+      "lon": 2.73881,
       "count": 54
     },
     {
@@ -703,15 +712,6 @@
       "lat": 51.1481,
       "lon": -0.19028,
       "count": 53
-    },
-    {
-      "icao": "LEPA",
-      "name": "Palma De Mallorca Airport",
-      "city": "",
-      "country": "ES",
-      "lat": 39.5517,
-      "lon": 2.73881,
-      "count": 52
     },
     {
       "icao": "GMFI",
@@ -756,6 +756,15 @@
       "country": "NO",
       "lat": 60.1939,
       "lon": 11.1004,
+      "count": 52
+    },
+    {
+      "icao": "KSDL",
+      "name": "Scottsdale Airport",
+      "city": "",
+      "country": "US",
+      "lat": 33.622889,
+      "lon": -111.910528,
       "count": 51
     },
     {
@@ -768,15 +777,6 @@
       "count": 50
     },
     {
-      "icao": "KSDL",
-      "name": "Scottsdale Airport",
-      "city": "",
-      "country": "US",
-      "lat": 33.622889,
-      "lon": -111.910528,
-      "count": 50
-    },
-    {
       "icao": "RPVL",
       "name": "Wasig Airport",
       "city": "",
@@ -784,6 +784,24 @@
       "lat": 12.5361,
       "lon": 121.481,
       "count": 49
+    },
+    {
+      "icao": "KMTH",
+      "name": "The Florida Keys Marathon International Airport",
+      "city": "",
+      "country": "US",
+      "lat": 24.726286,
+      "lon": -81.051416,
+      "count": 48
+    },
+    {
+      "icao": "KBJC",
+      "name": "Rocky Mountain Metro Airport",
+      "city": "",
+      "country": "US",
+      "lat": 39.908806,
+      "lon": -105.117194,
+      "count": 48
     },
     {
       "icao": "ENBR",
@@ -813,15 +831,6 @@
       "count": 47
     },
     {
-      "icao": "KBJC",
-      "name": "Rocky Mountain Metro Airport",
-      "city": "",
-      "country": "US",
-      "lat": 39.908806,
-      "lon": -105.117194,
-      "count": 47
-    },
-    {
       "icao": "EGSS",
       "name": "London Stansted Airport",
       "city": "",
@@ -837,6 +846,24 @@
       "country": "AU",
       "lat": -37.7281,
       "lon": 144.90199,
+      "count": 46
+    },
+    {
+      "icao": "CO86",
+      "name": "CO86",
+      "city": "",
+      "country": "",
+      "lat": null,
+      "lon": null,
+      "count": 46
+    },
+    {
+      "icao": "VAJJ",
+      "name": "Juhu Aerodrome",
+      "city": "",
+      "country": "IN",
+      "lat": 19.0981,
+      "lon": 72.8342,
       "count": 46
     },
     {
@@ -858,24 +885,6 @@
       "count": 46
     },
     {
-      "icao": "CO86",
-      "name": "CO86",
-      "city": "",
-      "country": "",
-      "lat": null,
-      "lon": null,
-      "count": 45
-    },
-    {
-      "icao": "KMTH",
-      "name": "The Florida Keys Marathon International Airport",
-      "city": "",
-      "country": "US",
-      "lat": 24.726286,
-      "lon": -81.051416,
-      "count": 45
-    },
-    {
       "icao": "LIML",
       "name": "Linate Airport",
       "city": "",
@@ -885,13 +894,22 @@
       "count": 45
     },
     {
-      "icao": "VAJJ",
-      "name": "Juhu Aerodrome",
+      "icao": "KABQ",
+      "name": "Albuquerque International Sunport Airport",
       "city": "",
-      "country": "IN",
-      "lat": 19.0981,
-      "lon": 72.8342,
+      "country": "US",
+      "lat": 35.038932,
+      "lon": -106.608262,
       "count": 45
+    },
+    {
+      "icao": "KPDX",
+      "name": "Portland International Airport",
+      "city": "",
+      "country": "US",
+      "lat": 45.588709,
+      "lon": -122.596869,
+      "count": 44
     },
     {
       "icao": "LQVI",
@@ -903,30 +921,21 @@
       "count": 44
     },
     {
-      "icao": "KABQ",
-      "name": "Albuquerque International Sunport Airport",
-      "city": "",
-      "country": "US",
-      "lat": 35.038932,
-      "lon": -106.608262,
-      "count": 44
-    },
-    {
-      "icao": "KPDX",
-      "name": "Portland International Airport",
-      "city": "",
-      "country": "US",
-      "lat": 45.588709,
-      "lon": -122.596869,
-      "count": 43
-    },
-    {
       "icao": "LKPR",
       "name": "V\u00e1clav Havel Airport",
       "city": "",
       "country": "CZ",
       "lat": 50.1008,
       "lon": 14.26,
+      "count": 43
+    },
+    {
+      "icao": "LTXE",
+      "name": "Karain Airport",
+      "city": "",
+      "country": "TR",
+      "lat": 37.09644,
+      "lon": 30.64774,
       "count": 43
     },
     {
@@ -939,15 +948,6 @@
       "count": 42
     },
     {
-      "icao": "LTXE",
-      "name": "Karain Airport",
-      "city": "",
-      "country": "TR",
-      "lat": 37.09644,
-      "lon": 30.64774,
-      "count": 42
-    },
-    {
       "icao": "BIRK",
       "name": "Reykjavik Airport",
       "city": "",
@@ -955,6 +955,15 @@
       "lat": 64.13,
       "lon": -21.9406,
       "count": 41
+    },
+    {
+      "icao": "MMMY",
+      "name": "General Mariano Escobedo International Airport",
+      "city": "",
+      "country": "MX",
+      "lat": 25.7785,
+      "lon": -100.107,
+      "count": 40
     },
     {
       "icao": "KSNA",
@@ -975,13 +984,13 @@
       "count": 40
     },
     {
-      "icao": "MMMY",
-      "name": "General Mariano Escobedo International Airport",
+      "icao": "KFLL",
+      "name": "Fort Lauderdale/Hollywood International Airport",
       "city": "",
-      "country": "MX",
-      "lat": 25.7785,
-      "lon": -100.107,
-      "count": 38
+      "country": "US",
+      "lat": 26.071667,
+      "lon": -80.149694,
+      "count": 39
     },
     {
       "icao": "NZAA",
@@ -1002,77 +1011,68 @@
       "count": 38
     },
     {
-      "icao": "KFLL",
-      "name": "Fort Lauderdale/Hollywood International Airport",
+      "icao": "KVNY",
+      "name": "Van Nuys Airport",
       "city": "",
       "country": "US",
-      "lat": 26.071667,
-      "lon": -80.149694,
+      "lat": 34.209806,
+      "lon": -118.489972,
       "count": 38
-    },
-    {
-      "icao": "WMAB",
-      "name": "Batu Pahat Airport",
-      "city": "",
-      "country": "MY",
-      "lat": 1.86024,
-      "lon": 102.901,
-      "count": 37
     }
   ],
   "airlines": {
-    "SkyWest Airlines": 481,
-    "Ryanair": 454,
-    "IndiGo": 322,
-    "EJA": 218,
-    "American Airlines": 196,
-    "Lufthansa": 191,
-    "Southwest Airlines": 168,
-    "ENY": 142,
-    "Vueling": 122,
+    "SkyWest Airlines": 487,
+    "Ryanair": 458,
+    "IndiGo": 325,
+    "EJA": 225,
+    "American Airlines": 200,
+    "Lufthansa": 194,
+    "Southwest Airlines": 170,
+    "ENY": 144,
+    "Vueling": 124,
     "AXM": 120,
     "LATAM Airlines": 116,
     "LXJ": 106,
     "All Nippon Airways": 103,
     "QLK": 99,
-    "Swiss International": 92,
-    "WIF": 92,
+    "WIF": 95,
+    "Swiss International": 93,
     "Delta Air Lines": 88,
-    "AZU": 81,
-    "AXB": 79,
-    "VIV": 78,
+    "AZU": 82,
+    "AXB": 80,
+    "VIV": 79,
     "Japan Airlines": 77,
-    "Alaska Airlines": 72,
+    "Alaska Airlines": 73,
     "Cathay Pacific": 69,
-    "EDV": 68,
+    "EDV": 69,
+    "United Airlines": 69,
+    "EJU": 68,
     "easyJet": 68,
-    "EJU": 67,
-    "United Airlines": 67,
-    "Avianca": 65,
+    "Avianca": 66,
     "BRC": 64,
-    "GLO": 59,
-    "AEE": 57,
+    "GLO": 61,
+    "AEE": 60,
+    "Air France": 56,
     "Air India": 56,
     "ANZ": 56,
+    "PGT": 55,
     "JST": 54,
-    "Air France": 53,
+    "VOE": 53,
+    "Wizz Air": 53,
     "JetBlue": 52,
-    "PGT": 52,
-    "VOE": 52,
-    "Wizz Air": 52,
     "MXY": 48,
-    "JIA": 46,
+    "JIA": 47,
+    "WMT": 47,
     "SEH": 46,
-    "WMT": 46,
     "APG": 45,
     "ARE": 45,
     "LYM": 44,
     "WEN": 43,
-    "ANE": 41,
-    "FFT": 41,
-    "Finnair": 41
+    "FFT": 42,
+    "QXE": 42,
+    "ANE": 41
   },
-  "route_count": 11328,
+  "route_count": 11489,
   "avg_duration": "1h 15m",
   "avg_duration_min": 75,
   "top_routes": [
@@ -1189,7 +1189,7 @@
       "arr_country": "NO",
       "arr_lat": 67.2692,
       "arr_lon": 14.3653,
-      "flights": 35,
+      "flights": 36,
       "avg_duration_min": 4,
       "avg_duration": "4m",
       "distance_km": 0.0,
@@ -1485,6 +1485,23 @@
       "total_co2_kg": 236864.9
     },
     {
+      "dep_icao": "SKBO",
+      "dep_name": "El Dorado International Airport",
+      "dep_country": "CO",
+      "dep_lat": 4.70159,
+      "dep_lon": -74.1469,
+      "arr_icao": "SKQU",
+      "arr_name": "Jose Celestino Mutis Airport",
+      "arr_country": "CO",
+      "arr_lat": 5.21256,
+      "arr_lon": -74.8836,
+      "flights": 19,
+      "avg_duration_min": 13,
+      "avg_duration": "13m",
+      "distance_km": 99.4,
+      "total_co2_kg": 32578.4
+    },
+    {
       "dep_icao": "LGAV",
       "dep_name": "Eleftherios Venizelos International Airport",
       "dep_country": "GR",
@@ -1500,23 +1517,6 @@
       "avg_duration": "20m",
       "distance_km": 146.7,
       "total_co2_kg": 45550.3
-    },
-    {
-      "dep_icao": "SKBO",
-      "dep_name": "El Dorado International Airport",
-      "dep_country": "CO",
-      "dep_lat": 4.70159,
-      "dep_lon": -74.1469,
-      "arr_icao": "SKQU",
-      "arr_name": "Jose Celestino Mutis Airport",
-      "arr_country": "CO",
-      "arr_lat": 5.21256,
-      "arr_lon": -74.8836,
-      "flights": 18,
-      "avg_duration_min": 13,
-      "avg_duration": "13m",
-      "distance_km": 99.4,
-      "total_co2_kg": 30863.7
     },
     {
       "dep_icao": "YMMB",
@@ -1791,6 +1791,23 @@
       "total_co2_kg": 162909.0
     },
     {
+      "dep_icao": "SBSP",
+      "dep_name": "Congonhas Airport",
+      "dep_country": "BR",
+      "dep_lat": -23.62611,
+      "dep_lon": -46.65639,
+      "arr_icao": "SJNQ",
+      "arr_name": "Destilaria Medasa Airport",
+      "arr_country": "BR",
+      "arr_lat": -17.485,
+      "arr_lon": -40.15778,
+      "flights": 15,
+      "avg_duration_min": 76,
+      "avg_duration": "1h 16m",
+      "distance_km": 960.9,
+      "total_co2_kg": 248632.9
+    },
+    {
       "dep_icao": "YMML",
       "dep_name": "Melbourne International Airport",
       "dep_country": "AU",
@@ -1893,23 +1910,6 @@
       "total_co2_kg": 164244.1
     },
     {
-      "dep_icao": "SBSP",
-      "dep_name": "Congonhas Airport",
-      "dep_country": "BR",
-      "dep_lat": -23.62611,
-      "dep_lon": -46.65639,
-      "arr_icao": "SJNQ",
-      "arr_name": "Destilaria Medasa Airport",
-      "arr_country": "BR",
-      "arr_lat": -17.485,
-      "arr_lon": -40.15778,
-      "flights": 14,
-      "avg_duration_min": 76,
-      "avg_duration": "1h 16m",
-      "distance_km": 960.9,
-      "total_co2_kg": 232057.4
-    },
-    {
       "dep_icao": "TJSJ",
       "dep_name": "Luis Munoz Marin International Airport",
       "dep_country": "US",
@@ -1929,188 +1929,188 @@
   ],
   "recent_flights": [
     {
-      "callsign": "FFAB123",
-      "airline": "FFA",
-      "from": "North Island Nas (Halsey Field) Airport (KNZY)",
-      "to": "North Island Nas (Halsey Field) Airport (KNZY)",
-      "departure": "2026-04-02 15:40 UTC",
-      "arrival": "2026-04-02 16:28 UTC",
-      "duration": "47m"
-    },
-    {
-      "callsign": "FHAAT",
-      "airline": "FHA",
-      "from": "Toussus-le-Noble Airport (LFPN)",
-      "to": "Bailleau Armenonville Airport (LFFL)",
-      "departure": "2026-04-02 15:55 UTC",
-      "arrival": "2026-04-02 16:27 UTC",
-      "duration": "31m"
-    },
-    {
-      "callsign": "CGDFN",
-      "airline": "CGD",
-      "from": "Thunder Bay Airport (CYQT)",
-      "to": "Thunder Bay Airport (CYQT)",
-      "departure": "2026-04-02 15:24 UTC",
-      "arrival": "2026-04-02 16:26 UTC",
-      "duration": "1h 1m"
-    },
-    {
-      "callsign": "NL851D",
+      "callsign": "N285MA",
       "airline": "",
-      "from": "Kissimmee Gateway Airport (KISM)",
-      "to": "Bartow Executive Airport (KBOW)",
-      "departure": "2026-04-02 15:42 UTC",
-      "arrival": "2026-04-02 16:26 UTC",
-      "duration": "44m"
+      "from": "Berkeley County Airport (KMKS)",
+      "to": "Berkeley County Airport (KMKS)",
+      "departure": "2026-04-02 17:04 UTC",
+      "arrival": "2026-04-02 17:23 UTC",
+      "duration": "18m"
     },
     {
-      "callsign": "WAH",
-      "airline": "WAH",
-      "from": "Kenai Municipal Airport (PAEN)",
-      "to": "Trading Bay Production Airport (5AK0)",
-      "departure": "2026-04-02 16:11 UTC",
-      "arrival": "2026-04-02 16:24 UTC",
+      "callsign": "PAT173",
+      "airline": "PAT",
+      "from": "Buckley Space Force Base Airport (KBKF)",
+      "to": "Salina Regional Airport (KSLN)",
+      "departure": "2026-04-02 16:02 UTC",
+      "arrival": "2026-04-02 17:20 UTC",
+      "duration": "1h 17m"
+    },
+    {
+      "callsign": "N447BL",
+      "airline": "",
+      "from": "Johnston Regional Airport (KJNX)",
+      "to": "Johnston Regional Airport (KJNX)",
+      "departure": "2026-04-02 17:04 UTC",
+      "arrival": "2026-04-02 17:17 UTC",
       "duration": "12m"
     },
     {
-      "callsign": "SCU36",
-      "airline": "SCU",
-      "from": "2OL2 (2OL2)",
-      "to": "Gregg Airport (7OK1)",
-      "departure": "2026-04-02 15:46 UTC",
-      "arrival": "2026-04-02 16:22 UTC",
-      "duration": "35m"
-    },
-    {
-      "callsign": "N7189L",
+      "callsign": "N288BL",
       "airline": "",
-      "from": "Rocky Mountain Metro Airport (KBJC)",
-      "to": "Erie Municipal Airport (KEIK)",
-      "departure": "2026-04-02 15:36 UTC",
-      "arrival": "2026-04-02 16:21 UTC",
-      "duration": "45m"
+      "from": "Winter Haven Regional Airport (KGIF)",
+      "to": "Lakeland Linder International Airport (KLAL)",
+      "departure": "2026-04-02 15:56 UTC",
+      "arrival": "2026-04-02 17:11 UTC",
+      "duration": "1h 15m"
     },
     {
-      "callsign": "N739NP",
+      "callsign": "TALON61",
+      "airline": "TAL",
+      "from": "Salina Regional Airport (KSLN)",
+      "to": "Salina Regional Airport (KSLN)",
+      "departure": "2026-04-02 16:51 UTC",
+      "arrival": "2026-04-02 17:09 UTC",
+      "duration": "18m"
+    },
+    {
+      "callsign": "AEE852",
+      "airline": "AEE",
+      "from": "Eleftherios Venizelos International Airport (LGAV)",
+      "to": "Zurich Airport (LSZH)",
+      "departure": "2026-04-02 13:53 UTC",
+      "arrival": "2026-04-02 17:05 UTC",
+      "duration": "3h 11m"
+    },
+    {
+      "callsign": "N828TR",
       "airline": "",
-      "from": "Denton Enterprise Airport (KDTO)",
-      "to": "Windwood Farm Airport (65TE)",
-      "departure": "2026-04-02 15:54 UTC",
-      "arrival": "2026-04-02 16:17 UTC",
-      "duration": "22m"
+      "from": "Mc Clellan Airfield (KMCC)",
+      "to": "Spokane International Airport (KGEG)",
+      "departure": "2026-04-02 15:27 UTC",
+      "arrival": "2026-04-02 17:04 UTC",
+      "duration": "1h 37m"
     },
     {
-      "callsign": "SHARK49",
-      "airline": "SHA",
-      "from": "Usaf Academy Davis Airfield (KAFF)",
-      "to": "Limon Municipal Airport (KLIC)",
-      "departure": "2026-04-02 15:49 UTC",
-      "arrival": "2026-04-02 16:14 UTC",
-      "duration": "24m"
-    },
-    {
-      "callsign": "DESRT3",
-      "airline": "DES",
-      "from": "Laguna Army Air Field (Yuma Proving Ground) Airport (KLGF)",
-      "to": "Laguna Army Air Field (Yuma Proving Ground) Airport (KLGF)",
-      "departure": "2026-04-02 15:57 UTC",
-      "arrival": "2026-04-02 16:10 UTC",
-      "duration": "12m"
-    },
-    {
-      "callsign": "N281MG",
-      "airline": "",
-      "from": "Scottsdale Airport (KSDL)",
-      "to": "Montezuma Airport (19AZ)",
-      "departure": "2026-04-02 15:10 UTC",
-      "arrival": "2026-04-02 16:10 UTC",
-      "duration": "1h 0m"
-    },
-    {
-      "callsign": "N4000K",
-      "airline": "",
-      "from": "Gerald R Ford International Airport (KGRR)",
-      "to": "Iowa City Municipal Airport (KIOW)",
-      "departure": "2026-04-02 15:13 UTC",
-      "arrival": "2026-04-02 16:09 UTC",
-      "duration": "56m"
-    },
-    {
-      "callsign": "N7485G",
-      "airline": "",
-      "from": "Ralph M Hall/Rockwall Municipal Airport (KF46)",
-      "to": "Van Zandt County Regional Airport (K76F)",
-      "departure": "2026-04-02 15:15 UTC",
-      "arrival": "2026-04-02 16:07 UTC",
-      "duration": "51m"
-    },
-    {
-      "callsign": "N2087E",
-      "airline": "",
-      "from": "San Gabriel Valley Airport (KEMT)",
-      "to": "San Bernardino International Airport (KSBD)",
-      "departure": "2026-04-02 15:31 UTC",
-      "arrival": "2026-04-02 16:04 UTC",
-      "duration": "33m"
-    },
-    {
-      "callsign": "N38HL",
-      "airline": "",
-      "from": "La Aurora Airport (MGGT)",
-      "to": "Copan Ruinas Airport (MHRU)",
-      "departure": "2026-04-02 15:41 UTC",
-      "arrival": "2026-04-02 16:02 UTC",
-      "duration": "21m"
-    },
-    {
-      "callsign": "N96SW",
-      "airline": "",
-      "from": "Flying M & M Ranch Airport (0CO6)",
-      "to": "Telluride Regional Airport (KTEX)",
-      "departure": "2026-04-02 15:50 UTC",
-      "arrival": "2026-04-02 16:01 UTC",
-      "duration": "10m"
-    },
-    {
-      "callsign": "UPS2633",
-      "airline": "UPS",
-      "from": "Oakland San Francisco Bay Airport (KOAK)",
-      "to": "Dallas-Fort Worth International Airport (KDFW)",
-      "departure": "2026-04-02 13:20 UTC",
-      "arrival": "2026-04-02 16:01 UTC",
-      "duration": "2h 40m"
-    },
-    {
-      "callsign": "N5114K",
-      "airline": "",
-      "from": "Brookneal/Campbell County Airport (K0V4)",
-      "to": "Brookneal/Campbell County Airport (K0V4)",
-      "departure": "2026-04-02 15:14 UTC",
-      "arrival": "2026-04-02 15:56 UTC",
+      "callsign": "VAR624",
+      "airline": "VAR",
+      "from": "Phoenix Goodyear Airport (KGYR)",
+      "to": "Phoenix Goodyear Airport (KGYR)",
+      "departure": "2026-04-02 16:21 UTC",
+      "arrival": "2026-04-02 17:04 UTC",
       "duration": "42m"
     },
     {
-      "callsign": "TASI312",
-      "airline": "TAS",
-      "from": "Perot Field/Fort Worth Alliance Airport (KAFW)",
-      "to": "Sherman Municipal Airport (KSWI)",
-      "departure": "2026-04-02 15:34 UTC",
-      "arrival": "2026-04-02 15:56 UTC",
-      "duration": "21m"
+      "callsign": "CXK396",
+      "airline": "CXK",
+      "from": "Mesa Gateway Airport (KIWA)",
+      "to": "Mesa Gateway Airport (KIWA)",
+      "departure": "2026-04-02 16:09 UTC",
+      "arrival": "2026-04-02 17:01 UTC",
+      "duration": "51m"
     },
     {
-      "callsign": "SKW499U",
-      "airline": "SkyWest Airlines",
-      "from": "Chicago O'Hare International Airport (KORD)",
-      "to": "Huber Airport (39MI)",
-      "departure": "2026-04-02 15:15 UTC",
-      "arrival": "2026-04-02 15:53 UTC",
-      "duration": "38m"
+      "callsign": "N223WT",
+      "airline": "",
+      "from": "Renton Municipal Airport (KRNT)",
+      "to": "William R Fairchild International Airport (KCLM)",
+      "departure": "2026-04-02 16:20 UTC",
+      "arrival": "2026-04-02 17:00 UTC",
+      "duration": "40m"
+    },
+    {
+      "callsign": "N359CV",
+      "airline": "",
+      "from": "Felts Field (KSFF)",
+      "to": "2SD2 (2SD2)",
+      "departure": "2026-04-02 13:40 UTC",
+      "arrival": "2026-04-02 17:00 UTC",
+      "duration": "3h 19m"
+    },
+    {
+      "callsign": "TG62",
+      "airline": "",
+      "from": "Pueblo Memorial Airport (KPUB)",
+      "to": "Lone Tree Ranch Airport (35CO)",
+      "departure": "2026-04-02 16:19 UTC",
+      "arrival": "2026-04-02 16:53 UTC",
+      "duration": "33m"
+    },
+    {
+      "callsign": "N714NA",
+      "airline": "",
+      "from": "Porto Sao Sebastiao Airport (SWPS)",
+      "to": "Porto Sao Sebastiao Airport (SWPS)",
+      "departure": "2026-04-02 14:44 UTC",
+      "arrival": "2026-04-02 16:52 UTC",
+      "duration": "2h 8m"
+    },
+    {
+      "callsign": "N578CF",
+      "airline": "",
+      "from": "SD41 (SD41)",
+      "to": "Laramie Regional Airport (KLAR)",
+      "departure": "2026-04-02 15:59 UTC",
+      "arrival": "2026-04-02 16:51 UTC",
+      "duration": "51m"
+    },
+    {
+      "callsign": "TEAL43",
+      "airline": "TEA",
+      "from": "Trent Lott International Airport (KPQL)",
+      "to": "Magee Municipal Airport (K17M)",
+      "departure": "2026-04-02 16:19 UTC",
+      "arrival": "2026-04-02 16:45 UTC",
+      "duration": "25m"
+    },
+    {
+      "callsign": "STMPD19",
+      "airline": "STM",
+      "from": "Camp Pendleton Mcas (Munn Field) Airport (KNFG)",
+      "to": "Palmdale Usaf Plant 42 Airport (KPMD)",
+      "departure": "2026-04-02 16:12 UTC",
+      "arrival": "2026-04-02 16:44 UTC",
+      "duration": "32m"
+    },
+    {
+      "callsign": "EB707",
+      "airline": "",
+      "from": "Whiting Field Nas South Airport (KNDZ)",
+      "to": "Spencer Nolf Airport (KNRQ)",
+      "departure": "2026-04-02 16:13 UTC",
+      "arrival": "2026-04-02 16:43 UTC",
+      "duration": "30m"
+    },
+    {
+      "callsign": "N733FF",
+      "airline": "",
+      "from": "Casper/Natrona County International Airport (KCPR)",
+      "to": "Casper/Natrona County International Airport (KCPR)",
+      "departure": "2026-04-02 16:15 UTC",
+      "arrival": "2026-04-02 16:41 UTC",
+      "duration": "26m"
+    },
+    {
+      "callsign": "TJT37DR",
+      "airline": "TJT",
+      "from": "Toulouse-Blagnac Airport (LFBO)",
+      "to": "Rennes-Saint-Jacques Airport (LFRN)",
+      "departure": "2026-04-02 15:17 UTC",
+      "arrival": "2026-04-02 16:39 UTC",
+      "duration": "1h 22m"
+    },
+    {
+      "callsign": "EB714",
+      "airline": "",
+      "from": "Whiting Field Nas South Airport (KNDZ)",
+      "to": "FD82 (FD82)",
+      "departure": "2026-04-02 16:23 UTC",
+      "arrival": "2026-04-02 16:39 UTC",
+      "duration": "16m"
     }
   ],
-  "total_distance_km": 8109883.1,
-  "total_co2_kg": 139895483.6,
-  "total_co2_tonnes": 139895.48,
-  "avg_distance_km": 853
+  "total_distance_km": 8196755.2,
+  "total_co2_kg": 141394026.8,
+  "total_co2_tonnes": 141394.03,
+  "avg_distance_km": 851
 }
