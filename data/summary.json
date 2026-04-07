@@ -1,26 +1,26 @@
 {
   "mode": "historical",
-  "timestamp": 1775564711,
+  "timestamp": 1775582721,
   "archive_start": 1774648826,
-  "archive_end": 1775564711,
-  "total_flights": 21811,
-  "unique_routes": 10764,
+  "archive_end": 1775582721,
+  "total_flights": 21858,
+  "unique_routes": 10791,
   "countries": {
-    "US": 17008,
+    "US": 17069,
     "IN": 1887,
-    "ES": 1726,
+    "ES": 1729,
     "AU": 1551,
-    "BR": 1237,
+    "BR": 1239,
     "JP": 1210,
     "CO": 1175,
-    "IT": 1113,
-    "DE": 1084,
+    "IT": 1114,
+    "DE": 1093,
     "CA": 965,
-    "GB": 869,
-    "FR": 807,
+    "GB": 871,
+    "FR": 808,
     "MX": 727,
     "GR": 622,
-    "CH": 601,
+    "CH": 602,
     "MY": 501,
     "ZA": 490,
     "GT": 464,
@@ -35,7 +35,7 @@
     "BS": 235,
     "ID": 231,
     "ME": 231,
-    "NL": 217,
+    "NL": 220,
     "MO": 201,
     "BE": 178,
     "AT": 166,
@@ -82,7 +82,7 @@
     "AO": 18,
     "LV": 17,
     "VE": 16,
-    "GI": 15,
+    "GI": 16,
     "SA": 14,
     "AM": 13,
     "CU": 13,
@@ -295,7 +295,7 @@
       "country": "ES",
       "lat": 28.4827,
       "lon": -16.3415,
-      "count": 200
+      "count": 201
     },
     {
       "icao": "LEMD",
@@ -352,6 +352,15 @@
       "count": 171
     },
     {
+      "icao": "PHNL",
+      "name": "Daniel K Inouye International Airport",
+      "city": "",
+      "country": "US",
+      "lat": 21.317825,
+      "lon": -157.92025,
+      "count": 170
+    },
+    {
       "icao": "KSLC",
       "name": "Salt Lake City International Airport",
       "city": "",
@@ -359,15 +368,6 @@
       "lat": 40.788393,
       "lon": -111.977773,
       "count": 170
-    },
-    {
-      "icao": "PHNL",
-      "name": "Daniel K Inouye International Airport",
-      "city": "",
-      "country": "US",
-      "lat": 21.317825,
-      "lon": -157.92025,
-      "count": 169
     },
     {
       "icao": "VECC",
@@ -703,21 +703,21 @@
       "count": 104
     },
     {
-      "icao": "LOWW",
-      "name": "Vienna International Airport",
-      "city": "",
-      "country": "AT",
-      "lat": 48.1103,
-      "lon": 16.5697,
-      "count": 103
-    },
-    {
       "icao": "KAPA",
       "name": "Centennial Airport",
       "city": "",
       "country": "US",
       "lat": 39.570119,
       "lon": -104.849293,
+      "count": 104
+    },
+    {
+      "icao": "LOWW",
+      "name": "Vienna International Airport",
+      "city": "",
+      "country": "AT",
+      "lat": 48.1103,
+      "lon": 16.5697,
       "count": 103
     },
     {
@@ -754,7 +754,7 @@
       "country": "US",
       "lat": 24.726286,
       "lon": -81.051416,
-      "count": 96
+      "count": 97
     },
     {
       "icao": "ENBO",
@@ -883,21 +883,21 @@
       "count": 82
     },
     {
-      "icao": "LIML",
-      "name": "Linate Airport",
-      "city": "",
-      "country": "IT",
-      "lat": 45.4451,
-      "lon": 9.27674,
-      "count": 81
-    },
-    {
       "icao": "KBJC",
       "name": "Rocky Mountain Metro Airport",
       "city": "",
       "country": "US",
       "lat": 39.908806,
       "lon": -105.117194,
+      "count": 82
+    },
+    {
+      "icao": "LIML",
+      "name": "Linate Airport",
+      "city": "",
+      "country": "IT",
+      "lat": 45.4451,
+      "lon": 9.27674,
       "count": 81
     },
     {
@@ -937,6 +937,15 @@
       "count": 76
     },
     {
+      "icao": "CO86",
+      "name": "CO86",
+      "city": "",
+      "country": "",
+      "lat": null,
+      "lon": null,
+      "count": 76
+    },
+    {
       "icao": "KABQ",
       "name": "Albuquerque International Sunport Airport",
       "city": "",
@@ -952,15 +961,6 @@
       "country": "MX",
       "lat": 25.7785,
       "lon": -100.107,
-      "count": 75
-    },
-    {
-      "icao": "CO86",
-      "name": "CO86",
-      "city": "",
-      "country": "",
-      "lat": null,
-      "lon": null,
       "count": 75
     },
     {
@@ -1032,10 +1032,10 @@
     "Ryanair": 918,
     "IndiGo": 620,
     "American Airlines": 412,
-    "EJA": 404,
+    "EJA": 405,
     "Southwest Airlines": 309,
     "ENY": 292,
-    "Lufthansa": 275,
+    "Lufthansa": 278,
     "Vueling": 232,
     "LATAM Airlines": 227,
     "AXM": 214,
@@ -1047,8 +1047,8 @@
     "Swiss International": 162,
     "VIV": 157,
     "easyJet": 149,
+    "Alaska Airlines": 148,
     "Japan Airlines": 148,
-    "Alaska Airlines": 147,
     "United Airlines": 143,
     "EJU": 142,
     "Avianca": 139,
@@ -1079,9 +1079,9 @@
     "WEN": 84,
     "Scandinavian Airlines": 83
   },
-  "route_count": 21811,
-  "avg_duration": "1h 16m",
-  "avg_duration_min": 76,
+  "route_count": 21858,
+  "avg_duration": "1h 15m",
+  "avg_duration_min": 75,
   "top_routes": [
     {
       "dep_icao": "RJTT",
@@ -1815,6 +1815,23 @@
       "total_co2_kg": 183443.4
     },
     {
+      "dep_icao": "KAPA",
+      "dep_name": "Centennial Airport",
+      "dep_country": "US",
+      "dep_lat": 39.570119,
+      "dep_lon": -104.849293,
+      "arr_icao": "CD15",
+      "arr_name": "High Plains Airport Airport",
+      "arr_country": "US",
+      "arr_lat": 39.296389,
+      "arr_lon": -104.125,
+      "flights": 24,
+      "avg_duration_min": 26,
+      "avg_duration": "26m",
+      "distance_km": 69.3,
+      "total_co2_kg": 28690.2
+    },
+    {
       "dep_icao": "PHNL",
       "dep_name": "Daniel K Inouye International Airport",
       "dep_country": "US",
@@ -1864,23 +1881,6 @@
       "avg_duration": "26m",
       "distance_km": 270.1,
       "total_co2_kg": 107162.2
-    },
-    {
-      "dep_icao": "KAPA",
-      "dep_name": "Centennial Airport",
-      "dep_country": "US",
-      "dep_lat": 39.570119,
-      "dep_lon": -104.849293,
-      "arr_icao": "CD15",
-      "arr_name": "High Plains Airport Airport",
-      "arr_country": "US",
-      "arr_lat": 39.296389,
-      "arr_lon": -104.125,
-      "flights": 23,
-      "avg_duration_min": 26,
-      "avg_duration": "26m",
-      "distance_km": 69.3,
-      "total_co2_kg": 27494.8
     },
     {
       "dep_icao": "RKSS",
@@ -1936,188 +1936,188 @@
   ],
   "recent_flights": [
     {
-      "callsign": "HBLZH",
-      "airline": "HBL",
-      "from": "Bern Belp Airport (LSZB)",
-      "to": "St Gallen Altenrhein Airport (LSZR)",
-      "departure": "2026-04-07 11:40 UTC",
-      "arrival": "2026-04-07 12:25 UTC",
-      "duration": "44m"
+      "callsign": "TIGER31",
+      "airline": "TIG",
+      "from": "2TX3 (2TX3)",
+      "to": "Benson Airstrip (2XS8)",
+      "departure": "2026-04-07 17:00 UTC",
+      "arrival": "2026-04-07 17:25 UTC",
+      "duration": "24m"
     },
     {
-      "callsign": "AEE855",
-      "airline": "AEE",
-      "from": "Geneva Cointrin International Airport (LSGG)",
-      "to": "Eleftherios Venizelos International Airport (LGAV)",
-      "departure": "2026-04-07 09:48 UTC",
-      "arrival": "2026-04-07 12:20 UTC",
-      "duration": "2h 31m"
+      "callsign": "HNL12A",
+      "airline": "HNL",
+      "from": "De Kooy Airport (EHKD)",
+      "to": "De Kooy Airport (EHKD)",
+      "departure": "2026-04-07 17:08 UTC",
+      "arrival": "2026-04-07 17:23 UTC",
+      "duration": "14m"
     },
     {
-      "callsign": "HKS51",
-      "airline": "HKS",
-      "from": "Humberside Airport (EGNJ)",
-      "to": "EGYO (EGYO)",
-      "departure": "2026-04-07 11:56 UTC",
-      "arrival": "2026-04-07 12:17 UTC",
-      "duration": "20m"
-    },
-    {
-      "callsign": "THY6802",
-      "airline": "Turkish Airlines",
-      "from": "Ordu\u2013Giresun Airport (LTCB)",
-      "to": "Ordu\u2013Giresun Airport (LTCB)",
-      "departure": "2026-04-07 11:33 UTC",
-      "arrival": "2026-04-07 12:15 UTC",
-      "duration": "42m"
-    },
-    {
-      "callsign": "N6317D",
+      "callsign": "N51794",
       "airline": "",
-      "from": "Long Meadow Airstrip (TN65)",
-      "to": "Long Meadow Airstrip (TN65)",
-      "departure": "2026-04-07 12:09 UTC",
-      "arrival": "2026-04-07 12:12 UTC",
-      "duration": "3m"
+      "from": "Gregg Airport (7OK1)",
+      "to": "Okmulgee Regional/Paul And Betty Abbott Field (KOKM)",
+      "departure": "2026-04-07 17:01 UTC",
+      "arrival": "2026-04-07 17:19 UTC",
+      "duration": "17m"
     },
     {
-      "callsign": "DESERT3",
-      "airline": "DES",
-      "from": "Laguna Army Air Field (Yuma Proving Ground) Airport (KLGF)",
-      "to": "Laguna Army Air Field (Yuma Proving Ground) Airport (KLGF)",
-      "departure": "2026-04-07 11:57 UTC",
-      "arrival": "2026-04-07 12:11 UTC",
+      "callsign": "N5106D",
+      "airline": "",
+      "from": "Limon Municipal Airport (KLIC)",
+      "to": "Limon Municipal Airport (KLIC)",
+      "departure": "2026-04-07 17:03 UTC",
+      "arrival": "2026-04-07 17:17 UTC",
       "duration": "13m"
     },
     {
-      "callsign": "N564M",
+      "callsign": "N582BL",
       "airline": "",
-      "from": "Blunt Field (3WN8)",
-      "to": "Robco Airport (MN12)",
-      "departure": "2026-04-07 11:32 UTC",
-      "arrival": "2026-04-07 12:10 UTC",
+      "from": "Johnston Regional Airport (KJNX)",
+      "to": "Johnston Regional Airport (KJNX)",
+      "departure": "2026-04-07 16:24 UTC",
+      "arrival": "2026-04-07 17:17 UTC",
+      "duration": "53m"
+    },
+    {
+      "callsign": "OXF1098",
+      "airline": "OXF",
+      "from": "Falcon Field (KFFZ)",
+      "to": "Falcon Field (KFFZ)",
+      "departure": "2026-04-07 16:57 UTC",
+      "arrival": "2026-04-07 17:16 UTC",
+      "duration": "19m"
+    },
+    {
+      "callsign": "N68BC",
+      "airline": "",
+      "from": "Everitt Airport (1CO8)",
+      "to": "City Of Colorado Springs Municipal Airport (KCOS)",
+      "departure": "2026-04-07 16:13 UTC",
+      "arrival": "2026-04-07 17:16 UTC",
+      "duration": "1h 3m"
+    },
+    {
+      "callsign": "HTY292",
+      "airline": "HTY",
+      "from": "Malaga Airport (LEMG)",
+      "to": "Gibraltar Airport (LXGB)",
+      "departure": "2026-04-07 16:49 UTC",
+      "arrival": "2026-04-07 17:16 UTC",
+      "duration": "27m"
+    },
+    {
+      "callsign": "DLH147",
+      "airline": "Lufthansa",
+      "from": "Nuremberg Airport (EDDN)",
+      "to": "Aschaffenburg Airport (EDFC)",
+      "departure": "2026-04-07 16:39 UTC",
+      "arrival": "2026-04-07 17:16 UTC",
       "duration": "37m"
     },
     {
-      "callsign": "ULR93N",
-      "airline": "ULR",
-      "from": "Aberdeen Dyce Airport (EGPD)",
-      "to": "Aberdeen Dyce Airport (EGPD)",
-      "departure": "2026-04-07 11:39 UTC",
-      "arrival": "2026-04-07 12:01 UTC",
-      "duration": "22m"
+      "callsign": "KLM1316",
+      "airline": "KLM Royal Dutch",
+      "from": "Eisenhuttenstadt Airport (EDAE)",
+      "to": "Aero Club Salland (EHDS)",
+      "departure": "2026-04-07 16:13 UTC",
+      "arrival": "2026-04-07 17:16 UTC",
+      "duration": "1h 3m"
     },
     {
-      "callsign": "N540M",
+      "callsign": "SXS1",
+      "airline": "SXS",
+      "from": "LOXA (LOXA)",
+      "to": "Frankfurt-Egelsbach Airport (EDFE)",
+      "departure": "2026-04-07 16:13 UTC",
+      "arrival": "2026-04-07 17:16 UTC",
+      "duration": "1h 3m"
+    },
+    {
+      "callsign": "DLH1AN",
+      "airline": "Lufthansa",
+      "from": "Stuttgart Airport (EDDS)",
+      "to": "Mosbach-Lohrbach Airport (EDGM)",
+      "departure": "2026-04-07 16:44 UTC",
+      "arrival": "2026-04-07 17:15 UTC",
+      "duration": "30m"
+    },
+    {
+      "callsign": "MTU85",
+      "airline": "MTU",
+      "from": "Murfreesboro Municipal Airport (KMBT)",
+      "to": "Murfreesboro Municipal Airport (KMBT)",
+      "departure": "2026-04-07 16:57 UTC",
+      "arrival": "2026-04-07 17:14 UTC",
+      "duration": "16m"
+    },
+    {
+      "callsign": "N266SP",
       "airline": "",
-      "from": "Chippewa Valley Regional Airport (KEAU)",
-      "to": "Gerald R Ford International Airport (KGRR)",
-      "departure": "2026-04-07 11:17 UTC",
-      "arrival": "2026-04-07 12:01 UTC",
+      "from": "Northern Colorado Regional Airport (KFNL)",
+      "to": "Laramie Regional Airport (KLAR)",
+      "departure": "2026-04-07 16:30 UTC",
+      "arrival": "2026-04-07 17:14 UTC",
       "duration": "43m"
     },
     {
-      "callsign": "N714VU",
+      "callsign": "AUA16N",
+      "airline": "Austrian Airlines",
+      "from": "Arnbruck Airport (EDNB)",
+      "to": "Essen Mulheim Airport (EDLE)",
+      "departure": "2026-04-07 16:13 UTC",
+      "arrival": "2026-04-07 17:13 UTC",
+      "duration": "1h 0m"
+    },
+    {
+      "callsign": "DLH4UP",
+      "airline": "Lufthansa",
+      "from": "Parma Airport (LIMP)",
+      "to": "Heppenheim Airport (EDEP)",
+      "departure": "2026-04-07 16:13 UTC",
+      "arrival": "2026-04-07 17:13 UTC",
+      "duration": "1h 0m"
+    },
+    {
+      "callsign": "N816VA",
       "airline": "",
-      "from": "Venezia / Lido - San Nicolo Airport (LIPV)",
-      "to": "Graz Airport (LOWG)",
-      "departure": "2026-04-07 10:54 UTC",
-      "arrival": "2026-04-07 11:59 UTC",
-      "duration": "1h 4m"
-    },
-    {
-      "callsign": "HB2470",
-      "airline": "",
-      "from": "Sisteron - Theze Airport (LFNS)",
-      "to": "Mont-Dauphin - St-Crepin Airport (LFNC)",
-      "departure": "2026-04-07 10:15 UTC",
-      "arrival": "2026-04-07 11:57 UTC",
-      "duration": "1h 42m"
-    },
-    {
-      "callsign": "N478XP",
-      "airline": "",
-      "from": "Laurinburg/Maxton Airport (KMEB)",
-      "to": "Laurinburg/Maxton Airport (KMEB)",
-      "departure": "2026-04-07 11:34 UTC",
-      "arrival": "2026-04-07 11:49 UTC",
-      "duration": "14m"
-    },
-    {
-      "callsign": "PRYBZ",
-      "airline": "PRY",
-      "from": "Luiz Eduardo Magalhaes Airport (SIWJ)",
-      "to": "Paredao da Serra Airport (SJQS)",
-      "departure": "2026-04-07 11:38 UTC",
-      "arrival": "2026-04-07 11:49 UTC",
-      "duration": "11m"
-    },
-    {
-      "callsign": "CHX16",
-      "airline": "CHX",
-      "from": "Saarbrucken Airport (EDDR)",
-      "to": "Saarlouis-Duren Airport (EDRJ)",
-      "departure": "2026-04-07 11:38 UTC",
-      "arrival": "2026-04-07 11:45 UTC",
-      "duration": "6m"
-    },
-    {
-      "callsign": "BBC467",
-      "airline": "BBC",
-      "from": "VGZR (VGZR)",
-      "to": "Jessore Airport (VGJR)",
-      "departure": "2026-04-07 11:16 UTC",
-      "arrival": "2026-04-07 11:42 UTC",
+      "from": "Lovell Field (KCHA)",
+      "to": "Dalton Municipal Airport (KDNN)",
+      "departure": "2026-04-07 16:43 UTC",
+      "arrival": "2026-04-07 17:09 UTC",
       "duration": "25m"
     },
     {
-      "callsign": "OEDDL",
-      "airline": "OED",
-      "from": "Urbe Airport (LIRU)",
-      "to": "Urbe Airport (LIRU)",
-      "departure": "2026-04-07 11:17 UTC",
-      "arrival": "2026-04-07 11:40 UTC",
-      "duration": "22m"
+      "callsign": "N460LE",
+      "airline": "",
+      "from": "Bend Municipal Airport (KBDN)",
+      "to": "Bend Municipal Airport (KBDN)",
+      "departure": "2026-04-07 16:52 UTC",
+      "arrival": "2026-04-07 17:08 UTC",
+      "duration": "16m"
     },
     {
-      "callsign": "RYR1243",
-      "airline": "Ryanair",
-      "from": "Budapest Ferenc Liszt International Airport (LHBP)",
-      "to": "Eleftherios Venizelos International Airport (LGAV)",
-      "departure": "2026-04-07 10:06 UTC",
-      "arrival": "2026-04-07 11:40 UTC",
-      "duration": "1h 34m"
+      "callsign": "N15HR",
+      "airline": "",
+      "from": "Timberdoodle Airport (93VA)",
+      "to": "Aiken Regional Airport (KAIK)",
+      "departure": "2026-04-07 16:13 UTC",
+      "arrival": "2026-04-07 17:08 UTC",
+      "duration": "55m"
     },
     {
-      "callsign": "YGI",
-      "airline": "YGI",
-      "from": "Tamworth Airport (YSTW)",
-      "to": "Tamworth Airport (YSTW)",
-      "departure": "2026-04-07 10:57 UTC",
-      "arrival": "2026-04-07 11:40 UTC",
-      "duration": "42m"
-    },
-    {
-      "callsign": "GEDGA",
-      "airline": "GED",
-      "from": "RAF Halton (EGWN)",
-      "to": "Oxford (Kidlington) Airport (EGTK)",
-      "departure": "2026-04-07 11:25 UTC",
-      "arrival": "2026-04-07 11:39 UTC",
-      "duration": "14m"
-    },
-    {
-      "callsign": "SNJ37",
-      "airline": "SNJ",
-      "from": "Tokyo International Airport (RJTT)",
-      "to": "Saga Airport (RJFS)",
-      "departure": "2026-04-07 09:57 UTC",
-      "arrival": "2026-04-07 11:33 UTC",
-      "duration": "1h 35m"
+      "callsign": "N11RM",
+      "airline": "",
+      "from": "Redlands Municipal Airport (KREI)",
+      "to": "Hemet-Ryan Airport (KHMT)",
+      "departure": "2026-04-07 16:42 UTC",
+      "arrival": "2026-04-07 17:07 UTC",
+      "duration": "25m"
     }
   ],
-  "total_distance_km": 15798706.0,
-  "total_co2_kg": 272527678.0,
-  "total_co2_tonnes": 272527.68,
+  "total_distance_km": 15803508.2,
+  "total_co2_kg": 272610517.3,
+  "total_co2_tonnes": 272610.52,
   "avg_distance_km": 856
 }
