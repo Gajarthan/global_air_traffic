@@ -1,18 +1,18 @@
 # Daily Air Traffic Report
 
-*Generated 2026-04-10 01:12 UTC*
+*Generated 2026-04-11 01:07 UTC*
 
 ---
 
 ## Current Totals
 
-- **26,184** total flights archived
-- **12,500** unique routes
-- **119** countries
+- **28,061** total flights archived
+- **13,192** unique routes
+- **120** countries
 - **100** airports
 - **50** airlines
-- **322,654.6 tonnes** estimated CO2
-- **18,704,616 km** total distance flown
+- **340,960.1 tonnes** estimated CO2
+- **19,765,803 km** total distance flown
 
 ## Daily Growth
 
@@ -30,19 +30,21 @@
 | 2026-04-07 | 22,424 | 11,044 | 118 | 100 | 277,582.2 |
 | 2026-04-08 | 24,361 | 11,786 | 119 | 100 | 301,116.8 |
 | 2026-04-09 | 26,184 | 12,500 | 119 | 100 | 322,654.6 |
+| 2026-04-10 | 27,936 | 13,141 | 120 | 100 | 340,086.4 |
+| 2026-04-11 | 28,061 | 13,192 | 120 | 100 | 340,960.1 |
 
 ## Day-over-Day Changes (last 7 days)
 
 | Date | New Flights | New Routes | CO2 Change (t) |
 |------|------------:|-----------:|---------------:|
-| 2026-04-03 | +2,301 | +958 | +26,886.0 |
-| 2026-04-04 | +2,368 | +911 | +32,142.1 |
 | 2026-04-05 | +2,151 | +773 | +29,078.9 |
 | 2026-04-06 | +1,880 | +768 | +21,446.8 |
 | 2026-04-07 | +1,251 | +511 | +12,487.1 |
 | 2026-04-08 | +1,937 | +742 | +23,534.6 |
 | 2026-04-09 | +1,823 | +714 | +21,537.9 |
+| 2026-04-10 | +1,752 | +641 | +17,431.8 |
+| 2026-04-11 | +125 | +51 | +873.7 |
 
 ---
 
-*Data from 271 pipeline snapshots across 12 days*
+*Data from 293 pipeline snapshots across 14 days*
