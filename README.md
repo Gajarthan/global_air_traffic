@@ -1,6 +1,6 @@
 # Global Air Traffic Tracker
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--19_22:42:50_UTC-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--19_23:15:19_UTC-green)
 
 ![Flight Map](images/flight_map.png)
 
@@ -25,21 +25,21 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 ## Archive Snapshot
 
-**Latest saved flight:** 2026-04-19 22:42:50 UTC
-**Archive range:** 2026-03-27 22:00:26 UTC to 2026-04-19 22:42:50 UTC
+**Latest saved flight:** 2026-04-19 23:15:19 UTC
+**Archive range:** 2026-03-27 22:00:26 UTC to 2026-04-19 23:15:19 UTC
 
-- **44,309** saved flights
-- **18,424** unique routes
+- **44,395** saved flights
+- **18,456** unique routes
 - **123** countries touched by saved routes
 - **100** airports in the archive
 - **50** airlines identified
-- **44,309** saved routes in the archive
+- **44,395** saved routes in the archive
 - **1h 14m** average flight duration
 
 ### Carbon Footprint Estimate
 
-- **533,790.2 tonnes** estimated CO2 emissions
-- **30,944,362 km** total distance flown
+- **534,926.2 tonnes** estimated CO2 emissions
+- **31,010,213 km** total distance flown
 - **839 km** average flight distance
 *Based on ICAO avg: 115g CO2/passenger-km, ~150 passengers*
 
@@ -48,53 +48,53 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 | # | Airline | Aircraft |
 |---:|---------|--------:|
 | 1 | Ryanair | 1868 |
-| 2 | SkyWest Airlines | 1732 |
+| 2 | SkyWest Airlines | 1740 |
 | 3 | IndiGo | 1071 |
-| 4 | EJA | 776 |
-| 5 | American Airlines | 736 |
-| 6 | Southwest Airlines | 630 |
-| 7 | ENY | 578 |
+| 4 | EJA | 778 |
+| 5 | American Airlines | 738 |
+| 6 | Southwest Airlines | 633 |
+| 7 | ENY | 584 |
 | 8 | AXM | 446 |
-| 9 | Vueling | 444 |
-| 10 | LATAM Airlines | 439 |
+| 9 | Vueling | 445 |
+| 10 | LATAM Airlines | 444 |
 | 11 | Lufthansa | 438 |
 | 12 | All Nippon Airways | 397 |
-| 13 | AZU | 387 |
-| 14 | Delta Air Lines | 380 |
+| 13 | AZU | 388 |
+| 14 | Delta Air Lines | 381 |
 | 15 | QLK | 355 |
 | 16 | LXJ | 354 |
 | 17 | WIF | 344 |
 | 18 | Swiss International | 339 |
-| 19 | Alaska Airlines | 303 |
+| 19 | Alaska Airlines | 304 |
 | 20 | AEE | 301 |
 | 21 | EJU | 291 |
 | 22 | easyJet | 284 |
-| 23 | VIV | 283 |
+| 23 | VIV | 284 |
 | 24 | Japan Airlines | 269 |
 | 25 | Air France | 250 |
 | 26 | United Airlines | 238 |
-| 27 | JetBlue | 235 |
-| 28 | AXB | 232 |
-| 29 | GLO | 232 |
-| 30 | EDV | 225 |
+| 27 | JetBlue | 236 |
+| 28 | GLO | 233 |
+| 29 | AXB | 232 |
+| 30 | EDV | 226 |
 
 ## Top Countries (by route endpoints)
 
 | # | Country | Flights |
 |---:|---------|--------:|
-| 1 | 🇺🇸 US | 35196 |
+| 1 | 🇺🇸 US | 35303 |
 | 2 | 🇮🇳 IN | 3301 |
-| 3 | 🇪🇸 ES | 3260 |
-| 4 | 🇦🇺 AU | 3046 |
-| 5 | 🇧🇷 BR | 2642 |
+| 3 | 🇪🇸 ES | 3261 |
+| 4 | 🇦🇺 AU | 3052 |
+| 5 | 🇧🇷 BR | 2658 |
 | 6 | 🇯🇵 JP | 2413 |
-| 7 | 🇮🇹 IT | 2344 |
+| 7 | 🇮🇹 IT | 2346 |
 | 8 | 🇩🇪 DE | 2241 |
-| 9 | 🇨🇦 CA | 2164 |
-| 10 | 🇨🇴 CO | 2045 |
+| 9 | 🇨🇦 CA | 2172 |
+| 10 | 🇨🇴 CO | 2051 |
 | 11 | 🇬🇧 GB | 1796 |
 | 12 | 🇫🇷 FR | 1684 |
-| 13 | 🇲🇽 MX | 1380 |
+| 13 | 🇲🇽 MX | 1388 |
 | 14 | 🇬🇷 GR | 1360 |
 | 15 | 🇨🇭 CH | 1204 |
 | 16 | 🇳🇴 NO | 1095 |
@@ -104,7 +104,7 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 | 20 | 🇵🇭 PH | 794 |
 | 21 | 🇹🇷 TR | 781 |
 | 22 | 🇹🇭 TH | 780 |
-| 23 | 🇬🇹 GT | 730 |
+| 23 | 🇬🇹 GT | 733 |
 | 24 | 🇰🇷 KR | 728 |
 | 25 | 🇵🇱 PL | 702 |
 | 26 | 🇲🇦 MA | 550 |
@@ -117,20 +117,20 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 | # | Airport | City | Country | Flights |
 |---:|---------|------|---------|--------:|
-| 1 | Dallas-Fort Worth International Airport |  | US | 1043 |
+| 1 | Dallas-Fort Worth International Airport |  | US | 1048 |
 | 2 | Tokyo International Airport |  | JP | 825 |
-| 3 | Denver International Airport |  | US | 741 |
-| 4 | El Dorado International Airport |  | CO | 713 |
+| 3 | Denver International Airport |  | US | 748 |
+| 4 | El Dorado International Airport |  | CO | 716 |
 | 5 | Indira Gandhi International Airport |  | IN | 711 |
 | 6 | Eleftherios Venizelos International Airport |  | GR | 676 |
-| 7 | Harry Reid International Airport |  | US | 569 |
+| 7 | Harry Reid International Airport |  | US | 572 |
 | 8 | Guaymaral Airport |  | CO | 560 |
-| 9 | La Aurora Airport |  | GT | 538 |
+| 9 | La Aurora Airport |  | GT | 541 |
 | 10 | Zurich Airport |  | CH | 528 |
-| 11 | Chicago O'Hare International Airport |  | US | 439 |
-| 12 | Phoenix Sky Harbor International Airport |  | US | 437 |
-| 13 | Kuala Lumpur International Airport |  | MY | 432 |
-| 14 | Hartsfield/Jackson Atlanta International Airport |  | US | 431 |
+| 11 | Chicago O'Hare International Airport |  | US | 441 |
+| 12 | Phoenix Sky Harbor International Airport |  | US | 440 |
+| 13 | Hartsfield/Jackson Atlanta International Airport |  | US | 433 |
+| 14 | Kuala Lumpur International Airport |  | MY | 432 |
 | 15 | Frankfurt am Main International Airport |  | DE | 412 |
 | 16 | Macau International Airport |  | MO | 409 |
 | 17 | Sydney Kingsford Smith International Airport |  | AU | 408 |
@@ -138,24 +138,24 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 | 19 | Bengaluru International Airport |  | IN | 392 |
 | 20 | Tenerife Norte Airport |  | ES | 390 |
 | 21 | Charlotte/Douglas International Airport |  | US | 387 |
-| 22 | Congonhas Airport |  | BR | 378 |
-| 23 | Malpensa International Airport |  | IT | 371 |
+| 22 | Congonhas Airport |  | BR | 381 |
+| 23 | Malpensa International Airport |  | IT | 373 |
 | 24 | Ninoy Aquino International Airport |  | PH | 368 |
-| 25 | Atizapan De Zaragoza Airport |  | MX | 335 |
-| 26 | Salt Lake City International Airport |  | US | 335 |
+| 25 | Salt Lake City International Airport |  | US | 337 |
+| 26 | Atizapan De Zaragoza Airport |  | MX | 335 |
 | 27 | Daniel K Inouye International Airport |  | US | 328 |
 | 28 | Netaji Subhash Chandra Bose International Airport |  | IN | 328 |
 | 29 | Charles de Gaulle International Airport |  | FR | 325 |
 | 30 | Reno/Tahoe International Airport |  | US | 309 |
-| 31 | Vitoria/Foronda Airport |  | ES | 307 |
-| 32 | Guarulhos - Governador Andre Franco Montoro International Airport |  | BR | 306 |
+| 31 | Guarulhos - Governador Andre Franco Montoro International Airport |  | BR | 309 |
+| 32 | Vitoria/Foronda Airport |  | ES | 307 |
 | 33 | Capua Airport |  | IT | 305 |
-| 34 | General Edward Lawrence Logan International Airport |  | US | 300 |
+| 34 | General Edward Lawrence Logan International Airport |  | US | 301 |
 | 35 | John Paul II International Airport Kraków-Balice Airport |  | PL | 296 |
 | 36 | O. R. Tambo International Airport |  | ZA | 294 |
-| 37 | Barcelona International Airport |  | ES | 286 |
-| 38 | Calgary International Airport |  | CA | 271 |
-| 39 | Viracopos International Airport |  | BR | 269 |
+| 37 | Barcelona International Airport |  | ES | 287 |
+| 38 | Calgary International Airport |  | CA | 272 |
+| 39 | Viracopos International Airport |  | BR | 270 |
 | 40 | Don Mueang International Airport |  | TH | 265 |
 
 ## Top Routes (all saved history)
@@ -171,7 +171,7 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 | 7 | Daniel K Inouye International Airport (PHNL) | Upolu Airport (PHUP) | 124 | 21m | 244 km | 522.1 t |
 | 8 | Kuala Lumpur International Airport (WMKK) | Batu Pahat Airport (WMAB) | 118 | 19m | 165 km | 335.7 t |
 | 9 | VGZR (VGZR) | Shah Amanat International Airport (VGEG) | 117 | 31m | - | - |
-| 10 | La Aurora Airport (MGGT) | La Aurora Airport (MGGT) | 109 | 9m | - | - |
+| 10 | La Aurora Airport (MGGT) | La Aurora Airport (MGGT) | 110 | 9m | - | - |
 | 11 | Madrid Barajas International Airport (LEMD) | Vitoria/Foronda Airport (LEVT) | 102 | 26m | 275 km | 483.3 t |
 | 12 | Tokyo International Airport (RJTT) | Okayama Airport (RJOB) | 96 | 54m | 546 km | 903.8 t |
 | 13 | La Aurora Airport (MGGT) | Coban Airport (MGCB) | 92 | 20m | 99 km | 157.6 t |
@@ -197,26 +197,26 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 | Callsign | Airline | From | To | Departure | Arrival | Duration |
 |----------|---------|------|-----|-----------|---------|----------|
+| N9200P |  | Blair Executive Airport (KBTA) | Lincoln Airport (KLNK) | 2026-04-19 22:57 UTC | 2026-04-19 23:15 UTC | 18m |
+| N497PJ |  | Byron Airport (KC83) | Byron Airport (KC83) | 2026-04-19 22:42 UTC | 2026-04-19 23:12 UTC | 29m |
+| N9957M |  | Homer Airport (PAHO) | Seldovia Airport (PASO) | 2026-04-19 22:49 UTC | 2026-04-19 23:06 UTC | 16m |
+| N98251 |  | TX09 (TX09) | New Braunfels Ntl Airport (KBAZ) | 2026-04-19 22:50 UTC | 2026-04-19 22:54 UTC | 3m |
+| N750GJ |  | Bob Maxwell Memorial Airfield (KOKB) | Bob Maxwell Memorial Airfield (KOKB) | 2026-04-19 22:25 UTC | 2026-04-19 22:49 UTC | 24m |
 | N781AC |  | Iowa City Municipal Airport (KIOW) | Iowa City Municipal Airport (KIOW) | 2026-04-19 21:54 UTC | 2026-04-19 22:42 UTC | 47m |
+| CPA318 | Cathay Pacific | Barcelona International Airport (LEBL) | Zhuhai Airport (ZGSD) | 2026-04-19 11:25 UTC | 2026-04-19 22:42 UTC | 11h 16m |
 | N1910R |  | Esquipulas Airport (MGES) | La Aurora Airport (MGGT) | 2026-04-19 22:08 UTC | 2026-04-19 22:41 UTC | 32m |
+| N49TW |  | 67NE (67NE) | Wilkens Airport (32KS) | 2026-04-19 22:17 UTC | 2026-04-19 22:40 UTC | 22m |
 | YNH | YNH | Toowoomba Wellcamp Airport (YBWW) | Brisbane Archerfield Airport (YBAF) | 2026-04-19 21:34 UTC | 2026-04-19 22:36 UTC | 1h 1m |
+| N2467C |  | Casper/Natrona County International Airport (KCPR) | American Falconry Airport (45WY) | 2026-04-19 22:22 UTC | 2026-04-19 22:35 UTC | 13m |
 | BOE919 | BOE | Grant County International Airport (KMWH) | Boeing Field/King County International Airport (KBFI) | 2026-04-19 22:06 UTC | 2026-04-19 22:32 UTC | 26m |
+| EJA939 | EJA | Van Nuys Airport (KVNY) | Norman Y Mineta San Jose International Airport (KSJC) | 2026-04-19 21:44 UTC | 2026-04-19 22:31 UTC | 46m |
+| WMN189 | WMN | Rocky Mountain Metro Airport (KBJC) | VA75 (VA75) | 2026-04-19 20:07 UTC | 2026-04-19 22:30 UTC | 2h 22m |
+| N197MS |  | Pearson Field (AR13) | 83MU (83MU) | 2026-04-19 21:49 UTC | 2026-04-19 22:27 UTC | 37m |
 | GAF729 | GAF | Cologne Bonn Airport (EDDK) | Salt Lake City International Airport (KSLC) | 2026-04-19 08:53 UTC | 2026-04-19 22:26 UTC | 13h 32m |
+| N559WJ |  | Al Divine Airport (65CL) | Palm Springs International Airport (KPSP) | 2026-04-19 21:41 UTC | 2026-04-19 22:25 UTC | 43m |
+| PSVAS | PSV | Galeao - Antonio Carlos Jobim International Airport (SBGL) | Congonhas Airport (SBSP) | 2026-04-19 21:35 UTC | 2026-04-19 22:24 UTC | 48m |
+| N215DA |  | Dallas Love Field (KDAL) | Cecil Ranch Airport (37CN) | 2026-04-19 19:21 UTC | 2026-04-19 22:22 UTC | 3h 1m |
 | N127KC |  | Logan-Cache Airport (KLGU) | Wendover Airport (KENV) | 2026-04-19 21:17 UTC | 2026-04-19 22:21 UTC | 1h 4m |
-| N234WL |  | Francis S Gabreski Airport (KFOK) | Laguardia Airport (KLGA) | 2026-04-19 21:43 UTC | 2026-04-19 22:21 UTC | 37m |
-| CPA068 | Cathay Pacific | Malpensa International Airport (LIMC) | Zhuhai Airport (ZGSD) | 2026-04-19 11:40 UTC | 2026-04-19 22:21 UTC | 10h 40m |
-| ZHU | ZHU | Bacchus Marsh Airport (YBSS) | Melbourne Moorabbin Airport (YMMB) | 2026-04-19 21:56 UTC | 2026-04-19 22:20 UTC | 24m |
-| LFA323 | LFA | Orlando Sanford International Airport (KSFB) | Leesburg International Airport (KLEE) | 2026-04-19 21:26 UTC | 2026-04-19 22:20 UTC | 54m |
-| N8288R |  | Kansas City Downtown/Wheeler Field (KMKC) | Alford Airpark (IN03) | 2026-04-19 21:26 UTC | 2026-04-19 22:18 UTC | 52m |
-| AAE117 | AAE | Liege Airport (EBLG) | Macau International Airport (VMMC) | 2026-04-19 07:37 UTC | 2026-04-19 22:15 UTC | 14h 37m |
-| TKR40 | TKR | Skyotee Ranch Airport (CL74) | Agro-West Airport (5CA7) | 2026-04-19 21:53 UTC | 2026-04-19 22:14 UTC | 21m |
-| CPA395 | Cathay Pacific | Chek Lap Kok International Airport (VHHH) | Macau International Airport (VMMC) | 2026-04-19 14:14 UTC | 2026-04-19 22:13 UTC | 7h 58m |
-| CPA216 | Cathay Pacific | Manchester Airport (EGCC) | Zhuhai Airport (ZGSD) | 2026-04-19 10:19 UTC | 2026-04-19 22:10 UTC | 11h 51m |
-| N7013G |  | Hicks Airfield (KT67) | Kenneth Copeland Airport (K4T2) | 2026-04-19 22:05 UTC | 2026-04-19 22:10 UTC | 5m |
-| N300KT |  | Nephi Municipal Airport (KU14) | Nephi Municipal Airport (KU14) | 2026-04-19 21:51 UTC | 2026-04-19 22:09 UTC | 18m |
-| TKR12 | TKR | General Wm J Fox Airfield (KWJF) | Big Bear City Airport (KL35) | 2026-04-19 21:51 UTC | 2026-04-19 22:07 UTC | 15m |
-| N151LN |  | Robins Afb Airport (KWRB) | Rollins Airport (GA53) | 2026-04-19 21:18 UTC | 2026-04-19 22:05 UTC | 46m |
-| N532CP |  | Chino Airport (KCNO) | Meadows Field (KBFL) | 2026-04-19 21:38 UTC | 2026-04-19 22:03 UTC | 24m |
 
 ---
 
