@@ -1,76 +1,76 @@
 {
   "mode": "historical",
-  "timestamp": 1777851935,
+  "timestamp": 1777866337,
   "archive_start": 1774648826,
-  "archive_end": 1777851935,
-  "total_flights": 67023,
-  "unique_routes": 25287,
+  "archive_end": 1777866337,
+  "total_flights": 67109,
+  "unique_routes": 25302,
   "countries": {
-    "US": 53118,
-    "ES": 4909,
-    "IN": 4859,
-    "AU": 4435,
+    "US": 53155,
+    "ES": 4910,
+    "IN": 4882,
+    "AU": 4450,
     "BR": 3768,
     "DE": 3742,
     "IT": 3656,
-    "JP": 3597,
-    "CA": 3290,
+    "JP": 3615,
+    "CA": 3294,
     "GB": 2892,
     "FR": 2654,
     "CO": 2651,
-    "MX": 2133,
-    "GR": 2000,
+    "MX": 2137,
+    "GR": 2001,
     "CH": 1869,
     "NO": 1816,
-    "MY": 1601,
+    "MY": 1614,
     "ZA": 1354,
-    "NZ": 1246,
-    "TH": 1212,
-    "TR": 1205,
-    "PH": 1114,
+    "NZ": 1254,
+    "TH": 1217,
+    "TR": 1206,
+    "PH": 1120,
     "PL": 1099,
     "GT": 1091,
-    "KR": 1076,
+    "KR": 1080,
     "MA": 821,
-    "MO": 755,
+    "MO": 757,
     "ME": 724,
     "NL": 708,
-    "ID": 569,
+    "ID": 571,
     "BS": 564,
-    "NP": 536,
+    "NP": 547,
     "BE": 523,
     "HR": 521,
     "AT": 520,
     "AL": 463,
     "IS": 419,
     "FI": 394,
-    "CL": 367,
+    "CL": 369,
     "SE": 365,
     "CZ": 359,
     "PT": 350,
     "AR": 336,
     "RU": 333,
     "RO": 312,
-    "TW": 294,
+    "TW": 297,
     "IE": 290,
-    "CN": 284,
+    "CN": 286,
     "BA": 265,
     "PE": 260,
-    "BT": 221,
+    "BT": 223,
     "DK": 220,
     "RS": 216,
     "BD": 212,
     "AE": 193,
     "HN": 170,
-    "HK": 167,
+    "HK": 169,
     "BG": 166,
     "XK": 165,
     "HU": 154,
     "CY": 152,
+    "IL": 135,
     "KE": 135,
-    "IL": 134,
     "AO": 118,
-    "SG": 105,
+    "SG": 107,
     "DZ": 104,
     "SV": 98,
     "PF": 95,
@@ -78,7 +78,7 @@
     "VG": 88,
     "MK": 80,
     "LU": 80,
-    "MM": 75,
+    "MM": 77,
     "MT": 66,
     "LT": 65,
     "SI": 59,
@@ -142,7 +142,7 @@
       "country": "US",
       "lat": 32.897233,
       "lon": -97.037695,
-      "count": 1481
+      "count": 1482
     },
     {
       "icao": "RJTT",
@@ -151,7 +151,7 @@
       "country": "JP",
       "lat": 35.5523,
       "lon": 139.78,
-      "count": 1213
+      "count": 1219
     },
     {
       "icao": "KDEN",
@@ -160,7 +160,7 @@
       "country": "US",
       "lat": 39.861667,
       "lon": -104.673167,
-      "count": 1107
+      "count": 1109
     },
     {
       "icao": "VIDP",
@@ -169,7 +169,7 @@
       "country": "IN",
       "lat": 28.5665,
       "lon": 77.1031,
-      "count": 1015
+      "count": 1021
     },
     {
       "icao": "LGAV",
@@ -178,7 +178,7 @@
       "country": "GR",
       "lat": 37.9364,
       "lon": 23.9445,
-      "count": 974
+      "count": 975
     },
     {
       "icao": "SKBO",
@@ -214,7 +214,7 @@
       "country": "US",
       "lat": 36.080343,
       "lon": -115.152449,
-      "count": 835
+      "count": 836
     },
     {
       "icao": "MGGT",
@@ -241,7 +241,7 @@
       "country": "MO",
       "lat": 22.1496,
       "lon": 113.592,
-      "count": 755
+      "count": 757
     },
     {
       "icao": "KPHX",
@@ -250,7 +250,16 @@
       "country": "US",
       "lat": 33.434278,
       "lon": -112.011583,
-      "count": 661
+      "count": 662
+    },
+    {
+      "icao": "WMKK",
+      "name": "Kuala Lumpur International Airport",
+      "city": "",
+      "country": "MY",
+      "lat": 2.74558,
+      "lon": 101.71,
+      "count": 646
     },
     {
       "icao": "KORD",
@@ -271,15 +280,6 @@
       "count": 640
     },
     {
-      "icao": "WMKK",
-      "name": "Kuala Lumpur International Airport",
-      "city": "",
-      "country": "MY",
-      "lat": 2.74558,
-      "lon": 101.71,
-      "count": 639
-    },
-    {
       "icao": "KATL",
       "name": "Hartsfield/Jackson Atlanta International Airport",
       "city": "",
@@ -295,7 +295,7 @@
       "country": "IN",
       "lat": 13.1979,
       "lon": 77.7063,
-      "count": 594
+      "count": 596
     },
     {
       "icao": "YSSY",
@@ -304,7 +304,7 @@
       "country": "AU",
       "lat": -33.9461,
       "lon": 151.177,
-      "count": 584
+      "count": 586
     },
     {
       "icao": "LIMC",
@@ -331,7 +331,7 @@
       "country": "US",
       "lat": 40.788393,
       "lon": -111.977773,
-      "count": 534
+      "count": 536
     },
     {
       "icao": "GCXO",
@@ -367,7 +367,7 @@
       "country": "PH",
       "lat": 14.5086,
       "lon": 121.02,
-      "count": 507
+      "count": 509
     },
     {
       "icao": "LIAU",
@@ -385,7 +385,7 @@
       "country": "IN",
       "lat": 22.6547,
       "lon": 88.4467,
-      "count": 488
+      "count": 491
     },
     {
       "icao": "PHNL",
@@ -394,7 +394,7 @@
       "country": "US",
       "lat": 21.317825,
       "lon": -157.92025,
-      "count": 487
+      "count": 488
     },
     {
       "icao": "MMJC",
@@ -403,7 +403,7 @@
       "country": "MX",
       "lat": 19.5748,
       "lon": -99.2888,
-      "count": 472
+      "count": 473
     },
     {
       "icao": "LEBL",
@@ -412,7 +412,7 @@
       "country": "ES",
       "lat": 41.2971,
       "lon": 2.07846,
-      "count": 459
+      "count": 460
     },
     {
       "icao": "KBOS",
@@ -457,7 +457,7 @@
       "country": "TH",
       "lat": 13.9126,
       "lon": 100.607,
-      "count": 423
+      "count": 425
     },
     {
       "icao": "SBGR",
@@ -493,7 +493,7 @@
       "country": "CA",
       "lat": 51.1139,
       "lon": -114.02,
-      "count": 391
+      "count": 392
     },
     {
       "icao": "SBKP",
@@ -592,7 +592,7 @@
       "country": "KR",
       "lat": 37.5583,
       "lon": 126.791,
-      "count": 334
+      "count": 336
     },
     {
       "icao": "KSDL",
@@ -604,6 +604,15 @@
       "count": 334
     },
     {
+      "icao": "KSJC",
+      "name": "Norman Y Mineta San Jose International Airport",
+      "city": "",
+      "country": "US",
+      "lat": 37.362995,
+      "lon": -121.928621,
+      "count": 325
+    },
+    {
       "icao": "GMFI",
       "name": "Ifrane Airport",
       "city": "",
@@ -611,15 +620,6 @@
       "lat": 33.5053,
       "lon": -5.1529,
       "count": 325
-    },
-    {
-      "icao": "KSJC",
-      "name": "Norman Y Mineta San Jose International Airport",
-      "city": "",
-      "country": "US",
-      "lat": 37.362995,
-      "lon": -121.928621,
-      "count": 324
     },
     {
       "icao": "LYTV",
@@ -649,21 +649,21 @@
       "count": 320
     },
     {
-      "icao": "EDDM",
-      "name": "Munich International Airport",
-      "city": "",
-      "country": "DE",
-      "lat": 48.3538,
-      "lon": 11.7861,
-      "count": 314
-    },
-    {
       "icao": "VEBI",
       "name": "Shillong Airport",
       "city": "",
       "country": "IN",
       "lat": 25.7036,
       "lon": 91.9787,
+      "count": 315
+    },
+    {
+      "icao": "EDDM",
+      "name": "Munich International Airport",
+      "city": "",
+      "country": "DE",
+      "lat": 48.3538,
+      "lon": 11.7861,
       "count": 314
     },
     {
@@ -700,7 +700,7 @@
       "country": "AU",
       "lat": -37.6733,
       "lon": 144.843,
-      "count": 292
+      "count": 293
     },
     {
       "icao": "KAPA",
@@ -718,7 +718,7 @@
       "country": "JP",
       "lat": 34.1439,
       "lon": 132.23599,
-      "count": 285
+      "count": 286
     },
     {
       "icao": "KU14",
@@ -772,7 +772,7 @@
       "country": "JP",
       "lat": 33.1497,
       "lon": 130.302,
-      "count": 262
+      "count": 263
     },
     {
       "icao": "KTPA",
@@ -808,7 +808,7 @@
       "country": "KR",
       "lat": 35.2582,
       "lon": 128.62601,
-      "count": 248
+      "count": 250
     },
     {
       "icao": "KVNY",
@@ -856,6 +856,15 @@
       "count": 241
     },
     {
+      "icao": "VNKT",
+      "name": "Tribhuvan International Airport",
+      "city": "",
+      "country": "NP",
+      "lat": 27.6966,
+      "lon": 85.3591,
+      "count": 240
+    },
+    {
       "icao": "LEBB",
       "name": "Bilbao Airport",
       "city": "",
@@ -871,7 +880,7 @@
       "country": "US",
       "lat": 20.265194,
       "lon": -155.859944,
-      "count": 234
+      "count": 235
     },
     {
       "icao": "KBJC",
@@ -883,21 +892,21 @@
       "count": 233
     },
     {
-      "icao": "VNKT",
-      "name": "Tribhuvan International Airport",
-      "city": "",
-      "country": "NP",
-      "lat": 27.6966,
-      "lon": 85.3591,
-      "count": 232
-    },
-    {
       "icao": "KLGA",
       "name": "Laguardia Airport",
       "city": "",
       "country": "US",
       "lat": 40.777242,
       "lon": -73.872606,
+      "count": 230
+    },
+    {
+      "icao": "NZQN",
+      "name": "Queenstown International Airport",
+      "city": "",
+      "country": "NZ",
+      "lat": -45.0211,
+      "lon": 168.739,
       "count": 230
     },
     {
@@ -925,16 +934,7 @@
       "country": "ID",
       "lat": -6.12557,
       "lon": 106.656,
-      "count": 224
-    },
-    {
-      "icao": "NZQN",
-      "name": "Queenstown International Airport",
-      "city": "",
-      "country": "NZ",
-      "lat": -45.0211,
-      "lon": 168.739,
-      "count": 224
+      "count": 225
     },
     {
       "icao": "LIML",
@@ -982,6 +982,15 @@
       "count": 219
     },
     {
+      "icao": "ZGSD",
+      "name": "Zhuhai Airport",
+      "city": "",
+      "country": "CN",
+      "lat": 22.0064,
+      "lon": 113.376,
+      "count": 217
+    },
+    {
       "icao": "EDDL",
       "name": "Dusseldorf International Airport",
       "city": "",
@@ -998,15 +1007,6 @@
       "lat": 26.071667,
       "lon": -80.149694,
       "count": 216
-    },
-    {
-      "icao": "ZGSD",
-      "name": "Zhuhai Airport",
-      "city": "",
-      "country": "CN",
-      "lat": 22.0064,
-      "lon": 113.376,
-      "count": 215
     },
     {
       "icao": "EFHK",
@@ -1039,48 +1039,48 @@
   "airlines": {
     "Ryanair": 2857,
     "SkyWest Airlines": 2488,
-    "IndiGo": 1546,
-    "EJA": 1200,
+    "IndiGo": 1553,
+    "EJA": 1202,
     "American Airlines": 1039,
-    "Southwest Airlines": 944,
+    "Southwest Airlines": 946,
     "Lufthansa": 857,
-    "ENY": 828,
+    "ENY": 829,
     "Vueling": 661,
-    "AXM": 649,
+    "AXM": 652,
     "LATAM Airlines": 625,
-    "All Nippon Airways": 575,
-    "Delta Air Lines": 562,
+    "All Nippon Airways": 576,
+    "Delta Air Lines": 564,
     "WIF": 559,
     "AZU": 542,
-    "QLK": 517,
+    "QLK": 519,
     "Swiss International": 514,
     "LXJ": 489,
-    "Alaska Airlines": 454,
+    "Alaska Airlines": 455,
     "easyJet": 444,
-    "AEE": 436,
+    "AEE": 437,
     "EJU": 432,
-    "VIV": 418,
-    "Cathay Pacific": 403,
+    "VIV": 419,
+    "Cathay Pacific": 405,
+    "Japan Airlines": 392,
     "Air France": 390,
-    "Japan Airlines": 388,
     "AXB": 376,
     "CXK": 342,
-    "AIQ": 339,
+    "AIQ": 340,
     "MXY": 328,
     "GLO": 325,
     "JetBlue": 324,
-    "United Airlines": 323,
+    "United Airlines": 324,
     "WMT": 299,
     "Wizz Air": 298,
     "VOE": 292,
     "JIA": 291,
     "PGT": 288,
     "EDV": 284,
-    "ANZ": 270,
-    "Air India": 267,
+    "ANZ": 271,
+    "Air India": 270,
     "Scandinavian Airlines": 260,
+    "WEN": 258,
     "SEH": 257,
-    "WEN": 256,
     "EWG": 253,
     "LNK": 249,
     "JST": 246,
@@ -1088,7 +1088,7 @@
     "Avianca": 243,
     "FFT": 238
   },
-  "route_count": 67023,
+  "route_count": 67109,
   "avg_duration": "1h 15m",
   "avg_duration_min": 75,
   "top_routes": [
@@ -1120,11 +1120,11 @@
       "arr_country": "JP",
       "arr_lat": 34.1439,
       "arr_lon": 132.23599,
-      "flights": 260,
+      "flights": 261,
       "avg_duration_min": 67,
       "avg_duration": "1h 7m",
       "distance_km": 705.8,
-      "total_co2_kg": 3165513.0
+      "total_co2_kg": 3177688.1
     },
     {
       "dep_icao": "PHNL",
@@ -1137,11 +1137,11 @@
       "arr_country": "US",
       "arr_lat": 20.265194,
       "arr_lon": -155.859944,
-      "flights": 227,
+      "flights": 228,
       "avg_duration_min": 21,
       "avg_duration": "21m",
       "distance_km": 244.1,
-      "total_co2_kg": 955834.6
+      "total_co2_kg": 960045.3
     },
     {
       "dep_icao": "SKBO",
@@ -1178,23 +1178,6 @@
       "total_co2_kg": 791423.1
     },
     {
-      "dep_icao": "RJTT",
-      "dep_name": "Tokyo International Airport",
-      "dep_country": "JP",
-      "dep_lat": 35.5523,
-      "dep_lon": 139.78,
-      "arr_icao": "RJFS",
-      "arr_name": "Saga Airport",
-      "arr_country": "JP",
-      "arr_lat": 33.1497,
-      "arr_lon": 130.302,
-      "flights": 192,
-      "avg_duration_min": 87,
-      "avg_duration": "1h 27m",
-      "distance_km": 909.7,
-      "total_co2_kg": 3012926.4
-    },
-    {
       "dep_icao": "RKSS",
       "dep_name": "Gimpo International Airport",
       "dep_country": "KR",
@@ -1205,11 +1188,45 @@
       "arr_country": "KR",
       "arr_lat": 35.2582,
       "arr_lon": 128.62601,
-      "flights": 191,
+      "flights": 193,
       "avg_duration_min": 28,
       "avg_duration": "28m",
       "distance_km": 303.9,
-      "total_co2_kg": 1001274.5
+      "total_co2_kg": 1011759.1
+    },
+    {
+      "dep_icao": "RJTT",
+      "dep_name": "Tokyo International Airport",
+      "dep_country": "JP",
+      "dep_lat": 35.5523,
+      "dep_lon": 139.78,
+      "arr_icao": "RJFS",
+      "arr_name": "Saga Airport",
+      "arr_country": "JP",
+      "arr_lat": 33.1497,
+      "arr_lon": 130.302,
+      "flights": 193,
+      "avg_duration_min": 87,
+      "avg_duration": "1h 27m",
+      "distance_km": 909.7,
+      "total_co2_kg": 3028618.7
+    },
+    {
+      "dep_icao": "WMKK",
+      "dep_name": "Kuala Lumpur International Airport",
+      "dep_country": "MY",
+      "dep_lat": 2.74558,
+      "dep_lon": 101.71,
+      "arr_icao": "WMAB",
+      "arr_name": "Batu Pahat Airport",
+      "arr_country": "MY",
+      "arr_lat": 1.86024,
+      "arr_lon": 102.901,
+      "flights": 168,
+      "avg_duration_min": 20,
+      "avg_duration": "20m",
+      "distance_km": 164.9,
+      "total_co2_kg": 477880.2
     },
     {
       "dep_icao": "MGGT",
@@ -1227,23 +1244,6 @@
       "avg_duration": "9m",
       "distance_km": 0.0,
       "total_co2_kg": 0.0
-    },
-    {
-      "dep_icao": "WMKK",
-      "dep_name": "Kuala Lumpur International Airport",
-      "dep_country": "MY",
-      "dep_lat": 2.74558,
-      "dep_lon": 101.71,
-      "arr_icao": "WMAB",
-      "arr_name": "Batu Pahat Airport",
-      "arr_country": "MY",
-      "arr_lat": 1.86024,
-      "arr_lon": 102.901,
-      "flights": 167,
-      "avg_duration_min": 20,
-      "avg_duration": "20m",
-      "distance_km": 164.9,
-      "total_co2_kg": 475035.7
     },
     {
       "dep_icao": "VGZR",
@@ -1290,11 +1290,11 @@
       "arr_country": "JP",
       "arr_lat": 34.0347,
       "arr_lon": 131.549,
-      "flights": 147,
-      "avg_duration_min": 71,
-      "avg_duration": "1h 11m",
+      "flights": 148,
+      "avg_duration_min": 72,
+      "avg_duration": "1h 12m",
       "distance_km": 770.1,
-      "total_co2_kg": 1952781.1
+      "total_co2_kg": 1966065.3
     },
     {
       "dep_icao": "MGGT",
@@ -1324,11 +1324,11 @@
       "arr_country": "JP",
       "arr_lat": 35.5128,
       "arr_lon": 134.787,
-      "flights": 123,
+      "flights": 124,
       "avg_duration_min": 44,
       "avg_duration": "44m",
       "distance_km": 451.8,
-      "total_co2_kg": 958606.7
+      "total_co2_kg": 966400.2
     },
     {
       "dep_icao": "MGGT",
@@ -1443,11 +1443,11 @@
       "arr_country": "IN",
       "arr_lat": 18.5821,
       "arr_lon": 73.9197,
-      "flights": 96,
+      "flights": 97,
       "avg_duration_min": 101,
       "avg_duration": "1h 41m",
       "distance_km": 1156.5,
-      "total_co2_kg": 1915164.0
+      "total_co2_kg": 1935113.6
     },
     {
       "dep_icao": "VECC",
@@ -1477,11 +1477,28 @@
       "arr_country": "MY",
       "arr_lat": 3.89972,
       "arr_lon": 100.949,
-      "flights": 91,
+      "flights": 94,
       "avg_duration_min": 14,
       "avg_duration": "14m",
       "distance_km": 153.6,
-      "total_co2_kg": 241113.6
+      "total_co2_kg": 249062.4
+    },
+    {
+      "dep_icao": "MMMY",
+      "dep_name": "General Mariano Escobedo International Airport",
+      "dep_country": "MX",
+      "dep_lat": 25.7785,
+      "dep_lon": -100.107,
+      "arr_icao": "MMJC",
+      "arr_name": "Atizapan De Zaragoza Airport",
+      "arr_country": "MX",
+      "arr_lat": 19.5748,
+      "arr_lon": -99.2888,
+      "flights": 92,
+      "avg_duration_min": 62,
+      "avg_duration": "1h 2m",
+      "distance_km": 694.9,
+      "total_co2_kg": 1102806.3
     },
     {
       "dep_icao": "GCXO",
@@ -1535,23 +1552,6 @@
       "total_co2_kg": 2047267.9
     },
     {
-      "dep_icao": "MMMY",
-      "dep_name": "General Mariano Escobedo International Airport",
-      "dep_country": "MX",
-      "dep_lat": 25.7785,
-      "dep_lon": -100.107,
-      "arr_icao": "MMJC",
-      "arr_name": "Atizapan De Zaragoza Airport",
-      "arr_country": "MX",
-      "arr_lat": 19.5748,
-      "arr_lon": -99.2888,
-      "flights": 91,
-      "avg_duration_min": 62,
-      "avg_duration": "1h 2m",
-      "distance_km": 694.9,
-      "total_co2_kg": 1090819.3
-    },
-    {
       "dep_icao": "VIDP",
       "dep_name": "Indira Gandhi International Airport",
       "dep_country": "IN",
@@ -1562,11 +1562,11 @@
       "arr_country": "BT",
       "arr_lat": 27.2564,
       "arr_lon": 91.5145,
-      "flights": 89,
-      "avg_duration_min": 102,
-      "avg_duration": "1h 42m",
+      "flights": 90,
+      "avg_duration_min": 103,
+      "avg_duration": "1h 43m",
       "distance_km": 1422.7,
-      "total_co2_kg": 2184200.2
+      "total_co2_kg": 2208741.8
     },
     {
       "dep_icao": "KPVU",
@@ -1671,6 +1671,23 @@
       "total_co2_kg": 300046.5
     },
     {
+      "dep_icao": "RPLL",
+      "dep_name": "Ninoy Aquino International Airport",
+      "dep_country": "PH",
+      "dep_lat": 14.5086,
+      "dep_lon": 121.02,
+      "arr_icao": "RPVU",
+      "arr_name": "Romblon Airport",
+      "arr_country": "PH",
+      "arr_lat": 12.311,
+      "arr_lon": 122.085,
+      "flights": 77,
+      "avg_duration_min": 26,
+      "avg_duration": "26m",
+      "distance_km": 270.1,
+      "total_co2_kg": 358760.3
+    },
+    {
       "dep_icao": "RJTT",
       "dep_name": "Tokyo International Airport",
       "dep_country": "JP",
@@ -1705,21 +1722,21 @@
       "total_co2_kg": 0.0
     },
     {
-      "dep_icao": "RPLL",
-      "dep_name": "Ninoy Aquino International Airport",
-      "dep_country": "PH",
-      "dep_lat": 14.5086,
-      "dep_lon": 121.02,
-      "arr_icao": "RPVU",
-      "arr_name": "Romblon Airport",
-      "arr_country": "PH",
-      "arr_lat": 12.311,
-      "arr_lon": 122.085,
+      "dep_icao": "CYYC",
+      "dep_name": "Calgary International Airport",
+      "dep_country": "CA",
+      "dep_lat": 51.1139,
+      "dep_lon": -114.02,
+      "arr_icao": "CJS4",
+      "arr_name": "Moose Jaw Municipal Airport",
+      "arr_country": "CA",
+      "arr_lat": 50.4342,
+      "arr_lon": -105.387,
       "flights": 75,
-      "avg_duration_min": 26,
-      "avg_duration": "26m",
-      "distance_km": 270.1,
-      "total_co2_kg": 349441.9
+      "avg_duration_min": 61,
+      "avg_duration": "1h 1m",
+      "distance_km": 611.4,
+      "total_co2_kg": 790998.8
     },
     {
       "dep_icao": "VHHH",
@@ -1737,23 +1754,6 @@
       "avg_duration": "11h 1m",
       "distance_km": 37.7,
       "total_co2_kg": 48774.4
-    },
-    {
-      "dep_icao": "CYYC",
-      "dep_name": "Calgary International Airport",
-      "dep_country": "CA",
-      "dep_lat": 51.1139,
-      "dep_lon": -114.02,
-      "arr_icao": "CJS4",
-      "arr_name": "Moose Jaw Municipal Airport",
-      "arr_country": "CA",
-      "arr_lat": 50.4342,
-      "arr_lon": -105.387,
-      "flights": 74,
-      "avg_duration_min": 61,
-      "avg_duration": "1h 1m",
-      "distance_km": 611.4,
-      "total_co2_kg": 780452.1
     },
     {
       "dep_icao": "SDOI",
@@ -1805,6 +1805,23 @@
       "avg_duration": "12m",
       "distance_km": 15.3,
       "total_co2_kg": 19002.6
+    },
+    {
+      "dep_icao": "NZQN",
+      "dep_name": "Queenstown International Airport",
+      "dep_country": "NZ",
+      "dep_lat": -45.0211,
+      "dep_lon": 168.739,
+      "arr_icao": "NZQN",
+      "arr_name": "Queenstown International Airport",
+      "arr_country": "NZ",
+      "arr_lat": -45.0211,
+      "arr_lon": 168.739,
+      "flights": 72,
+      "avg_duration_min": 18,
+      "avg_duration": "18m",
+      "distance_km": 0.0,
+      "total_co2_kg": 0.0
     },
     {
       "dep_icao": "SBSP",
@@ -1875,23 +1892,6 @@
       "total_co2_kg": 0.0
     },
     {
-      "dep_icao": "NZQN",
-      "dep_name": "Queenstown International Airport",
-      "dep_country": "NZ",
-      "dep_lat": -45.0211,
-      "dep_lon": 168.739,
-      "arr_icao": "NZQN",
-      "arr_name": "Queenstown International Airport",
-      "arr_country": "NZ",
-      "arr_lat": -45.0211,
-      "arr_lon": 168.739,
-      "flights": 69,
-      "avg_duration_min": 18,
-      "avg_duration": "18m",
-      "distance_km": 0.0,
-      "total_co2_kg": 0.0
-    },
-    {
       "dep_icao": "PHDH",
       "dep_name": "Kawaihapai Airfield",
       "dep_country": "US",
@@ -1945,188 +1945,188 @@
   ],
   "recent_flights": [
     {
-      "callsign": "N690MF",
-      "airline": "",
-      "from": "Fentress Airpark (XS90)",
-      "to": "Fentress Airpark (XS90)",
-      "departure": "2026-05-03 22:49 UTC",
-      "arrival": "2026-05-03 23:45 UTC",
-      "duration": "55m"
+      "callsign": "MCA",
+      "airline": "MCA",
+      "from": "Sunshine Coast Airport (YBMC)",
+      "to": "Caloundra Airport (YCDR)",
+      "departure": "2026-05-04 02:45 UTC",
+      "arrival": "2026-05-04 03:45 UTC",
+      "duration": "1h 0m"
     },
     {
-      "callsign": "ERU42",
-      "airline": "ERU",
-      "from": "42AZ (42AZ)",
-      "to": "42AZ (42AZ)",
-      "departure": "2026-05-03 23:35 UTC",
-      "arrival": "2026-05-03 23:45 UTC",
-      "duration": "10m"
+      "callsign": "IGO1151",
+      "airline": "IndiGo",
+      "from": "Indira Gandhi International Airport (VIDP)",
+      "to": "Tribhuvan International Airport (VNKT)",
+      "departure": "2026-05-04 02:21 UTC",
+      "arrival": "2026-05-04 03:41 UTC",
+      "duration": "1h 20m"
     },
     {
-      "callsign": "UAE9848",
-      "airline": "Emirates",
-      "from": "Al Maktoum International Airport (OMDW)",
+      "callsign": "CES5015",
+      "airline": "China Eastern",
+      "from": "Singapore Changi International Airport (WSSS)",
       "to": "Macau International Airport (VMMC)",
-      "departure": "2026-05-03 17:17 UTC",
-      "arrival": "2026-05-03 23:36 UTC",
-      "duration": "6h 19m"
+      "departure": "2026-05-03 17:02 UTC",
+      "arrival": "2026-05-04 03:38 UTC",
+      "duration": "10h 36m"
     },
     {
-      "callsign": "UPS5852",
-      "airline": "UPS",
-      "from": "Louisville Muhammad Ali International Airport (KSDF)",
-      "to": "Phoenix Sky Harbor International Airport (KPHX)",
-      "departure": "2026-05-03 20:14 UTC",
-      "arrival": "2026-05-03 23:36 UTC",
-      "duration": "3h 21m"
+      "callsign": "ZJI",
+      "airline": "ZJI",
+      "from": "Melbourne Moorabbin Airport (YMMB)",
+      "to": "Melbourne Moorabbin Airport (YMMB)",
+      "departure": "2026-05-04 03:13 UTC",
+      "arrival": "2026-05-04 03:35 UTC",
+      "duration": "21m"
     },
     {
-      "callsign": "TVR4703",
-      "airline": "TVR",
-      "from": "Sharjah International Airport (OMSJ)",
-      "to": "Macau International Airport (VMMC)",
-      "departure": "2026-05-03 16:58 UTC",
-      "arrival": "2026-05-03 23:29 UTC",
-      "duration": "6h 31m"
+      "callsign": "AIC8ES",
+      "airline": "Air India",
+      "from": "Indira Gandhi International Airport (VIDP)",
+      "to": "Yongphulla Airport (VQ10)",
+      "departure": "2026-05-04 01:27 UTC",
+      "arrival": "2026-05-04 03:25 UTC",
+      "duration": "1h 57m"
     },
     {
       "callsign": "ZKNZO",
       "airline": "ZKN",
       "from": "Queenstown International Airport (NZQN)",
       "to": "Queenstown International Airport (NZQN)",
-      "departure": "2026-05-03 23:15 UTC",
-      "arrival": "2026-05-03 23:26 UTC",
-      "duration": "11m"
+      "departure": "2026-05-04 03:12 UTC",
+      "arrival": "2026-05-04 03:24 UTC",
+      "duration": "12m"
     },
     {
-      "callsign": "N921RA",
+      "callsign": "ENY3804",
+      "airline": "ENY",
+      "from": "Dallas-Fort Worth International Airport (KDFW)",
+      "to": "Grand Junction Regional Airport (KGJT)",
+      "departure": "2026-05-04 01:34 UTC",
+      "arrival": "2026-05-04 03:23 UTC",
+      "duration": "1h 48m"
+    },
+    {
+      "callsign": "FD257",
       "airline": "",
-      "from": "La Aurora Airport (MGGT)",
-      "to": "Esquipulas Airport (MGES)",
-      "departure": "2026-05-03 22:54 UTC",
-      "arrival": "2026-05-03 23:25 UTC",
-      "duration": "30m"
+      "from": "Sydney Bankstown Airport (YSBK)",
+      "to": "Orange Airport (YORG)",
+      "departure": "2026-05-04 02:25 UTC",
+      "arrival": "2026-05-04 03:06 UTC",
+      "duration": "40m"
     },
     {
-      "callsign": "CPA698",
-      "airline": "Cathay Pacific",
-      "from": "Indira Gandhi International Airport (VIDP)",
-      "to": "Macau International Airport (VMMC)",
-      "departure": "2026-05-03 19:18 UTC",
-      "arrival": "2026-05-03 23:24 UTC",
-      "duration": "4h 5m"
-    },
-    {
-      "callsign": "N560ML",
+      "callsign": "AM341",
       "airline": "",
-      "from": "Centennial Airport (KAPA)",
-      "to": "Minneapolis-St Paul International/Wold-Chamberlain Airport (KMSP)",
-      "departure": "2026-05-03 21:38 UTC",
-      "arrival": "2026-05-03 23:21 UTC",
-      "duration": "1h 42m"
+      "from": "Melbourne Essendon Airport (YMEN)",
+      "to": "Dadswells Bridge Airport (YCFF)",
+      "departure": "2026-05-04 02:23 UTC",
+      "arrival": "2026-05-04 03:01 UTC",
+      "duration": "38m"
     },
     {
-      "callsign": "N606LF",
+      "callsign": "N617BG",
       "airline": "",
-      "from": "Cincinnati Municipal/Lunken Field (KLUK)",
-      "to": "Cincinnati Municipal/Lunken Field (KLUK)",
-      "departure": "2026-05-03 22:41 UTC",
-      "arrival": "2026-05-03 23:20 UTC",
-      "duration": "39m"
+      "from": "Renton Municipal Airport (KRNT)",
+      "to": "Thompson Falls Airport (KTHM)",
+      "departure": "2026-05-04 01:46 UTC",
+      "arrival": "2026-05-04 03:01 UTC",
+      "duration": "1h 14m"
     },
     {
-      "callsign": "N",
-      "airline": "",
-      "from": "Texada Gillies Bay Airport (CYGB)",
-      "to": "Vancouver International Airport (CYVR)",
-      "departure": "2026-05-03 23:00 UTC",
-      "arrival": "2026-05-03 23:20 UTC",
-      "duration": "19m"
-    },
-    {
-      "callsign": "N331SK",
-      "airline": "",
-      "from": "Mc Ghee Tyson Airport (KTYS)",
-      "to": "Okc Will Rogers International Airport (KOKC)",
-      "departure": "2026-05-03 21:24 UTC",
-      "arrival": "2026-05-03 23:20 UTC",
-      "duration": "1h 55m"
-    },
-    {
-      "callsign": "MXY808",
-      "airline": "MXY",
-      "from": "Orlando International Airport (KMCO)",
-      "to": "Lancaster Airport (KLNS)",
-      "departure": "2026-05-03 21:20 UTC",
-      "arrival": "2026-05-03 23:19 UTC",
-      "duration": "1h 59m"
-    },
-    {
-      "callsign": "QLK9D",
+      "callsign": "QLK623D",
       "airline": "QLK",
       "from": "Sydney Kingsford Smith International Airport (YSSY)",
-      "to": "Bathurst Airport (YBTH)",
-      "departure": "2026-05-03 22:49 UTC",
-      "arrival": "2026-05-03 23:12 UTC",
-      "duration": "23m"
+      "to": "Cooma/Polo Flat (Unlic) Airport (YPFT)",
+      "departure": "2026-05-04 02:22 UTC",
+      "arrival": "2026-05-04 02:59 UTC",
+      "duration": "37m"
     },
     {
-      "callsign": "ZKKPH",
-      "airline": "ZKK",
+      "callsign": "N7660U",
+      "airline": "",
+      "from": "Morgantown Municipal/Walter L Bill Hart Field (KMGW)",
+      "to": "Morgantown Municipal/Walter L Bill Hart Field (KMGW)",
+      "departure": "2026-05-04 02:52 UTC",
+      "arrival": "2026-05-04 02:58 UTC",
+      "duration": "5m"
+    },
+    {
+      "callsign": "AIQ3201",
+      "airline": "AIQ",
+      "from": "Don Mueang International Airport (VTBD)",
+      "to": "Kengtung Airport (VYKG)",
+      "departure": "2026-05-04 02:05 UTC",
+      "arrival": "2026-05-04 02:54 UTC",
+      "duration": "48m"
+    },
+    {
+      "callsign": "ZKNZO",
+      "airline": "ZKN",
       "from": "Queenstown International Airport (NZQN)",
       "to": "Queenstown International Airport (NZQN)",
-      "departure": "2026-05-03 23:01 UTC",
-      "arrival": "2026-05-03 23:12 UTC",
+      "departure": "2026-05-04 02:40 UTC",
+      "arrival": "2026-05-04 02:52 UTC",
       "duration": "11m"
     },
     {
-      "callsign": "VT698",
-      "airline": "",
-      "from": "Moorea Airport (NTTM)",
-      "to": "Tikehau Airport (NTGC)",
-      "departure": "2026-05-03 20:57 UTC",
-      "arrival": "2026-05-03 23:11 UTC",
-      "duration": "2h 14m"
-    },
-    {
-      "callsign": "N805DZ",
-      "airline": "",
-      "from": "Yolo County Airport (KDWA)",
-      "to": "Yolo County Airport (KDWA)",
-      "departure": "2026-05-03 22:54 UTC",
-      "arrival": "2026-05-03 23:10 UTC",
-      "duration": "16m"
-    },
-    {
-      "callsign": "QLK581D",
+      "callsign": "QLK223D",
       "airline": "QLK",
-      "from": "Adelaide International Airport (YPAD)",
-      "to": "Port Lincoln Airport (YPLC)",
-      "departure": "2026-05-03 22:35 UTC",
-      "arrival": "2026-05-03 23:10 UTC",
-      "duration": "34m"
+      "from": "Sydney Kingsford Smith International Airport (YSSY)",
+      "to": "Adaminaby Airport (YADI)",
+      "departure": "2026-05-04 02:15 UTC",
+      "arrival": "2026-05-04 02:52 UTC",
+      "duration": "36m"
     },
     {
-      "callsign": "ZJF",
-      "airline": "ZJF",
-      "from": "Bacchus Marsh Airport (YBSS)",
-      "to": "Melbourne Moorabbin Airport (YMMB)",
-      "departure": "2026-05-03 22:45 UTC",
-      "arrival": "2026-05-03 23:09 UTC",
-      "duration": "23m"
+      "callsign": "JAL2823",
+      "airline": "Japan Airlines",
+      "from": "Okadama Airport (RJCO)",
+      "to": "Odate Noshiro Airport (RJSR)",
+      "departure": "2026-05-04 01:55 UTC",
+      "arrival": "2026-05-04 02:47 UTC",
+      "duration": "52m"
     },
     {
-      "callsign": "N169BA",
+      "callsign": "",
       "airline": "",
-      "from": "Bb Airpark (TE88)",
-      "to": "Bb Airpark (TE88)",
-      "departure": "2026-05-03 22:59 UTC",
-      "arrival": "2026-05-03 23:02 UTC",
-      "duration": "3m"
+      "from": "Atlantic City International Airport (KACY)",
+      "to": "Atlantic City International Airport (KACY)",
+      "departure": "2026-05-04 02:35 UTC",
+      "arrival": "2026-05-04 02:45 UTC",
+      "duration": "10m"
+    },
+    {
+      "callsign": "APG711",
+      "airline": "APG",
+      "from": "Ninoy Aquino International Airport (RPLL)",
+      "to": "Romblon Airport (RPVU)",
+      "departure": "2026-05-04 02:17 UTC",
+      "arrival": "2026-05-04 02:45 UTC",
+      "duration": "28m"
+    },
+    {
+      "callsign": "ROLR23",
+      "airline": "ROL",
+      "from": "Mount Hotham Airport (YHOT)",
+      "to": "Yarram Airport (YYRM)",
+      "departure": "2026-05-04 02:31 UTC",
+      "arrival": "2026-05-04 02:43 UTC",
+      "duration": "12m"
+    },
+    {
+      "callsign": "NOK100",
+      "airline": "NOK",
+      "from": "Don Mueang International Airport (VTBD)",
+      "to": "Chiang Rai Airport (VTCR)",
+      "departure": "2026-05-04 01:53 UTC",
+      "arrival": "2026-05-04 02:43 UTC",
+      "duration": "50m"
     }
   ],
-  "total_distance_km": 47702294.3,
-  "total_co2_kg": 822864577.1,
-  "total_co2_tonnes": 822864.58,
+  "total_distance_km": 47776484.6,
+  "total_co2_kg": 824144360.0,
+  "total_co2_tonnes": 824144.36,
   "avg_distance_km": 858
 }
