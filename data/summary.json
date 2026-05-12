@@ -1,19 +1,19 @@
 {
   "mode": "historical",
-  "timestamp": 1778531815,
+  "timestamp": 1778557726,
   "archive_start": 1774648826,
-  "archive_end": 1778531815,
-  "total_flights": 78405,
-  "unique_routes": 28613,
+  "archive_end": 1778557726,
+  "total_flights": 78418,
+  "unique_routes": 28618,
   "countries": {
-    "US": 63570,
+    "US": 63581,
     "ES": 5613,
-    "IN": 5438,
-    "AU": 5039,
+    "IN": 5440,
+    "AU": 5045,
     "DE": 4433,
     "BR": 4343,
     "IT": 4334,
-    "JP": 4031,
+    "JP": 4033,
     "CA": 3885,
     "GB": 3373,
     "FR": 3111,
@@ -63,7 +63,7 @@
     "BG": 217,
     "AE": 207,
     "HK": 202,
-    "IL": 188,
+    "IL": 189,
     "HN": 185,
     "XK": 185,
     "HU": 184,
@@ -78,7 +78,7 @@
     "MM": 103,
     "VG": 99,
     "LU": 93,
-    "JO": 91,
+    "JO": 92,
     "MK": 85,
     "VE": 84,
     "MT": 82,
@@ -152,7 +152,7 @@
       "country": "JP",
       "lat": 35.5523,
       "lon": 139.78,
-      "count": 1355
+      "count": 1356
     },
     {
       "icao": "KDEN",
@@ -260,7 +260,7 @@
       "country": "US",
       "lat": 33.434278,
       "lon": -112.011583,
-      "count": 795
+      "count": 797
     },
     {
       "icao": "KORD",
@@ -404,7 +404,7 @@
       "country": "IN",
       "lat": 22.6547,
       "lon": 88.4467,
-      "count": 557
+      "count": 558
     },
     {
       "icao": "KBOS",
@@ -1040,7 +1040,7 @@
   "airlines": {
     "Ryanair": 3376,
     "SkyWest Airlines": 2924,
-    "IndiGo": 1732,
+    "IndiGo": 1733,
     "EJA": 1450,
     "American Airlines": 1225,
     "Southwest Airlines": 1154,
@@ -1051,7 +1051,7 @@
     "AXM": 721,
     "LATAM Airlines": 714,
     "WIF": 675,
-    "All Nippon Airways": 627,
+    "All Nippon Airways": 628,
     "AZU": 620,
     "Swiss International": 599,
     "QLK": 591,
@@ -1089,7 +1089,7 @@
     "LNK": 276,
     "TVF": 274
   },
-  "route_count": 78405,
+  "route_count": 78418,
   "avg_duration": "1h 15m",
   "avg_duration_min": 75,
   "top_routes": [
@@ -1946,6 +1946,123 @@
   ],
   "recent_flights": [
     {
+      "callsign": "ELY5183",
+      "airline": "ELY",
+      "from": "Ben Gurion International Airport (LLBG)",
+      "to": "Queen Alia International Airport (OJAI)",
+      "departure": "2026-05-12 03:33 UTC",
+      "arrival": "2026-05-12 03:48 UTC",
+      "duration": "15m"
+    },
+    {
+      "callsign": "KYW",
+      "airline": "KYW",
+      "from": "Melbourne Moorabbin Airport (YMMB)",
+      "to": "Melbourne Essendon Airport (YMEN)",
+      "departure": "2026-05-12 03:30 UTC",
+      "arrival": "2026-05-12 03:46 UTC",
+      "duration": "15m"
+    },
+    {
+      "callsign": "ERU37",
+      "airline": "ERU",
+      "from": "AZ86 (AZ86)",
+      "to": "Cottonwood Airport (KP52)",
+      "departure": "2026-05-12 03:26 UTC",
+      "arrival": "2026-05-12 03:45 UTC",
+      "duration": "19m"
+    },
+    {
+      "callsign": "ANA964",
+      "airline": "All Nippon Airways",
+      "from": "Tottori Airport (RJOR)",
+      "to": "Tokyo International Airport (RJTT)",
+      "departure": "2026-05-12 02:44 UTC",
+      "arrival": "2026-05-12 03:43 UTC",
+      "duration": "58m"
+    },
+    {
+      "callsign": "SCU28",
+      "airline": "SCU",
+      "from": "Airman Acres Airport (OK93)",
+      "to": "Okmulgee Regional/Paul And Betty Abbott Field (KOKM)",
+      "departure": "2026-05-12 02:44 UTC",
+      "arrival": "2026-05-12 03:22 UTC",
+      "duration": "38m"
+    },
+    {
+      "callsign": "N410W",
+      "airline": "",
+      "from": "Central Il Regional/Bloomington-Normal Airport (KBMI)",
+      "to": "Frasca Field (KC16)",
+      "departure": "2026-05-12 02:48 UTC",
+      "arrival": "2026-05-12 03:22 UTC",
+      "duration": "34m"
+    },
+    {
+      "callsign": "G8524557",
+      "airline": "",
+      "from": "KU42 (KU42)",
+      "to": "KU42 (KU42)",
+      "departure": "2026-05-12 02:59 UTC",
+      "arrival": "2026-05-12 03:19 UTC",
+      "duration": "20m"
+    },
+    {
+      "callsign": "N454DR",
+      "airline": "",
+      "from": "Midwest Ntl Air Center Airport (KGPH)",
+      "to": "Abilene Municipal Airport (KK78)",
+      "departure": "2026-05-12 02:44 UTC",
+      "arrival": "2026-05-12 03:07 UTC",
+      "duration": "22m"
+    },
+    {
+      "callsign": "ZHU",
+      "airline": "ZHU",
+      "from": "Lilydale Airport (YLIL)",
+      "to": "Melbourne Essendon Airport (YMEN)",
+      "departure": "2026-05-12 02:44 UTC",
+      "arrival": "2026-05-12 02:57 UTC",
+      "duration": "12m"
+    },
+    {
+      "callsign": "N292P",
+      "airline": "",
+      "from": "Perkins Field (KU08)",
+      "to": "Mesquite Airport (K67L)",
+      "departure": "2026-05-12 02:44 UTC",
+      "arrival": "2026-05-12 02:55 UTC",
+      "duration": "10m"
+    },
+    {
+      "callsign": "IGO2121",
+      "airline": "IndiGo",
+      "from": "Chakulia Airport (VECK)",
+      "to": "Netaji Subhash Chandra Bose International Airport (VECC)",
+      "departure": "2026-05-12 02:44 UTC",
+      "arrival": "2026-05-12 02:55 UTC",
+      "duration": "10m"
+    },
+    {
+      "callsign": "XHI",
+      "airline": "XHI",
+      "from": "Lilydale Airport (YLIL)",
+      "to": "Melbourne Essendon Airport (YMEN)",
+      "departure": "2026-05-12 02:44 UTC",
+      "arrival": "2026-05-12 02:53 UTC",
+      "duration": "8m"
+    },
+    {
+      "callsign": "KYOTE92",
+      "airline": "KYO",
+      "from": "Phoenix Sky Harbor International Airport (KPHX)",
+      "to": "Phoenix Sky Harbor International Airport (KPHX)",
+      "departure": "2026-05-12 02:49 UTC",
+      "arrival": "2026-05-12 02:50 UTC",
+      "duration": "1m"
+    },
+    {
       "callsign": "",
       "airline": "",
       "from": "Bentonville Municipal/Louise M Thaden Field (KVBT)",
@@ -2007,127 +2124,10 @@
       "departure": "2026-05-11 19:46 UTC",
       "arrival": "2026-05-11 20:21 UTC",
       "duration": "34m"
-    },
-    {
-      "callsign": "N550KS",
-      "airline": "",
-      "from": "Emporia Municipal Airport (KEMP)",
-      "to": "Minneapolis City County Airport (K45K)",
-      "departure": "2026-05-11 20:02 UTC",
-      "arrival": "2026-05-11 20:18 UTC",
-      "duration": "16m"
-    },
-    {
-      "callsign": "BRW1",
-      "airline": "BRW",
-      "from": "Flying Cloud Airport (KFCM)",
-      "to": "Stocker Airport (MN63)",
-      "departure": "2026-05-11 19:20 UTC",
-      "arrival": "2026-05-11 20:14 UTC",
-      "duration": "54m"
-    },
-    {
-      "callsign": "N216LS",
-      "airline": "",
-      "from": "Lancaster Airport (KLNS)",
-      "to": "PA86 (PA86)",
-      "departure": "2026-05-11 19:51 UTC",
-      "arrival": "2026-05-11 20:11 UTC",
-      "duration": "19m"
-    },
-    {
-      "callsign": "N6269Q",
-      "airline": "",
-      "from": "Trenton Mercer Airport (KTTN)",
-      "to": "Lancaster Airport (KLNS)",
-      "departure": "2026-05-11 19:24 UTC",
-      "arrival": "2026-05-11 20:08 UTC",
-      "duration": "43m"
-    },
-    {
-      "callsign": "HPP",
-      "airline": "HPP",
-      "from": "Toowoomba Airport (YTWB)",
-      "to": "Chinchilla Airport (YCCA)",
-      "departure": "2026-05-11 19:47 UTC",
-      "arrival": "2026-05-11 20:07 UTC",
-      "duration": "19m"
-    },
-    {
-      "callsign": "N91CV",
-      "airline": "",
-      "from": "Centennial Airport (KAPA)",
-      "to": "2AR6 (2AR6)",
-      "departure": "2026-05-11 18:30 UTC",
-      "arrival": "2026-05-11 20:06 UTC",
-      "duration": "1h 36m"
-    },
-    {
-      "callsign": "NRL943",
-      "airline": "NRL",
-      "from": "Rankin Inlet Airport (CYRT)",
-      "to": "Val-d'Or Airport (CYVO)",
-      "departure": "2026-05-11 17:47 UTC",
-      "arrival": "2026-05-11 20:05 UTC",
-      "duration": "2h 17m"
-    },
-    {
-      "callsign": "R21202",
-      "airline": "",
-      "from": "Ladd Army Air Field (PAFB)",
-      "to": "Ladd Army Air Field (PAFB)",
-      "departure": "2026-05-11 19:41 UTC",
-      "arrival": "2026-05-11 20:03 UTC",
-      "duration": "22m"
-    },
-    {
-      "callsign": "N459MP",
-      "airline": "",
-      "from": "Ferrell Airport (9OH8)",
-      "to": "Kenai Municipal Airport (PAEN)",
-      "departure": "2026-05-11 13:34 UTC",
-      "arrival": "2026-05-11 20:01 UTC",
-      "duration": "6h 27m"
-    },
-    {
-      "callsign": "N9456T",
-      "airline": "",
-      "from": "Luis Munoz Marin International Airport (TJSJ)",
-      "to": "Antonio Rivera Rodriguez Airport (TJVQ)",
-      "departure": "2026-05-11 19:37 UTC",
-      "arrival": "2026-05-11 20:01 UTC",
-      "duration": "23m"
-    },
-    {
-      "callsign": "CVU28",
-      "airline": "CVU",
-      "from": "K61B (K61B)",
-      "to": "Grand Canyon West Airport (K1G4)",
-      "departure": "2026-05-11 19:33 UTC",
-      "arrival": "2026-05-11 20:00 UTC",
-      "duration": "27m"
-    },
-    {
-      "callsign": "N48500",
-      "airline": "",
-      "from": "Quast Airport (MN62)",
-      "to": "Flying Cloud Airport (KFCM)",
-      "departure": "2026-05-11 18:19 UTC",
-      "arrival": "2026-05-11 20:00 UTC",
-      "duration": "1h 40m"
-    },
-    {
-      "callsign": "N525DW",
-      "airline": "",
-      "from": "Louisville Muhammad Ali International Airport (KSDF)",
-      "to": "San Angelo Regional/Mathis Field (KSJT)",
-      "departure": "2026-05-11 17:39 UTC",
-      "arrival": "2026-05-11 19:59 UTC",
-      "duration": "2h 19m"
     }
   ],
-  "total_distance_km": 56305589.3,
-  "total_co2_kg": 971271415.0,
-  "total_co2_tonnes": 971271.41,
+  "total_distance_km": 56306948.6,
+  "total_co2_kg": 971294863.3,
+  "total_co2_tonnes": 971294.86,
   "avg_distance_km": 868
 }
