@@ -1,6 +1,6 @@
 # Global Air Traffic Tracker
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--31_00:59:57_UTC-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--31_09:04:18_UTC-green)
 
 ![Flight Map](images/flight_map.png)
 
@@ -25,21 +25,21 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 ## Archive Snapshot
 
-**Latest saved flight:** 2026-05-31 00:59:57 UTC
-**Archive range:** 2026-03-27 22:00:26 UTC to 2026-05-31 00:59:57 UTC
+**Latest saved flight:** 2026-05-31 09:04:18 UTC
+**Archive range:** 2026-03-27 22:00:26 UTC to 2026-05-31 09:04:18 UTC
 
-- **98,940** saved flights
-- **35,202** unique routes
+- **98,948** saved flights
+- **35,208** unique routes
 - **132** countries touched by saved routes
 - **100** airports in the archive
 - **50** airlines identified
-- **98,940** saved routes in the archive
+- **98,948** saved routes in the archive
 - **1h 15m** average flight duration
 
 ### Carbon Footprint Estimate
 
-- **1,213,456.7 tonnes** estimated CO2 emissions
-- **70,345,314 km** total distance flown
+- **1,213,489.7 tonnes** estimated CO2 emissions
+- **70,347,230 km** total distance flown
 - **865 km** average flight distance
 *Based on ICAO avg: 115g CO2/passenger-km, ~150 passengers*
 
@@ -47,7 +47,7 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 | # | Airline | Aircraft |
 |---:|---------|--------:|
-| 1 | Ryanair | 4115 |
+| 1 | Ryanair | 4116 |
 | 2 | SkyWest Airlines | 3694 |
 | 3 | IndiGo | 2012 |
 | 4 | EJA | 1874 |
@@ -82,22 +82,22 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 | # | Country | Flights |
 |---:|---------|--------:|
-| 1 | 🇺🇸 US | 82598 |
+| 1 | 🇺🇸 US | 82600 |
 | 2 | 🇪🇸 ES | 6878 |
 | 3 | 🇮🇳 IN | 6356 |
 | 4 | 🇦🇺 AU | 5982 |
 | 5 | 🇧🇷 BR | 5419 |
-| 6 | 🇩🇪 DE | 5396 |
+| 6 | 🇩🇪 DE | 5399 |
 | 7 | 🇮🇹 IT | 5294 |
 | 8 | 🇨🇦 CA | 5073 |
 | 9 | 🇯🇵 JP | 4613 |
-| 10 | 🇬🇧 GB | 4221 |
+| 10 | 🇬🇧 GB | 4223 |
 | 11 | 🇫🇷 FR | 3966 |
 | 12 | 🇨🇴 CO | 3441 |
 | 13 | 🇲🇽 MX | 3023 |
 | 14 | 🇬🇷 GR | 2848 |
 | 15 | 🇳🇴 NO | 2746 |
-| 16 | 🇨🇭 CH | 2568 |
+| 16 | 🇨🇭 CH | 2570 |
 | 17 | 🇲🇾 MY | 2177 |
 | 18 | 🇹🇷 TR | 1870 |
 | 19 | 🇿🇦 ZA | 1737 |
@@ -197,6 +197,14 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 | Callsign | Airline | From | To | Departure | Arrival | Duration |
 |----------|---------|------|-----|-----------|---------|----------|
+| REH98 | REH | Mc Clellan Airfield (KMCC) | Mc Clellan Airfield (KMCC) | 2026-05-31 08:40 UTC | 2026-05-31 09:04 UTC | 23m |
+| DFLIP | DFL | Skutec Airport (LKSK) | Skutec Airport (LKSK) | 2026-05-31 08:38 UTC | 2026-05-31 09:00 UTC | 22m |
+| SUCCF | SUC | Port Said Airport (HEPS) | HE32 (HE32) | 2026-05-31 08:30 UTC | 2026-05-31 08:54 UTC | 24m |
+| OMS666 | OMS | Godollo Airport (LHGD) | Godollo Airport (LHGD) | 2026-05-31 08:38 UTC | 2026-05-31 08:49 UTC | 11m |
+| HBZWD | HBZ | Thun Airport (LSZW) | Raron Airport (LSTA) | 2026-05-31 08:21 UTC | 2026-05-31 08:38 UTC | 16m |
+| DFINA | DFI | Saulgau Airport (EDTU) | Saulgau Airport (EDTU) | 2026-05-31 08:21 UTC | 2026-05-31 08:36 UTC | 14m |
+| RYR40DY | Ryanair | Lisbon Portela Airport (LPPT) | Monchengladbach Airport (EDLN) | 2026-05-30 21:33 UTC | 2026-05-31 08:30 UTC | 10h 56m |
+| HLE27 | HLE | London City Airport (EGLC) | London Biggin Hill Airport (EGKB) | 2026-05-31 08:21 UTC | 2026-05-31 08:25 UTC | 3m |
 | AAL1156 | American Airlines | Phoenix Sky Harbor International Airport (KPHX) | Coffeyville Municipal Airport (KCFV) | 2026-05-30 23:10 UTC | 2026-05-31 00:59 UTC | 1h 49m |
 | AAL1682 | American Airlines | Dallas-Fort Worth International Airport (KDFW) | Cincinnati West Airport (KI67) | 2026-05-30 23:25 UTC | 2026-05-31 00:59 UTC | 1h 34m |
 | AAL2469 | American Airlines | Dallas-Fort Worth International Airport (KDFW) | Humphreys County Airport (K0M5) | 2026-05-30 23:51 UTC | 2026-05-31 00:59 UTC | 1h 8m |
@@ -209,14 +217,6 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 | AAL3042 | American Airlines | Philadelphia International Airport (KPHL) | D A Chandler Airport (OI42) | 2026-05-31 00:02 UTC | 2026-05-31 00:59 UTC | 57m |
 | AAL3107 | American Airlines | Chicago O'Hare International Airport (KORD) | Chatham Kent Airport (CYCK) | 2026-05-31 00:25 UTC | 2026-05-31 00:59 UTC | 34m |
 | AAL3166 | American Airlines | Philadelphia International Airport (KPHL) | Williamson Airport (OI73) | 2026-05-30 23:55 UTC | 2026-05-31 00:59 UTC | 1h 4m |
-| AAL3259 | American Airlines | Philadelphia International Airport (KPHL) | Lake County Executive Airport (KLNN) | 2026-05-31 00:07 UTC | 2026-05-31 00:59 UTC | 52m |
-| AAL368 | American Airlines | Miami International Airport (KMIA) | MYBO (MYBO) | 2026-05-31 00:47 UTC | 2026-05-31 00:59 UTC | 12m |
-| AAL564 | American Airlines | Chicago O'Hare International Airport (KORD) | Rodney (New Glasgow) Airport (CPU3) | 2026-05-31 00:18 UTC | 2026-05-31 00:59 UTC | 41m |
-| AAL650 | American Airlines | Cleveland-Hopkins International Airport (KCLE) | Ensminger Airport (74KS) | 2026-05-30 23:20 UTC | 2026-05-31 00:59 UTC | 1h 39m |
-| AAL728 | American Airlines | Philadelphia International Airport (KPHL) | Fox Harbour Airport (CFH4) | 2026-05-30 23:37 UTC | 2026-05-31 00:59 UTC | 1h 22m |
-| AAL822 | American Airlines | Norfolk International Airport (KORF) | Plymouth Municipal Airport (KPMZ) | 2026-05-31 00:47 UTC | 2026-05-31 00:59 UTC | 12m |
-| AAR731 | AAR | Incheon International Airport (RKSI) | Hengchun Airport (RCKW) | 2026-05-30 22:48 UTC | 2026-05-31 00:59 UTC | 2h 11m |
-| AAY2046 | AAY | Sarasota/Bradenton International Airport (KSRQ) | Paso Fino Farm Airport (0GA8) | 2026-05-31 00:25 UTC | 2026-05-31 00:59 UTC | 34m |
 
 ---
 

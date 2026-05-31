@@ -1,27 +1,27 @@
 {
   "mode": "historical",
-  "timestamp": 1780189197,
+  "timestamp": 1780218258,
   "archive_start": 1774648826,
-  "archive_end": 1780189197,
-  "total_flights": 98940,
-  "unique_routes": 35202,
+  "archive_end": 1780218258,
+  "total_flights": 98948,
+  "unique_routes": 35208,
   "countries": {
-    "US": 82598,
+    "US": 82600,
     "ES": 6878,
     "IN": 6356,
     "AU": 5982,
     "BR": 5419,
-    "DE": 5396,
+    "DE": 5399,
     "IT": 5294,
     "CA": 5073,
     "JP": 4613,
-    "GB": 4221,
+    "GB": 4223,
     "FR": 3966,
     "CO": 3441,
     "MX": 3023,
     "GR": 2848,
     "NO": 2746,
-    "CH": 2568,
+    "CH": 2570,
     "MY": 2177,
     "TR": 1870,
     "ZA": 1737,
@@ -43,11 +43,11 @@
     "NP": 742,
     "AL": 656,
     "IS": 612,
-    "CZ": 581,
+    "CZ": 583,
     "SE": 572,
     "FI": 559,
     "CL": 547,
-    "PT": 519,
+    "PT": 520,
     "CN": 458,
     "IE": 449,
     "RO": 442,
@@ -63,7 +63,7 @@
     "BT": 297,
     "JO": 286,
     "BD": 266,
-    "HU": 242,
+    "HU": 244,
     "HK": 239,
     "XK": 239,
     "HN": 227,
@@ -87,7 +87,7 @@
     "QA": 88,
     "GE": 87,
     "SI": 79,
-    "EG": 76,
+    "EG": 77,
     "LV": 67,
     "AM": 66,
     "CU": 48,
@@ -1042,7 +1042,7 @@
     }
   ],
   "airlines": {
-    "Ryanair": 4115,
+    "Ryanair": 4116,
     "SkyWest Airlines": 3694,
     "IndiGo": 2012,
     "EJA": 1874,
@@ -1093,7 +1093,7 @@
     "TVF": 333,
     "Republic Airways": 328
   },
-  "route_count": 98940,
+  "route_count": 98948,
   "avg_duration": "1h 15m",
   "avg_duration_min": 75,
   "top_routes": [
@@ -1950,6 +1950,78 @@
   ],
   "recent_flights": [
     {
+      "callsign": "REH98",
+      "airline": "REH",
+      "from": "Mc Clellan Airfield (KMCC)",
+      "to": "Mc Clellan Airfield (KMCC)",
+      "departure": "2026-05-31 08:40 UTC",
+      "arrival": "2026-05-31 09:04 UTC",
+      "duration": "23m"
+    },
+    {
+      "callsign": "DFLIP",
+      "airline": "DFL",
+      "from": "Skutec Airport (LKSK)",
+      "to": "Skutec Airport (LKSK)",
+      "departure": "2026-05-31 08:38 UTC",
+      "arrival": "2026-05-31 09:00 UTC",
+      "duration": "22m"
+    },
+    {
+      "callsign": "SUCCF",
+      "airline": "SUC",
+      "from": "Port Said Airport (HEPS)",
+      "to": "HE32 (HE32)",
+      "departure": "2026-05-31 08:30 UTC",
+      "arrival": "2026-05-31 08:54 UTC",
+      "duration": "24m"
+    },
+    {
+      "callsign": "OMS666",
+      "airline": "OMS",
+      "from": "Godollo Airport (LHGD)",
+      "to": "Godollo Airport (LHGD)",
+      "departure": "2026-05-31 08:38 UTC",
+      "arrival": "2026-05-31 08:49 UTC",
+      "duration": "11m"
+    },
+    {
+      "callsign": "HBZWD",
+      "airline": "HBZ",
+      "from": "Thun Airport (LSZW)",
+      "to": "Raron Airport (LSTA)",
+      "departure": "2026-05-31 08:21 UTC",
+      "arrival": "2026-05-31 08:38 UTC",
+      "duration": "16m"
+    },
+    {
+      "callsign": "DFINA",
+      "airline": "DFI",
+      "from": "Saulgau Airport (EDTU)",
+      "to": "Saulgau Airport (EDTU)",
+      "departure": "2026-05-31 08:21 UTC",
+      "arrival": "2026-05-31 08:36 UTC",
+      "duration": "14m"
+    },
+    {
+      "callsign": "RYR40DY",
+      "airline": "Ryanair",
+      "from": "Lisbon Portela Airport (LPPT)",
+      "to": "Monchengladbach Airport (EDLN)",
+      "departure": "2026-05-30 21:33 UTC",
+      "arrival": "2026-05-31 08:30 UTC",
+      "duration": "10h 56m"
+    },
+    {
+      "callsign": "HLE27",
+      "airline": "HLE",
+      "from": "London City Airport (EGLC)",
+      "to": "London Biggin Hill Airport (EGKB)",
+      "departure": "2026-05-31 08:21 UTC",
+      "arrival": "2026-05-31 08:25 UTC",
+      "duration": "3m"
+    },
+    {
       "callsign": "AAL1156",
       "airline": "American Airlines",
       "from": "Phoenix Sky Harbor International Airport (KPHX)",
@@ -2056,82 +2128,10 @@
       "departure": "2026-05-30 23:55 UTC",
       "arrival": "2026-05-31 00:59 UTC",
       "duration": "1h 4m"
-    },
-    {
-      "callsign": "AAL3259",
-      "airline": "American Airlines",
-      "from": "Philadelphia International Airport (KPHL)",
-      "to": "Lake County Executive Airport (KLNN)",
-      "departure": "2026-05-31 00:07 UTC",
-      "arrival": "2026-05-31 00:59 UTC",
-      "duration": "52m"
-    },
-    {
-      "callsign": "AAL368",
-      "airline": "American Airlines",
-      "from": "Miami International Airport (KMIA)",
-      "to": "MYBO (MYBO)",
-      "departure": "2026-05-31 00:47 UTC",
-      "arrival": "2026-05-31 00:59 UTC",
-      "duration": "12m"
-    },
-    {
-      "callsign": "AAL564",
-      "airline": "American Airlines",
-      "from": "Chicago O'Hare International Airport (KORD)",
-      "to": "Rodney (New Glasgow) Airport (CPU3)",
-      "departure": "2026-05-31 00:18 UTC",
-      "arrival": "2026-05-31 00:59 UTC",
-      "duration": "41m"
-    },
-    {
-      "callsign": "AAL650",
-      "airline": "American Airlines",
-      "from": "Cleveland-Hopkins International Airport (KCLE)",
-      "to": "Ensminger Airport (74KS)",
-      "departure": "2026-05-30 23:20 UTC",
-      "arrival": "2026-05-31 00:59 UTC",
-      "duration": "1h 39m"
-    },
-    {
-      "callsign": "AAL728",
-      "airline": "American Airlines",
-      "from": "Philadelphia International Airport (KPHL)",
-      "to": "Fox Harbour Airport (CFH4)",
-      "departure": "2026-05-30 23:37 UTC",
-      "arrival": "2026-05-31 00:59 UTC",
-      "duration": "1h 22m"
-    },
-    {
-      "callsign": "AAL822",
-      "airline": "American Airlines",
-      "from": "Norfolk International Airport (KORF)",
-      "to": "Plymouth Municipal Airport (KPMZ)",
-      "departure": "2026-05-31 00:47 UTC",
-      "arrival": "2026-05-31 00:59 UTC",
-      "duration": "12m"
-    },
-    {
-      "callsign": "AAR731",
-      "airline": "AAR",
-      "from": "Incheon International Airport (RKSI)",
-      "to": "Hengchun Airport (RCKW)",
-      "departure": "2026-05-30 22:48 UTC",
-      "arrival": "2026-05-31 00:59 UTC",
-      "duration": "2h 11m"
-    },
-    {
-      "callsign": "AAY2046",
-      "airline": "AAY",
-      "from": "Sarasota/Bradenton International Airport (KSRQ)",
-      "to": "Paso Fino Farm Airport (0GA8)",
-      "departure": "2026-05-31 00:25 UTC",
-      "arrival": "2026-05-31 00:59 UTC",
-      "duration": "34m"
     }
   ],
-  "total_distance_km": 70345314.0,
-  "total_co2_kg": 1213456666.7,
-  "total_co2_tonnes": 1213456.67,
+  "total_distance_km": 70347230.4,
+  "total_co2_kg": 1213489725.0,
+  "total_co2_tonnes": 1213489.72,
   "avg_distance_km": 865
 }
