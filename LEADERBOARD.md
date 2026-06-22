@@ -1,6 +1,6 @@
 # Weekly Air Traffic Leaderboard
 
-*Generated 2026-06-15 04:10 UTC | 110,959 flights archived*
+*Generated 2026-06-22 04:06 UTC | 116,947 flights archived*
 
 ---
 
@@ -8,61 +8,61 @@
 
 | # | Airline | Flights |
 |---:|---------|--------:|
-| 1 | Ryanair | 4,585 |
-| 2 | SkyWest Airlines | 4,152 |
-| 3 | IndiGo | 2,173 |
-| 4 | EJA | 2,149 |
-| 5 | American Airlines | 1,749 |
-| 6 | Southwest Airlines | 1,661 |
-| 7 | ENY | 1,381 |
-| 8 | Delta Air Lines | 1,311 |
-| 9 | Lufthansa | 1,255 |
-| 10 | Vueling | 1,020 |
+| 1 | Ryanair | 4,830 |
+| 2 | SkyWest Airlines | 4,342 |
+| 3 | EJA | 2,269 |
+| 4 | IndiGo | 2,260 |
+| 5 | American Airlines | 1,825 |
+| 6 | Southwest Airlines | 1,743 |
+| 7 | ENY | 1,460 |
+| 8 | Delta Air Lines | 1,381 |
+| 9 | Lufthansa | 1,293 |
+| 10 | Vueling | 1,051 |
 
 ## Top 10 Airports
 
 | # | Airport | Country | Flights |
 |---:|---------|---------|--------:|
-| 1 | Dallas-Fort Worth International Airport (KDFW) | 🇺🇸 US | 2,366 |
-| 2 | Denver International Airport (KDEN) | 🇺🇸 US | 1,884 |
-| 3 | Tokyo International Airport (RJTT) | 🇯🇵 JP | 1,661 |
-| 4 | Indira Gandhi International Airport (VIDP) | 🇮🇳 IN | 1,491 |
-| 5 | Guaymaral Airport (SKGY) | 🇨🇴 CO | 1,405 |
-| 6 | Harry Reid International Airport (KLAS) | 🇺🇸 US | 1,400 |
-| 7 | Eleftherios Venizelos International Airport (LGAV) | 🇬🇷 GR | 1,380 |
-| 8 | Zurich Airport (LSZH) | 🇨🇭 CH | 1,246 |
-| 9 | Frankfurt am Main International Airport (EDDF) | 🇩🇪 DE | 1,229 |
-| 10 | La Aurora Airport (MGGT) | 🇬🇹 GT | 1,220 |
+| 1 | Dallas-Fort Worth International Airport (KDFW) | 🇺🇸 US | 2,468 |
+| 2 | Denver International Airport (KDEN) | 🇺🇸 US | 1,970 |
+| 3 | Tokyo International Airport (RJTT) | 🇯🇵 JP | 1,736 |
+| 4 | Indira Gandhi International Airport (VIDP) | 🇮🇳 IN | 1,561 |
+| 5 | Guaymaral Airport (SKGY) | 🇨🇴 CO | 1,482 |
+| 6 | Harry Reid International Airport (KLAS) | 🇺🇸 US | 1,460 |
+| 7 | Eleftherios Venizelos International Airport (LGAV) | 🇬🇷 GR | 1,428 |
+| 8 | Zurich Airport (LSZH) | 🇨🇭 CH | 1,307 |
+| 9 | La Aurora Airport (MGGT) | 🇬🇹 GT | 1,274 |
+| 10 | Frankfurt am Main International Airport (EDDF) | 🇩🇪 DE | 1,260 |
 
 ## Top 10 Routes
 
 | # | From | To | Flights | Distance |
 |---:|------|-----|--------:|---------:|
-| 1 | Guaymaral Airport (SKGY) | Guaymaral Airport (SKGY) | 583 | - |
-| 2 | Daniel K Inouye International Airport (PHNL) | Upolu Airport (PHUP) | 404 | 244 km |
-| 3 | Ninoy Aquino International Airport (RPLL) | Wasig Airport (RPVL) | 295 | 225 km |
-| 4 | La Aurora Airport (MGGT) | La Aurora Airport (MGGT) | 286 | - |
-| 5 | Tokyo International Airport (RJTT) | Iwakuni Marine Corps Air Station (RJOI) | 283 | 706 km |
-| 6 | El Dorado International Airport (SKBO) | Perales Airport (SKIB) | 274 | 114 km |
-| 7 | Tokyo International Airport (RJTT) | Saga Airport (RJFS) | 271 | 910 km |
-| 8 | Gimpo International Airport (RKSS) | G 802 Airport (RKD1) | 260 | 304 km |
-| 9 | Tokyo International Airport (RJTT) | Hofu Airport (RJOF) | 260 | 770 km |
-| 10 | Kuala Lumpur International Airport (WMKK) | Batu Pahat Airport (WMAB) | 224 | 165 km |
+| 1 | Guaymaral Airport (SKGY) | Guaymaral Airport (SKGY) | 615 | - |
+| 2 | Daniel K Inouye International Airport (PHNL) | Upolu Airport (PHUP) | 424 | 244 km |
+| 3 | Ninoy Aquino International Airport (RPLL) | Wasig Airport (RPVL) | 313 | 225 km |
+| 4 | La Aurora Airport (MGGT) | La Aurora Airport (MGGT) | 301 | - |
+| 5 | Tokyo International Airport (RJTT) | Iwakuni Marine Corps Air Station (RJOI) | 287 | 706 km |
+| 6 | Tokyo International Airport (RJTT) | Saga Airport (RJFS) | 285 | 910 km |
+| 7 | Tokyo International Airport (RJTT) | Hofu Airport (RJOF) | 281 | 770 km |
+| 8 | El Dorado International Airport (SKBO) | Perales Airport (SKIB) | 281 | 114 km |
+| 9 | Gimpo International Airport (RKSS) | G 802 Airport (RKD1) | 261 | 304 km |
+| 10 | Madrid Barajas International Airport (LEMD) | Vitoria/Foronda Airport (LEVT) | 231 | 275 km |
 
 ## Top 10 Countries
 
 | # | Country | Flights |
 |---:|---------|--------:|
-| 1 | 🇺🇸 US | 93,405 |
-| 2 | 🇪🇸 ES | 7,614 |
-| 3 | 🇮🇳 IN | 6,852 |
-| 4 | 🇦🇺 AU | 6,575 |
-| 5 | 🇧🇷 BR | 6,132 |
-| 6 | 🇮🇹 IT | 5,980 |
-| 7 | 🇩🇪 DE | 5,939 |
-| 8 | 🇨🇦 CA | 5,827 |
-| 9 | 🇯🇵 JP | 5,015 |
-| 10 | 🇬🇧 GB | 4,754 |
+| 1 | 🇺🇸 US | 98,845 |
+| 2 | 🇪🇸 ES | 7,970 |
+| 3 | 🇮🇳 IN | 7,111 |
+| 4 | 🇦🇺 AU | 6,896 |
+| 5 | 🇧🇷 BR | 6,455 |
+| 6 | 🇮🇹 IT | 6,253 |
+| 7 | 🇩🇪 DE | 6,232 |
+| 8 | 🇨🇦 CA | 6,129 |
+| 9 | 🇯🇵 JP | 5,239 |
+| 10 | 🇬🇧 GB | 5,111 |
 
 ## Longest Flights (by distance)
 
@@ -96,4 +96,4 @@
 
 ---
 
-*Based on 110,959 archived flights*
+*Based on 116,947 archived flights*
