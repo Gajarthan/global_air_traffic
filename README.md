@@ -1,6 +1,6 @@
 # Global Air Traffic Tracker
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--21_23:53:35_UTC-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--22_11:01:19_UTC-green)
 
 ![Flight Map](images/flight_map.png)
 
@@ -25,21 +25,21 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 ## Archive Snapshot
 
-**Latest saved flight:** 2026-07-21 23:53:35 UTC
-**Archive range:** 2026-03-27 22:00:26 UTC to 2026-07-21 23:53:35 UTC
+**Latest saved flight:** 2026-07-22 11:01:19 UTC
+**Archive range:** 2026-03-27 22:00:26 UTC to 2026-07-22 11:01:19 UTC
 
-- **143,531** saved flights
-- **48,084** unique routes
+- **143,540** saved flights
+- **48,089** unique routes
 - **134** countries touched by saved routes
 - **100** airports in the archive
 - **50** airlines identified
-- **143,531** saved routes in the archive
+- **143,540** saved routes in the archive
 - **1h 14m** average flight duration
 
 ### Carbon Footprint Estimate
 
-- **1,721,912.0 tonnes** estimated CO2 emissions
-- **99,820,988 km** total distance flown
+- **1,721,964.1 tonnes** estimated CO2 emissions
+- **99,824,008 km** total distance flown
 - **854 km** average flight distance
 *Based on ICAO avg: 115g CO2/passenger-km, ~150 passengers*
 
@@ -59,12 +59,12 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 | 10 | LATAM Airlines | 1324 |
 | 11 | Vueling | 1233 |
 | 12 | AZU | 1232 |
-| 13 | WIF | 1225 |
+| 13 | WIF | 1226 |
 | 14 | LXJ | 1102 |
 | 15 | AXM | 1063 |
 | 16 | Swiss International | 1021 |
 | 17 | easyJet | 939 |
-| 18 | All Nippon Airways | 921 |
+| 18 | All Nippon Airways | 922 |
 | 19 | Alaska Airlines | 909 |
 | 20 | QLK | 906 |
 | 21 | EJU | 880 |
@@ -89,14 +89,14 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 | 5 | 🇧🇷 BR | 8096 |
 | 6 | 🇨🇦 CA | 7572 |
 | 7 | 🇮🇹 IT | 7476 |
-| 8 | 🇩🇪 DE | 7416 |
-| 9 | 🇬🇧 GB | 6565 |
-| 10 | 🇯🇵 JP | 6034 |
-| 11 | 🇫🇷 FR | 5694 |
+| 8 | 🇩🇪 DE | 7421 |
+| 9 | 🇬🇧 GB | 6567 |
+| 10 | 🇯🇵 JP | 6036 |
+| 11 | 🇫🇷 FR | 5696 |
 | 12 | 🇨🇴 CO | 4607 |
 | 13 | 🇲🇽 MX | 4177 |
 | 14 | 🇬🇷 GR | 4076 |
-| 15 | 🇳🇴 NO | 3834 |
+| 15 | 🇳🇴 NO | 3836 |
 | 16 | 🇨🇭 CH | 3718 |
 | 17 | 🇹🇷 TR | 3383 |
 | 18 | 🇲🇾 MY | 2773 |
@@ -197,6 +197,15 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 | Callsign | Airline | From | To | Departure | Arrival | Duration |
 |----------|---------|------|-----|-----------|---------|----------|
+| WIF3PH | WIF | Bergen Airport Flesland (ENBR) | Bodø Airport (ENBO) | 2026-07-22 08:49 UTC | 2026-07-22 11:01 UTC | 2h 11m |
+| RVP952 | RVP | Cascais Airport (LPCS) | Viseu Airport (LPVZ) | 2026-07-22 10:40 UTC | 2026-07-22 11:01 UTC | 20m |
+| FHDSA | FHD | Vannes-Meucon Airport (LFRV) | Vannes-Meucon Airport (LFRV) | 2026-07-22 10:39 UTC | 2026-07-22 11:00 UTC | 20m |
+| MEA226 | Middle East Airlines | Copenhagen Kastrup Airport (EKCH) | Cluj-Napoca International Airport (LRCL) | 2026-07-22 09:30 UTC | 2026-07-22 10:59 UTC | 1h 29m |
+| SDR14YL | SDR | Berlin Brandenburg Airport (EDDB) | LRPH (LRPH) | 2026-07-22 09:33 UTC | 2026-07-22 10:59 UTC | 1h 26m |
+| HBLWA | HBL | Friedrichshafen Airport (EDNY) | Friedrichshafen Airport (EDNY) | 2026-07-22 10:42 UTC | 2026-07-22 10:59 UTC | 17m |
+| ANA1697 | All Nippon Airways | Osaka International Airport (RJOO) | Fukushima Airport (RJSF) | 2026-07-22 10:11 UTC | 2026-07-22 10:59 UTC | 47m |
+| GFIAT | GFI | Oxford (Kidlington) Airport (EGTK) | Peterborough Business Airport (EGSF) | 2026-07-22 10:17 UTC | 2026-07-22 10:59 UTC | 41m |
+| DMTLG | DMT | Bonn-Hangelar Airport (EDKB) | Bonn-Hangelar Airport (EDKB) | 2026-07-22 10:29 UTC | 2026-07-22 10:56 UTC | 27m |
 | N401GH |  | Whippet Field (OR34) | Whippet Field (OR34) | 2026-07-21 23:38 UTC | 2026-07-21 23:53 UTC | 15m |
 | N72NG |  | Los Angeles International Airport (KLAX) | Palmdale Usaf Plant 42 Airport (KPMD) | 2026-07-21 23:26 UTC | 2026-07-21 23:38 UTC | 11m |
 | AAL2669 | American Airlines | John Wayne/Orange County Airport (KSNA) | Dallas-Fort Worth International Airport (KDFW) | 2026-07-21 20:59 UTC | 2026-07-21 23:37 UTC | 2h 38m |
@@ -208,15 +217,6 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 | STT5690 | STT | Bradshaw Army Airfield (PHSF) | Ellison Onizuka Kona International At Keahole Airport (PHKO) | 2026-07-21 22:59 UTC | 2026-07-21 23:19 UTC | 19m |
 | WCC3 | WCC | Gillespie Field (KSEE) | Apple Valley Airport (KAPV) | 2026-07-21 22:53 UTC | 2026-07-21 23:18 UTC | 25m |
 | CPA382 | Cathay Pacific | Zurich Airport (LSZH) | Macau International Airport (VMMC) | 2026-07-21 13:05 UTC | 2026-07-21 23:18 UTC | 10h 12m |
-| AAL2576 | American Airlines | Phoenix Sky Harbor International Airport (KPHX) | Norman Y Mineta San Jose International Airport (KSJC) | 2026-07-21 21:50 UTC | 2026-07-21 23:15 UTC | 1h 25m |
-| CFRT71 | CFR | Ramona Airport (KRNM) | Hemet-Ryan Airport (KHMT) | 2026-07-21 22:13 UTC | 2026-07-21 23:05 UTC | 52m |
-| ZKTTL | ZKT | Taupo Airport (NZAP) | Taupo Airport (NZAP) | 2026-07-21 22:48 UTC | 2026-07-21 23:01 UTC | 12m |
-| DRAG382 | DRA | L'alpe D'huez Airport (LFHU) | L'alpe D'huez Airport (LFHU) | 2026-07-21 22:42 UTC | 2026-07-21 22:59 UTC | 17m |
-| LTA367 | LTA | Seafood Warehouse Park Airport (XS77) | Hawthorne Field (K45R) | 2026-07-21 22:31 UTC | 2026-07-21 22:56 UTC | 25m |
-| DAL1342 | Delta Air Lines | Salt Lake City International Airport (KSLC) | Sacramento International Airport (KSMF) | 2026-07-21 21:40 UTC | 2026-07-21 22:56 UTC | 1h 15m |
-| SCU24 | SCU | Tulsa International Airport (KTUL) | Tulsa International Airport (KTUL) | 2026-07-21 22:52 UTC | 2026-07-21 22:56 UTC | 3m |
-| CPA829 | Cathay Pacific | Toronto Pearson International Airport (CYYZ) | Zhuhai Airport (ZGSD) | 2026-07-21 08:36 UTC | 2026-07-21 22:56 UTC | 14h 20m |
-| EJA16 | EJA | Houston Executive Airport (KTME) | Bowling Green-Warren County Regional Airport (KBWG) | 2026-07-21 20:54 UTC | 2026-07-21 22:54 UTC | 2h 0m |
 
 ---
 
