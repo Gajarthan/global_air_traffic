@@ -1,6 +1,6 @@
 # Global Air Traffic Tracker
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--04_19:49:09_UTC-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--04_21:08:52_UTC-green)
 
 ![Flight Map](images/flight_map.png)
 
@@ -25,21 +25,21 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 ## Archive Snapshot
 
-**Latest saved flight:** 2026-08-04 19:49:09 UTC
-**Archive range:** 2026-03-27 22:00:26 UTC to 2026-08-04 19:49:09 UTC
+**Latest saved flight:** 2026-08-04 21:08:52 UTC
+**Archive range:** 2026-03-27 22:00:26 UTC to 2026-08-04 21:08:52 UTC
 
-- **171,030** saved flights
-- **55,673** unique routes
+- **171,190** saved flights
+- **55,717** unique routes
 - **141** countries touched by saved routes
 - **100** airports in the archive
 - **50** airlines identified
-- **171,030** saved routes in the archive
+- **171,190** saved routes in the archive
 - **1h 14m** average flight duration
 
 ### Carbon Footprint Estimate
 
-- **2,060,694.3 tonnes** estimated CO2 emissions
-- **119,460,540 km** total distance flown
+- **2,063,198.9 tonnes** estimated CO2 emissions
+- **119,605,731 km** total distance flown
 - **860 km** average flight distance
 *Based on ICAO avg: 115g CO2/passenger-km, ~150 passengers*
 
@@ -47,122 +47,122 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 | # | Airline | Aircraft |
 |---:|---------|--------:|
-| 1 | Ryanair | 6814 |
-| 2 | SkyWest Airlines | 6245 |
-| 3 | EJA | 3396 |
+| 1 | Ryanair | 6821 |
+| 2 | SkyWest Airlines | 6256 |
+| 3 | EJA | 3399 |
 | 4 | IndiGo | 3005 |
-| 5 | Southwest Airlines | 2692 |
-| 6 | American Airlines | 2689 |
-| 7 | ENY | 2130 |
-| 8 | Delta Air Lines | 2035 |
-| 9 | LATAM Airlines | 1584 |
+| 5 | Southwest Airlines | 2698 |
+| 6 | American Airlines | 2692 |
+| 7 | ENY | 2131 |
+| 8 | Delta Air Lines | 2036 |
+| 9 | LATAM Airlines | 1585 |
 | 10 | Lufthansa | 1564 |
-| 11 | AZU | 1502 |
+| 11 | AZU | 1507 |
 | 12 | WIF | 1433 |
-| 13 | Vueling | 1405 |
-| 14 | LXJ | 1340 |
+| 13 | Vueling | 1407 |
+| 14 | LXJ | 1342 |
 | 15 | AXM | 1176 |
-| 16 | Swiss International | 1166 |
-| 17 | easyJet | 1152 |
-| 18 | EJU | 1046 |
-| 19 | Alaska Airlines | 1043 |
+| 16 | Swiss International | 1167 |
+| 17 | easyJet | 1155 |
+| 18 | EJU | 1048 |
+| 19 | Alaska Airlines | 1044 |
 | 20 | QLK | 1041 |
 | 21 | All Nippon Airways | 1036 |
 | 22 | VIV | 943 |
-| 23 | Cathay Pacific | 916 |
-| 24 | CXK | 911 |
-| 25 | United Airlines | 900 |
-| 26 | GLO | 895 |
+| 23 | Cathay Pacific | 918 |
+| 24 | CXK | 913 |
+| 25 | United Airlines | 901 |
+| 26 | GLO | 896 |
 | 27 | AEE | 893 |
 | 28 | Air France | 879 |
-| 29 | MXY | 870 |
-| 30 | JetBlue | 857 |
+| 29 | MXY | 871 |
+| 30 | JetBlue | 858 |
 
 ## Top Countries (by route endpoints)
 
 | # | Country | Flights |
 |---:|---------|--------:|
-| 1 | 🇺🇸 US | 147414 |
-| 2 | 🇪🇸 ES | 10966 |
-| 3 | 🇧🇷 BR | 9718 |
+| 1 | 🇺🇸 US | 147589 |
+| 2 | 🇪🇸 ES | 10977 |
+| 3 | 🇧🇷 BR | 9732 |
 | 4 | 🇦🇺 AU | 9521 |
 | 5 | 🇮🇳 IN | 9413 |
-| 6 | 🇨🇦 CA | 9323 |
-| 7 | 🇮🇹 IT | 8854 |
-| 8 | 🇩🇪 DE | 8505 |
-| 9 | 🇬🇧 GB | 7933 |
+| 6 | 🇨🇦 CA | 9353 |
+| 7 | 🇮🇹 IT | 8860 |
+| 8 | 🇩🇪 DE | 8506 |
+| 9 | 🇬🇧 GB | 7941 |
 | 10 | 🇯🇵 JP | 6872 |
-| 11 | 🇫🇷 FR | 6785 |
-| 12 | 🇨🇴 CO | 6218 |
-| 13 | 🇬🇷 GR | 4976 |
-| 14 | 🇲🇽 MX | 4895 |
-| 15 | 🇨🇭 CH | 4497 |
+| 11 | 🇫🇷 FR | 6788 |
+| 12 | 🇨🇴 CO | 6225 |
+| 13 | 🇬🇷 GR | 4977 |
+| 14 | 🇲🇽 MX | 4901 |
+| 15 | 🇨🇭 CH | 4499 |
 | 16 | 🇳🇴 NO | 4469 |
-| 17 | 🇹🇷 TR | 4180 |
+| 17 | 🇹🇷 TR | 4183 |
 | 18 | 🇲🇾 MY | 3057 |
-| 19 | 🇵🇱 PL | 2874 |
-| 20 | 🇿🇦 ZA | 2768 |
+| 19 | 🇵🇱 PL | 2876 |
+| 20 | 🇿🇦 ZA | 2770 |
 | 21 | 🇹🇭 TH | 2486 |
 | 22 | 🇳🇿 NZ | 2471 |
 | 23 | 🇵🇭 PH | 2255 |
-| 24 | 🇬🇹 GT | 2199 |
+| 24 | 🇬🇹 GT | 2200 |
 | 25 | 🇰🇷 KR | 2161 |
-| 26 | 🇲🇦 MA | 1721 |
-| 27 | 🇭🇷 HR | 1646 |
+| 26 | 🇲🇦 MA | 1722 |
+| 27 | 🇭🇷 HR | 1650 |
 | 28 | 🇲🇪 ME | 1573 |
 | 29 | 🇳🇱 NL | 1555 |
-| 30 | 🇲🇴 MO | 1461 |
+| 30 | 🇲🇴 MO | 1463 |
 
 ## Busiest Airports (departures + arrivals across archive)
 
 | # | Airport | City | Country | Flights |
 |---:|---------|------|---------|--------:|
-| 1 | Dallas-Fort Worth International Airport |  | US | 3519 |
-| 2 | Denver International Airport |  | US | 2827 |
+| 1 | Dallas-Fort Worth International Airport |  | US | 3524 |
+| 2 | Denver International Airport |  | US | 2831 |
 | 3 | Tokyo International Airport |  | JP | 2156 |
-| 4 | Guaymaral Airport |  | CO | 2119 |
+| 4 | Guaymaral Airport |  | CO | 2122 |
 | 5 | Indira Gandhi International Airport |  | IN | 2088 |
-| 6 | Harry Reid International Airport |  | US | 2052 |
+| 6 | Harry Reid International Airport |  | US | 2054 |
 | 7 | Eleftherios Venizelos International Airport |  | GR | 1868 |
 | 8 | Zurich Airport |  | CH | 1809 |
-| 9 | Minneapolis-St Paul International/Wold-Chamberlain Airport |  | US | 1800 |
-| 10 | La Aurora Airport |  | GT | 1697 |
-| 11 | Phoenix Sky Harbor International Airport |  | US | 1577 |
-| 12 | Chicago O'Hare International Airport |  | US | 1551 |
-| 13 | El Dorado International Airport |  | CO | 1550 |
-| 14 | Salt Lake City International Airport |  | US | 1534 |
+| 9 | Minneapolis-St Paul International/Wold-Chamberlain Airport |  | US | 1802 |
+| 10 | La Aurora Airport |  | GT | 1698 |
+| 11 | Phoenix Sky Harbor International Airport |  | US | 1579 |
+| 12 | Chicago O'Hare International Airport |  | US | 1553 |
+| 13 | El Dorado International Airport |  | CO | 1552 |
+| 14 | Salt Lake City International Airport |  | US | 1535 |
 | 15 | Frankfurt am Main International Airport |  | DE | 1527 |
-| 16 | Macau International Airport |  | MO | 1461 |
-| 17 | General Edward Lawrence Logan International Airport |  | US | 1403 |
-| 18 | Congonhas Airport |  | BR | 1399 |
+| 16 | Macau International Airport |  | MO | 1463 |
+| 17 | General Edward Lawrence Logan International Airport |  | US | 1404 |
+| 18 | Congonhas Airport |  | BR | 1401 |
 | 19 | Madrid Barajas International Airport |  | ES | 1341 |
 | 20 | Capua Airport |  | IT | 1336 |
-| 21 | Hartsfield/Jackson Atlanta International Airport |  | US | 1291 |
-| 22 | Guarulhos - Governador Andre Franco Montoro International Airport |  | BR | 1207 |
+| 21 | Hartsfield/Jackson Atlanta International Airport |  | US | 1292 |
+| 22 | Guarulhos - Governador Andre Franco Montoro International Airport |  | BR | 1208 |
 | 23 | Sydney Kingsford Smith International Airport |  | AU | 1193 |
-| 24 | Charlotte/Douglas International Airport |  | US | 1186 |
-| 25 | Charles de Gaulle International Airport |  | FR | 1160 |
-| 26 | Malpensa International Airport |  | IT | 1153 |
+| 24 | Charlotte/Douglas International Airport |  | US | 1188 |
+| 25 | Charles de Gaulle International Airport |  | FR | 1161 |
+| 26 | Malpensa International Airport |  | IT | 1154 |
 | 27 | Kuala Lumpur International Airport |  | MY | 1151 |
 | 28 | Bengaluru International Airport |  | IN | 1120 |
-| 29 | Norman Y Mineta San Jose International Airport |  | US | 1062 |
+| 29 | Norman Y Mineta San Jose International Airport |  | US | 1065 |
 | 30 | Ninoy Aquino International Airport |  | PH | 1061 |
-| 31 | Atizapan De Zaragoza Airport |  | MX | 1054 |
-| 32 | Barcelona International Airport |  | ES | 1012 |
+| 31 | Atizapan De Zaragoza Airport |  | MX | 1055 |
+| 32 | Barcelona International Airport |  | ES | 1014 |
 | 33 | Daniel K Inouye International Airport |  | US | 992 |
-| 34 | Seattle-Tacoma International Airport |  | US | 987 |
-| 35 | Viracopos International Airport |  | BR | 970 |
-| 36 | Calgary International Airport |  | CA | 969 |
-| 37 | Reno/Tahoe International Airport |  | US | 962 |
+| 34 | Seattle-Tacoma International Airport |  | US | 988 |
+| 35 | Viracopos International Airport |  | BR | 973 |
+| 36 | Calgary International Airport |  | CA | 970 |
+| 37 | Reno/Tahoe International Airport |  | US | 964 |
 | 38 | Oslo Gardermoen Airport |  | NO | 954 |
-| 39 | Tenerife Norte Airport |  | ES | 951 |
-| 40 | Scottsdale Airport |  | US | 940 |
+| 39 | Tenerife Norte Airport |  | ES | 952 |
+| 40 | Scottsdale Airport |  | US | 941 |
 
 ## Top Routes (all saved history)
 
 | # | From | To | Flights | Avg Duration | Distance | CO2 |
 |---:|------|-----|--------:|------------:|--------:|----:|
-| 1 | Guaymaral Airport (SKGY) | Guaymaral Airport (SKGY) | 878 | 24m | - | - |
+| 1 | Guaymaral Airport (SKGY) | Guaymaral Airport (SKGY) | 879 | 24m | - | - |
 | 2 | Daniel K Inouye International Airport (PHNL) | Upolu Airport (PHUP) | 625 | 21m | 244 km | 2,631.7 t |
 | 3 | Ninoy Aquino International Airport (RPLL) | Wasig Airport (RPVL) | 405 | 24m | 225 km | 1,571.2 t |
 | 4 | La Aurora Airport (MGGT) | La Aurora Airport (MGGT) | 405 | 9m | - | - |
@@ -182,8 +182,8 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 | 18 | Bodø Airport (ENBO) | ENEN (ENEN) | 218 | 13m | - | - |
 | 19 | Talkeetna Airport (PATK) | Nugget Bench Airport (33AK) | 217 | 31m | 49 km | 183.4 t |
 | 20 | La Aurora Airport (MGGT) | Coban Airport (MGCB) | 211 | 20m | 99 km | 361.4 t |
-| 21 | Congonhas Airport (SBSP) | Destilaria Medasa Airport (SJNQ) | 203 | 1h 15m | 961 km | 3,364.8 t |
-| 22 | Harry Reid International Airport (KLAS) | Reno/Tahoe International Airport (KRNO) | 203 | 50m | 556 km | 1,945.9 t |
+| 21 | Harry Reid International Airport (KLAS) | Reno/Tahoe International Airport (KRNO) | 204 | 50m | 556 km | 1,955.5 t |
+| 22 | Congonhas Airport (SBSP) | Destilaria Medasa Airport (SJNQ) | 203 | 1h 15m | 961 km | 3,364.8 t |
 | 23 | Reykjavik Airport (BIRK) | Hveravellir Airport (BIHI) | 203 | 19m | 144 km | 505.0 t |
 | 24 | La Aurora Airport (MGGT) | Copan Ruinas Airport (MHRU) | 199 | 28m | 152 km | 520.1 t |
 | 25 | Kawaihapai Airfield (PHDH) | Kawaihapai Airfield (PHDH) | 199 | 12m | - | - |
@@ -197,26 +197,26 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 | Callsign | Airline | From | To | Departure | Arrival | Duration |
 |----------|---------|------|-----|-----------|---------|----------|
-| N508TJ |  | NY40 (NY40) | Fort Erie Airport (CNJ3) | 2026-08-04 19:36 UTC | 2026-08-04 19:49 UTC | 12m |
-| GIZMO11 | GIZ | 75OK (75OK) | Cherokee Municipal Airport (K4O5) | 2026-08-04 19:23 UTC | 2026-08-04 19:46 UTC | 22m |
-| N42AA |  | Muskeget Island Airport (MA55) | Provincetown Municipal Airport (KPVC) | 2026-08-04 19:25 UTC | 2026-08-04 19:42 UTC | 17m |
-| N814SS |  | Kenai Municipal Airport (PAEN) | Nikolai Creek Airport (9AK3) | 2026-08-04 19:28 UTC | 2026-08-04 19:41 UTC | 13m |
-| FLC72 | FLC | Cecil Ranch Airport (37CN) | Truckee-Tahoe Airport (KTRK) | 2026-08-04 19:04 UTC | 2026-08-04 19:38 UTC | 34m |
-| SWR259T | Swiss International | Leonardo Da Vinci (Fiumicino) International Airport (LIRF) | Zurich Airport (LSZH) | 2026-08-04 18:31 UTC | 2026-08-04 19:37 UTC | 1h 6m |
-| CXK674 | CXK | Pueblo Memorial Airport (KPUB) | City Of Colorado Springs Municipal Airport (KCOS) | 2026-08-04 18:44 UTC | 2026-08-04 19:34 UTC | 50m |
-| WIF149 | WIF | Oslo Gardermoen Airport (ENGM) | Sogndal Airport (ENSG) | 2026-08-04 18:57 UTC | 2026-08-04 19:34 UTC | 36m |
-| N252AH |  | Oak Lake Air Strip (MN42) | Fosston Municipal/Anderson Field (KFSE) | 2026-08-04 19:21 UTC | 2026-08-04 19:25 UTC | 4m |
-| N275MG |  | Santa Barbara Municipal Airport (KSBA) | Santa Maria Pub/Capt G Allan Hancock Field (KSMX) | 2026-08-04 17:59 UTC | 2026-08-04 19:24 UTC | 1h 24m |
-| ENSA47 | ENS | Santa Paula Airport (SISP) | Mirassol Airport (SDMH) | 2026-08-04 19:11 UTC | 2026-08-04 19:23 UTC | 11m |
-| WMT5454 | WMT | Venezia / Tessera -  Marco Polo Airport (LIPZ) | UGMS (UGMS) | 2026-08-04 16:15 UTC | 2026-08-04 19:22 UTC | 3h 6m |
-| N38BL |  | John F Kennedy International Airport (KJFK) | John F Kennedy International Airport (KJFK) | 2026-08-04 18:47 UTC | 2026-08-04 19:14 UTC | 26m |
-| N383TA |  | Talmage Field (03NY) | Laguardia Airport (KLGA) | 2026-08-04 18:29 UTC | 2026-08-04 19:09 UTC | 40m |
-| SFE1 | SFE | Bud Dryden Airport (TX05) | Crosswinds Airfield (TE96) | 2026-08-04 18:58 UTC | 2026-08-04 19:08 UTC | 9m |
-| RYR3QK | Ryanair | Melsbroek Air Base (EBMB) | Dublin Airport (EIDW) | 2026-08-04 17:47 UTC | 2026-08-04 19:07 UTC | 1h 19m |
-| SLG3 | SLG | Saskatoon John G. Diefenbaker International Airport (CYXE) | Dore Lake Airport (CJE2) | 2026-08-04 18:28 UTC | 2026-08-04 19:06 UTC | 38m |
-| ANE80FD | ANE | Madrid Barajas International Airport (LEMD) | Jayena Airport (LE84) | 2026-08-04 18:36 UTC | 2026-08-04 19:06 UTC | 29m |
-| G20634 |  | Capital City Airport (KFFT) | Capital City Airport (KFFT) | 2026-08-04 19:05 UTC | 2026-08-04 19:05 UTC | 0m |
-| R20792 |  | John Nichol's Field (0CL3) | North Island Nas (Halsey Field) Airport (KNZY) | 2026-08-04 18:46 UTC | 2026-08-04 19:05 UTC | 18m |
+| N250RM |  | Pioneer Village Field (K0V3) | Lincoln Airport (KLNK) | 2026-08-04 20:40 UTC | 2026-08-04 21:08 UTC | 28m |
+| POE146 | POE | Montréal / St-Hubert Airport (CYHU) | Peterborough Airport (CYPQ) | 2026-08-04 20:03 UTC | 2026-08-04 21:03 UTC | 1h 0m |
+| N9887C |  | Michigan City Municipal-Phillips Field (KMGC) | La Porte Municipal Airport (KPPO) | 2026-08-04 20:50 UTC | 2026-08-04 21:02 UTC | 11m |
+| N5721T |  | Boeing Field/King County International Airport (KBFI) | WA05 (WA05) | 2026-08-04 20:02 UTC | 2026-08-04 21:01 UTC | 59m |
+| N272SF |  | Bellingham International Airport (KBLI) | William R Fairchild International Airport (KCLM) | 2026-08-04 20:02 UTC | 2026-08-04 20:58 UTC | 55m |
+| N424RP |  | Falcon Field (KFFZ) | Coolidge Municipal Airport (KP08) | 2026-08-04 20:01 UTC | 2026-08-04 20:55 UTC | 54m |
+| MAC828Q | MAC | Charles de Gaulle International Airport (LFPG) | Kenitra Airport (GMMY) | 2026-08-04 18:35 UTC | 2026-08-04 20:54 UTC | 2h 19m |
+| N32403 |  | Phyllis Field (6IL2) | De Kalb Taylor Municipal Airport (KDKB) | 2026-08-04 20:33 UTC | 2026-08-04 20:54 UTC | 21m |
+| EJU63MP | EJU | Ibiza Airport (LEIB) | Napoli / Capodichino International Airport (LIRN) | 2026-08-04 19:18 UTC | 2026-08-04 20:50 UTC | 1h 32m |
+| N53402 |  | Concord Municipal Airport (KCON) | Concord Municipal Airport (KCON) | 2026-08-04 20:18 UTC | 2026-08-04 20:49 UTC | 30m |
+| EDV5343 | EDV | Laguardia Airport (KLGA) | Frederick Douglass/Greater Rochester International Airport (KROC) | 2026-08-04 20:02 UTC | 2026-08-04 20:46 UTC | 44m |
+| VTM503 | VTM | Plan De Guadalupe International Airport (MMIO) | Monclova International Airport (MMMV) | 2026-08-04 20:29 UTC | 2026-08-04 20:46 UTC | 17m |
+| JIA5667 | JIA | Ronald Reagan Washington Ntl Airport (KDCA) | Toronto Pearson International Airport (CYYZ) | 2026-08-04 19:49 UTC | 2026-08-04 20:46 UTC | 56m |
+| ARCAS11 | ARC | Danaher Airport (7TX0) | 54TS (54TS) | 2026-08-04 20:32 UTC | 2026-08-04 20:45 UTC | 12m |
+| N441BW |  | Chicago Executive Airport (KPWK) | Thunder Bay Airport (CYQT) | 2026-08-04 19:09 UTC | 2026-08-04 20:39 UTC | 1h 30m |
+| N605T |  | Juneau International Airport (PAJN) | Juneau International Airport (PAJN) | 2026-08-04 19:47 UTC | 2026-08-04 20:36 UTC | 48m |
+| BOE115 | BOE | Boeing Field/King County International Airport (KBFI) | Christensen Field (8WA6) | 2026-08-04 18:16 UTC | 2026-08-04 20:34 UTC | 2h 18m |
+| N509CX |  | Rhode Island Tf Green International Airport (KPVD) | Cincinnati Municipal/Lunken Field (KLUK) | 2026-08-04 18:58 UTC | 2026-08-04 20:34 UTC | 1h 35m |
+| N408GG |  | Newark Liberty International Airport (KEWR) | Newark Liberty International Airport (KEWR) | 2026-08-04 20:06 UTC | 2026-08-04 20:33 UTC | 26m |
+| N914LD |  | John Wayne/Orange County Airport (KSNA) | Norman Y Mineta San Jose International Airport (KSJC) | 2026-08-04 19:41 UTC | 2026-08-04 20:32 UTC | 51m |
 
 ---
 
