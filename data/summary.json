@@ -1,34 +1,34 @@
 {
   "mode": "historical",
-  "timestamp": 1786770319,
+  "timestamp": 1786771498,
   "archive_start": 1774648826,
-  "archive_end": 1786770319,
-  "total_flights": 197594,
-  "unique_routes": 61930,
+  "archive_end": 1786771498,
+  "total_flights": 197615,
+  "unique_routes": 61932,
   "countries": {
-    "US": 168135,
+    "US": 168138,
     "ES": 12719,
     "BR": 11381,
-    "AU": 11114,
-    "CA": 10835,
+    "AU": 11118,
+    "CA": 10839,
     "IN": 10638,
-    "IT": 10271,
+    "IT": 10274,
     "DE": 9780,
     "GB": 9252,
     "JP": 8049,
-    "FR": 7846,
+    "FR": 7847,
     "CO": 7801,
-    "GR": 5798,
+    "GR": 5800,
     "MX": 5604,
-    "TR": 5390,
-    "CH": 5316,
+    "TR": 5391,
+    "CH": 5317,
     "NO": 5044,
-    "MY": 3370,
+    "MY": 3372,
     "ZA": 3322,
-    "PL": 3256,
-    "TH": 3059,
-    "NZ": 2763,
-    "PH": 2611,
+    "PL": 3258,
+    "TH": 3063,
+    "NZ": 2769,
+    "PH": 2615,
     "GT": 2530,
     "KR": 2396,
     "HR": 2063,
@@ -60,14 +60,14 @@
     "PE": 781,
     "CR": 727,
     "RU": 690,
-    "BT": 684,
+    "BT": 685,
     "RS": 671,
     "KE": 631,
     "DK": 627,
     "JO": 565,
-    "HU": 504,
+    "HU": 505,
     "CY": 475,
-    "BD": 460,
+    "BD": 461,
     "HK": 440,
     "SG": 349,
     "MM": 348,
@@ -77,7 +77,7 @@
     "QA": 319,
     "AO": 317,
     "MK": 309,
-    "EG": 307,
+    "EG": 308,
     "SK": 286,
     "PF": 282,
     "SV": 255,
@@ -212,7 +212,7 @@
       "country": "GR",
       "lat": 37.9364,
       "lon": 23.9445,
-      "count": 2084
+      "count": 2085
     },
     {
       "icao": "LSZH",
@@ -221,7 +221,7 @@
       "country": "CH",
       "lat": 47.4647,
       "lon": 8.54917,
-      "count": 2080
+      "count": 2081
     },
     {
       "icao": "KMSP",
@@ -329,7 +329,7 @@
       "country": "IT",
       "lat": 41.116,
       "lon": 14.178,
-      "count": 1506
+      "count": 1507
     },
     {
       "icao": "KATL",
@@ -392,7 +392,7 @@
       "country": "MY",
       "lat": 2.74558,
       "lon": 101.71,
-      "count": 1258
+      "count": 1259
     },
     {
       "icao": "VOBL",
@@ -404,6 +404,15 @@
       "count": 1248
     },
     {
+      "icao": "RPLL",
+      "name": "Ninoy Aquino International Airport",
+      "city": "",
+      "country": "PH",
+      "lat": 14.5086,
+      "lon": 121.02,
+      "count": 1237
+    },
+    {
       "icao": "MMJC",
       "name": "Atizapan De Zaragoza Airport",
       "city": "",
@@ -411,15 +420,6 @@
       "lat": 19.5748,
       "lon": -99.2888,
       "count": 1236
-    },
-    {
-      "icao": "RPLL",
-      "name": "Ninoy Aquino International Airport",
-      "city": "",
-      "country": "PH",
-      "lat": 14.5086,
-      "lon": 121.02,
-      "count": 1235
     },
     {
       "icao": "KSJC",
@@ -464,7 +464,7 @@
       "country": "CA",
       "lat": 51.1139,
       "lon": -114.02,
-      "count": 1126
+      "count": 1127
     },
     {
       "icao": "KRNO",
@@ -527,7 +527,7 @@
       "country": "CA",
       "lat": 49.1939,
       "lon": -123.184,
-      "count": 1053
+      "count": 1054
     },
     {
       "icao": "KSDL",
@@ -554,7 +554,7 @@
       "country": "TH",
       "lat": 13.9126,
       "lon": 100.607,
-      "count": 1026
+      "count": 1028
     },
     {
       "icao": "KIAH",
@@ -608,7 +608,7 @@
       "country": "AU",
       "lat": -27.3842,
       "lon": 153.117,
-      "count": 909
+      "count": 910
     },
     {
       "icao": "KPHL",
@@ -869,7 +869,7 @@
       "country": "TR",
       "lat": 36.8987,
       "lon": 30.8005,
-      "count": 704
+      "count": 705
     },
     {
       "icao": "RKSS",
@@ -1053,7 +1053,7 @@
     }
   ],
   "airlines": {
-    "Ryanair": 7837,
+    "Ryanair": 7838,
     "SkyWest Airlines": 7115,
     "EJA": 3896,
     "IndiGo": 3405,
@@ -1068,7 +1068,7 @@
     "WIF": 1628,
     "LXJ": 1570,
     "easyJet": 1354,
-    "Swiss International": 1330,
+    "Swiss International": 1331,
     "AXM": 1290,
     "EJU": 1222,
     "QLK": 1221,
@@ -1088,11 +1088,11 @@
     "JetBlue": 942,
     "TKR": 939,
     "AXB": 888,
-    "VOE": 873,
+    "VOE": 874,
     "EWG": 863,
     "Turkish Airlines": 801,
     "Japan Airlines": 771,
-    "AIQ": 754,
+    "AIQ": 756,
     "JIA": 739,
     "Scandinavian Airlines": 711,
     "EDV": 695,
@@ -1100,11 +1100,11 @@
     "FFT": 683,
     "SXS": 682,
     "LYM": 680,
+    "WEN": 659,
     "Air India": 658,
-    "WEN": 658,
     "ANE": 636
   },
-  "route_count": 197594,
+  "route_count": 197615,
   "avg_duration": "1h 14m",
   "avg_duration_min": 74,
   "top_routes": [
@@ -1187,11 +1187,11 @@
       "arr_country": "PH",
       "arr_lat": 12.5361,
       "arr_lon": 121.481,
-      "flights": 459,
+      "flights": 460,
       "avg_duration_min": 24,
       "avg_duration": "24m",
       "distance_km": 224.9,
-      "total_co2_kg": 1780702.0
+      "total_co2_kg": 1784581.5
     },
     {
       "dep_icao": "SKMD",
@@ -1561,11 +1561,11 @@
       "arr_country": "PH",
       "arr_lat": 12.3694,
       "arr_lon": 123.629,
-      "flights": 224,
+      "flights": 225,
       "avg_duration_min": 31,
       "avg_duration": "31m",
       "distance_km": 369.0,
-      "total_co2_kg": 1425816.0
+      "total_co2_kg": 1432181.2
     },
     {
       "dep_icao": "PATK",
@@ -1850,11 +1850,11 @@
       "arr_country": "TH",
       "arr_lat": 9.1326,
       "arr_lon": 99.1356,
-      "flights": 163,
+      "flights": 164,
       "avg_duration_min": 44,
       "avg_duration": "44m",
       "distance_km": 555.1,
-      "total_co2_kg": 1560802.4
+      "total_co2_kg": 1570377.9
     },
     {
       "dep_icao": "KDEN",
@@ -1961,6 +1961,15 @@
   ],
   "recent_flights": [
     {
+      "callsign": "CFH21",
+      "airline": "CFH",
+      "from": "Newcastle Airport (YWLM)",
+      "to": "Kelvin Station Airport (YKEL)",
+      "departure": "2026-08-15 04:52 UTC",
+      "arrival": "2026-08-15 05:24 UTC",
+      "duration": "32m"
+    },
+    {
       "callsign": "JAL6777",
       "airline": "Japan Airlines",
       "from": "Narita International Airport (RJAA)",
@@ -1968,6 +1977,42 @@
       "departure": "2026-08-15 02:10 UTC",
       "arrival": "2026-08-15 05:05 UTC",
       "duration": "2h 54m"
+    },
+    {
+      "callsign": "FLE505",
+      "airline": "FLE",
+      "from": "Calgary International Airport (CYYC)",
+      "to": "Abbotsford Airport (CYXX)",
+      "departure": "2026-08-15 04:01 UTC",
+      "arrival": "2026-08-15 05:02 UTC",
+      "duration": "1h 0m"
+    },
+    {
+      "callsign": "BBC536",
+      "airline": "BBC",
+      "from": "Cox's Bazar Airport (VGCB)",
+      "to": "Paro Airport (VQPR)",
+      "departure": "2026-08-15 04:00 UTC",
+      "arrival": "2026-08-15 05:02 UTC",
+      "duration": "1h 2m"
+    },
+    {
+      "callsign": "WEN3569",
+      "airline": "WEN",
+      "from": "Kelowna Airport (CYLW)",
+      "to": "Vancouver International Airport (CYVR)",
+      "departure": "2026-08-15 04:09 UTC",
+      "arrival": "2026-08-15 05:00 UTC",
+      "duration": "51m"
+    },
+    {
+      "callsign": "SDA347",
+      "airline": "SDA",
+      "from": "Wellington International Airport (NZWN)",
+      "to": "Woodbourne Airport (NZWB)",
+      "departure": "2026-08-15 04:32 UTC",
+      "arrival": "2026-08-15 04:57 UTC",
+      "duration": "24m"
     },
     {
       "callsign": "N23DD",
@@ -1979,6 +2024,33 @@
       "duration": "40m"
     },
     {
+      "callsign": "APG225",
+      "airline": "APG",
+      "from": "Ninoy Aquino International Airport (RPLL)",
+      "to": "Wasig Airport (RPVL)",
+      "departure": "2026-08-15 04:30 UTC",
+      "arrival": "2026-08-15 04:54 UTC",
+      "duration": "23m"
+    },
+    {
+      "callsign": "N915SH",
+      "airline": "",
+      "from": "Joe Foss Field (KFSD)",
+      "to": "Clark County Airport (K8D7)",
+      "departure": "2026-08-15 04:29 UTC",
+      "arrival": "2026-08-15 04:53 UTC",
+      "duration": "24m"
+    },
+    {
+      "callsign": "AIQ3923",
+      "airline": "AIQ",
+      "from": "Don Mueang International Airport (VTBD)",
+      "to": "Khunan Phumipol Airport (VTPY)",
+      "departure": "2026-08-15 04:17 UTC",
+      "arrival": "2026-08-15 04:52 UTC",
+      "duration": "35m"
+    },
+    {
       "callsign": "ZSNVE",
       "airline": "ZSN",
       "from": "Wonderboom Airport (FAWB)",
@@ -1986,6 +2058,24 @@
       "departure": "2026-08-15 04:25 UTC",
       "arrival": "2026-08-15 04:50 UTC",
       "duration": "24m"
+    },
+    {
+      "callsign": "ANZ607",
+      "airline": "ANZ",
+      "from": "Wellington International Airport (NZWN)",
+      "to": "Pukaki Airport (NZUK)",
+      "departure": "2026-08-15 04:08 UTC",
+      "arrival": "2026-08-15 04:50 UTC",
+      "duration": "42m"
+    },
+    {
+      "callsign": "VOE9ZA",
+      "airline": "VOE",
+      "from": "Verona / Villafranca Airport (LIPX)",
+      "to": "Corte Airport (LFKT)",
+      "departure": "2026-08-15 04:13 UTC",
+      "arrival": "2026-08-15 04:49 UTC",
+      "duration": "35m"
     },
     {
       "callsign": "WMT2GJ",
@@ -2042,107 +2132,17 @@
       "duration": "1h 33m"
     },
     {
-      "callsign": "NPN",
-      "airline": "NPN",
-      "from": "Kyneton Airport (YKTN)",
-      "to": "Melbourne Essendon Airport (YMEN)",
-      "departure": "2026-08-15 04:07 UTC",
+      "callsign": "N142EB",
+      "airline": "",
+      "from": "Mc Gregor Executive Airport (KPWG)",
+      "to": "81NM (81NM)",
+      "departure": "2026-08-15 03:00 UTC",
       "arrival": "2026-08-15 04:33 UTC",
-      "duration": "26m"
-    },
-    {
-      "callsign": "OZG",
-      "airline": "OZG",
-      "from": "Southport Airport (YSPT)",
-      "to": "Southport Airport (YSPT)",
-      "departure": "2026-08-15 04:23 UTC",
-      "arrival": "2026-08-15 04:33 UTC",
-      "duration": "9m"
-    },
-    {
-      "callsign": "SWR2069",
-      "airline": "Swiss International",
-      "from": "Francisco de S\u00e1 Carneiro Airport (LPPR)",
-      "to": "Zurich Airport (LSZH)",
-      "departure": "2026-08-15 02:13 UTC",
-      "arrival": "2026-08-15 04:32 UTC",
-      "duration": "2h 19m"
-    },
-    {
-      "callsign": "TQR",
-      "airline": "TQR",
-      "from": "Puckapunyal (Military) Airport (YPKL)",
-      "to": "Melbourne Essendon Airport (YMEN)",
-      "departure": "2026-08-15 04:01 UTC",
-      "arrival": "2026-08-15 04:26 UTC",
-      "duration": "25m"
-    },
-    {
-      "callsign": "VAR512",
-      "airline": "VAR",
-      "from": "Phoenix Goodyear Airport (KGYR)",
-      "to": "Phoenix Goodyear Airport (KGYR)",
-      "departure": "2026-08-15 04:19 UTC",
-      "arrival": "2026-08-15 04:26 UTC",
-      "duration": "6m"
-    },
-    {
-      "callsign": "N214NX",
-      "airline": "",
-      "from": "Aurora State Airport (KUAO)",
-      "to": "Quincy Municipal Airport (K80T)",
-      "departure": "2026-08-15 03:45 UTC",
-      "arrival": "2026-08-15 04:24 UTC",
-      "duration": "38m"
-    },
-    {
-      "callsign": "AEE282",
-      "airline": "AEE",
-      "from": "Eleftherios Venizelos International Airport (LGAV)",
-      "to": "Aktion National Airport (LGPZ)",
-      "departure": "2026-08-15 03:56 UTC",
-      "arrival": "2026-08-15 04:23 UTC",
-      "duration": "27m"
-    },
-    {
-      "callsign": "IGO531P",
-      "airline": "IndiGo",
-      "from": "Netaji Subhash Chandra Bose International Airport (VECC)",
-      "to": "Yongphulla Airport (VQ10)",
-      "departure": "2026-08-15 03:42 UTC",
-      "arrival": "2026-08-15 04:21 UTC",
-      "duration": "39m"
-    },
-    {
-      "callsign": "JAL981",
-      "airline": "Japan Airlines",
-      "from": "Tokyo International Airport (RJTT)",
-      "to": "Kerama Airport (ROKR)",
-      "departure": "2026-08-15 02:24 UTC",
-      "arrival": "2026-08-15 04:21 UTC",
-      "duration": "1h 57m"
-    },
-    {
-      "callsign": "N113UV",
-      "airline": "",
-      "from": "Provo Municipal Airport (KPVU)",
-      "to": "Nephi Municipal Airport (KU14)",
-      "departure": "2026-08-15 03:57 UTC",
-      "arrival": "2026-08-15 04:19 UTC",
-      "duration": "21m"
-    },
-    {
-      "callsign": "FD614",
-      "airline": "",
-      "from": "Perth Jandakot Airport (YPJT)",
-      "to": "Carnarmah Airport (YCNH)",
-      "departure": "2026-08-15 03:41 UTC",
-      "arrival": "2026-08-15 04:18 UTC",
-      "duration": "37m"
+      "duration": "1h 33m"
     }
   ],
-  "total_distance_km": 136771185.2,
-  "total_co2_kg": 2359302945.2,
-  "total_co2_tonnes": 2359302.95,
+  "total_distance_km": 136786708.1,
+  "total_co2_kg": 2359570714.0,
+  "total_co2_tonnes": 2359570.71,
   "avg_distance_km": 852
 }
