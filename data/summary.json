@@ -1,40 +1,40 @@
 {
   "mode": "historical",
-  "timestamp": 1786922387,
+  "timestamp": 1786923715,
   "archive_start": 1774648826,
-  "archive_end": 1786922387,
-  "total_flights": 206616,
-  "unique_routes": 65876,
+  "archive_end": 1786923715,
+  "total_flights": 206645,
+  "unique_routes": 65881,
   "countries": {
-    "US": 175721,
+    "US": 175748,
     "ES": 13186,
-    "BR": 11859,
-    "AU": 11513,
+    "BR": 11867,
+    "AU": 11519,
     "CA": 11431,
-    "IN": 10995,
+    "IN": 10996,
     "IT": 10768,
     "DE": 10208,
     "GB": 9628,
     "JP": 8456,
-    "CO": 8228,
+    "CO": 8230,
     "FR": 8167,
     "GR": 6069,
-    "TR": 5854,
+    "TR": 5855,
     "MX": 5817,
     "CH": 5513,
     "NO": 5138,
     "MY": 3529,
     "ZA": 3454,
-    "PL": 3403,
+    "PL": 3404,
     "TH": 3247,
     "NZ": 2849,
     "PH": 2733,
-    "GT": 2641,
+    "GT": 2645,
     "KR": 2505,
     "HR": 2209,
     "MA": 2082,
     "NL": 1839,
-    "ME": 1742,
+    "ME": 1743,
     "ID": 1686,
     "AT": 1557,
     "MO": 1542,
@@ -75,13 +75,13 @@
     "MM": 355,
     "XK": 355,
     "DZ": 347,
-    "QA": 345,
+    "QA": 346,
     "MK": 325,
     "AO": 321,
     "SK": 300,
     "PF": 287,
-    "SV": 268,
-    "TN": 253,
+    "SV": 270,
+    "TN": 254,
     "MT": 252,
     "LT": 238,
     "VG": 218,
@@ -158,7 +158,7 @@
       "country": "US",
       "lat": 32.897233,
       "lon": -97.037695,
-      "count": 4359
+      "count": 4360
     },
     {
       "icao": "KDEN",
@@ -167,7 +167,7 @@
       "country": "US",
       "lat": 39.861667,
       "lon": -104.673167,
-      "count": 3383
+      "count": 3385
     },
     {
       "icao": "RJTT",
@@ -179,21 +179,21 @@
       "count": 2550
     },
     {
-      "icao": "SKGY",
-      "name": "Guaymaral Airport",
-      "city": "",
-      "country": "CO",
-      "lat": 4.81233,
-      "lon": -74.0649,
-      "count": 2494
-    },
-    {
       "icao": "VIDP",
       "name": "Indira Gandhi International Airport",
       "city": "",
       "country": "IN",
       "lat": 28.5665,
       "lon": 77.1031,
+      "count": 2495
+    },
+    {
+      "icao": "SKGY",
+      "name": "Guaymaral Airport",
+      "city": "",
+      "country": "CO",
+      "lat": 4.81233,
+      "lon": -74.0649,
       "count": 2494
     },
     {
@@ -239,7 +239,7 @@
       "country": "GT",
       "lat": 14.5833,
       "lon": -90.5275,
-      "count": 2011
+      "count": 2015
     },
     {
       "icao": "KORD",
@@ -257,7 +257,7 @@
       "country": "CO",
       "lat": 4.70159,
       "lon": -74.1469,
-      "count": 1890
+      "count": 1891
     },
     {
       "icao": "KPHX",
@@ -347,7 +347,7 @@
       "country": "BR",
       "lat": -23.43556,
       "lon": -46.47306,
-      "count": 1502
+      "count": 1503
     },
     {
       "icao": "YSSY",
@@ -356,7 +356,7 @@
       "country": "AU",
       "lat": -33.9461,
       "lon": 151.177,
-      "count": 1437
+      "count": 1440
     },
     {
       "icao": "LIMC",
@@ -455,7 +455,7 @@
       "country": "BR",
       "lat": -23.0074,
       "lon": -47.1345,
-      "count": 1199
+      "count": 1200
     },
     {
       "icao": "CYYC",
@@ -626,7 +626,7 @@
       "country": "US",
       "lat": 37.618806,
       "lon": -122.375417,
-      "count": 960
+      "count": 961
     },
     {
       "icao": "KDAL",
@@ -635,7 +635,7 @@
       "country": "US",
       "lat": 32.845945,
       "lon": -96.850877,
-      "count": 948
+      "count": 949
     },
     {
       "icao": "YBBN",
@@ -1025,6 +1025,15 @@
       "count": 662
     },
     {
+      "icao": "KBFI",
+      "name": "Boeing Field/King County International Airport",
+      "city": "",
+      "country": "US",
+      "lat": 47.529972,
+      "lon": -122.301944,
+      "count": 660
+    },
+    {
       "icao": "LTFJ",
       "name": "Sabiha Gokcen International Airport",
       "city": "",
@@ -1032,15 +1041,6 @@
       "lat": 40.8986,
       "lon": 29.3092,
       "count": 660
-    },
-    {
-      "icao": "KBFI",
-      "name": "Boeing Field/King County International Airport",
-      "city": "",
-      "country": "US",
-      "lat": 47.529972,
-      "lon": -122.301944,
-      "count": 659
     },
     {
       "icao": "EGLL",
@@ -1054,38 +1054,38 @@
   ],
   "airlines": {
     "Ryanair": 8147,
-    "SkyWest Airlines": 7444,
+    "SkyWest Airlines": 7445,
     "EJA": 4029,
     "IndiGo": 3523,
     "American Airlines": 3448,
-    "Southwest Airlines": 3320,
+    "Southwest Airlines": 3322,
     "Delta Air Lines": 2660,
-    "ENY": 2582,
-    "LATAM Airlines": 1947,
-    "AZU": 1871,
+    "ENY": 2583,
+    "LATAM Airlines": 1949,
+    "AZU": 1872,
     "Lufthansa": 1749,
     "Vueling": 1709,
     "WIF": 1657,
-    "LXJ": 1636,
+    "LXJ": 1637,
     "easyJet": 1428,
     "Swiss International": 1376,
     "AXM": 1339,
-    "United Airlines": 1303,
+    "United Airlines": 1304,
     "Alaska Airlines": 1280,
-    "QLK": 1265,
+    "QLK": 1266,
     "EJU": 1260,
     "All Nippon Airways": 1245,
     "VIV": 1137,
-    "GLO": 1120,
+    "GLO": 1121,
     "Air France": 1103,
     "PGT": 1102,
-    "JetBlue": 1060,
+    "JetBlue": 1061,
     "AEE": 1052,
     "WMT": 1040,
     "CXK": 1018,
     "Wizz Air": 1015,
     "MXY": 997,
-    "TKR": 967,
+    "TKR": 968,
     "Cathay Pacific": 959,
     "AXB": 916,
     "EWG": 910,
@@ -1104,7 +1104,7 @@
     "WEN": 678,
     "ANE": 668
   },
-  "route_count": 206616,
+  "route_count": 206645,
   "avg_duration": "1h 14m",
   "avg_duration_min": 74,
   "top_routes": [
@@ -1187,7 +1187,7 @@
       "arr_country": "GT",
       "arr_lat": 14.5833,
       "arr_lon": -90.5275,
-      "flights": 470,
+      "flights": 471,
       "avg_duration_min": 10,
       "avg_duration": "10m",
       "distance_km": 0.0,
@@ -1961,6 +1961,33 @@
   ],
   "recent_flights": [
     {
+      "callsign": "BRG622",
+      "airline": "BRG",
+      "from": "Ralph Wien Memorial Airport (PAOT)",
+      "to": "Ambler Airport (PAFM)",
+      "departure": "2026-08-16 22:55 UTC",
+      "arrival": "2026-08-16 23:41 UTC",
+      "duration": "46m"
+    },
+    {
+      "callsign": "QTR15R",
+      "airline": "Qatar Airways",
+      "from": "Indira Gandhi International Airport (VIDP)",
+      "to": "Hamad International Airport (OTHH)",
+      "departure": "2026-08-16 20:39 UTC",
+      "arrival": "2026-08-16 23:34 UTC",
+      "duration": "2h 55m"
+    },
+    {
+      "callsign": "N459WM",
+      "airline": "",
+      "from": "Wilding Farm Airport (6WA5)",
+      "to": "Boeing Field/King County International Airport (KBFI)",
+      "departure": "2026-08-16 22:59 UTC",
+      "arrival": "2026-08-16 23:29 UTC",
+      "duration": "30m"
+    },
+    {
       "callsign": "N429LF",
       "airline": "",
       "from": "Port Angeles Cgas Airport (KNOW)",
@@ -1977,6 +2004,15 @@
       "departure": "2026-08-16 22:53 UTC",
       "arrival": "2026-08-16 23:19 UTC",
       "duration": "26m"
+    },
+    {
+      "callsign": "TKR136",
+      "airline": "TKR",
+      "from": "Roberts Field/Redmond Municipal Airport (KRDM)",
+      "to": "OG05 (OG05)",
+      "departure": "2026-08-16 23:08 UTC",
+      "arrival": "2026-08-16 23:19 UTC",
+      "duration": "11m"
     },
     {
       "callsign": "N54983",
@@ -2015,6 +2051,24 @@
       "duration": "38m"
     },
     {
+      "callsign": "N432ER",
+      "airline": "",
+      "from": "0IL8 (0IL8)",
+      "to": "Ruder Airport (59IL)",
+      "departure": "2026-08-16 22:52 UTC",
+      "arrival": "2026-08-16 23:02 UTC",
+      "duration": "9m"
+    },
+    {
+      "callsign": "QLK9D",
+      "airline": "QLK",
+      "from": "Sydney Kingsford Smith International Airport (YSSY)",
+      "to": "Bathurst Airport (YBTH)",
+      "departure": "2026-08-16 22:42 UTC",
+      "arrival": "2026-08-16 23:02 UTC",
+      "duration": "19m"
+    },
+    {
       "callsign": "CMK",
       "airline": "CMK",
       "from": "Sunshine Coast Airport (YBMC)",
@@ -2031,6 +2085,24 @@
       "departure": "2026-08-16 22:47 UTC",
       "arrival": "2026-08-16 23:01 UTC",
       "duration": "14m"
+    },
+    {
+      "callsign": "AM270",
+      "airline": "",
+      "from": "Sydney Kingsford Smith International Airport (YSSY)",
+      "to": "Tumut Airport (YTMU)",
+      "departure": "2026-08-16 22:15 UTC",
+      "arrival": "2026-08-16 22:53 UTC",
+      "duration": "37m"
+    },
+    {
+      "callsign": "TAM3688",
+      "airline": "LATAM Airlines",
+      "from": "Galeao - Antonio Carlos Jobim International Airport (SBGL)",
+      "to": "Eurico de Aguiar Salles Airport (SBVT)",
+      "departure": "2026-08-16 22:08 UTC",
+      "arrival": "2026-08-16 22:50 UTC",
+      "duration": "42m"
     },
     {
       "callsign": "CXK556",
@@ -2060,89 +2132,17 @@
       "duration": "1h 26m"
     },
     {
-      "callsign": "EJA656",
-      "airline": "EJA",
-      "from": "Thomas C Russell Field (KALX)",
-      "to": "Huntsville Executive Tom Sharp Jr Field (KMDQ)",
-      "departure": "2026-08-16 22:20 UTC",
-      "arrival": "2026-08-16 22:46 UTC",
-      "duration": "26m"
-    },
-    {
-      "callsign": "N372CZ",
-      "airline": "",
-      "from": "Ryan Aerodrome (7TX7)",
-      "to": "Melby Ranch Airstrip (33CO)",
-      "departure": "2026-08-16 21:51 UTC",
-      "arrival": "2026-08-16 22:46 UTC",
-      "duration": "55m"
-    },
-    {
-      "callsign": "N36HF",
-      "airline": "",
-      "from": "KHTO (KHTO)",
-      "to": "Teterboro Airport (KTEB)",
-      "departure": "2026-08-16 22:03 UTC",
-      "arrival": "2026-08-16 22:45 UTC",
-      "duration": "42m"
-    },
-    {
-      "callsign": "AZU4652",
-      "airline": "AZU",
-      "from": "Viracopos International Airport (SBKP)",
-      "to": "Clube de Marte Ibira de Para-Quedismo Airport (SWYV)",
-      "departure": "2026-08-16 21:58 UTC",
-      "arrival": "2026-08-16 22:43 UTC",
-      "duration": "45m"
-    },
-    {
-      "callsign": "TKR910",
-      "airline": "TKR",
-      "from": "Rogue Valley International/Medford Airport (KMFR)",
-      "to": "Chiloquin State Airport (K2S7)",
-      "departure": "2026-08-16 22:34 UTC",
-      "arrival": "2026-08-16 22:43 UTC",
-      "duration": "9m"
-    },
-    {
-      "callsign": "TGMYT",
-      "airline": "TGM",
-      "from": "La Aurora Airport (MGGT)",
-      "to": "El Palmer Airport (MSSA)",
-      "departure": "2026-08-16 22:26 UTC",
-      "arrival": "2026-08-16 22:43 UTC",
-      "duration": "16m"
-    },
-    {
-      "callsign": "LR453",
-      "airline": "",
-      "from": "Brisbane International Airport (YBBN)",
-      "to": "Pacific Haven Airport (YPAC)",
-      "departure": "2026-08-16 22:08 UTC",
-      "arrival": "2026-08-16 22:42 UTC",
-      "duration": "34m"
-    },
-    {
-      "callsign": "PAT825",
-      "airline": "PAT",
-      "from": "K4SD (K4SD)",
-      "to": "Sacramento Mather Airport (KMHR)",
-      "departure": "2026-08-16 21:10 UTC",
-      "arrival": "2026-08-16 22:42 UTC",
-      "duration": "1h 31m"
-    },
-    {
-      "callsign": "CGGPX",
-      "airline": "CGG",
-      "from": "John C. Munro Hamilton International Airport (CYHM)",
-      "to": "Brockway Airport (CCX3)",
-      "departure": "2026-08-16 20:47 UTC",
-      "arrival": "2026-08-16 22:41 UTC",
-      "duration": "1h 53m"
+      "callsign": "RAIDR10",
+      "airline": "RAI",
+      "from": "Miramar Mcas (Joe Foss Field) Airport (KNKX)",
+      "to": "59CL (59CL)",
+      "departure": "2026-08-16 22:27 UTC",
+      "arrival": "2026-08-16 22:48 UTC",
+      "duration": "20m"
     }
   ],
-  "total_distance_km": 144063423.7,
-  "total_co2_kg": 2485094058.7,
-  "total_co2_tonnes": 2485094.06,
+  "total_distance_km": 144083335.6,
+  "total_co2_kg": 2485437539.2,
+  "total_co2_tonnes": 2485437.54,
   "avg_distance_km": 858
 }
