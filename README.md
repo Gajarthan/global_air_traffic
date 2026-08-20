@@ -1,6 +1,6 @@
 # Global Air Traffic Tracker
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--20_18:36:25_UTC-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--20_19:31:03_UTC-green)
 
 ![Flight Map](images/flight_map.png)
 
@@ -25,21 +25,21 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 ## Archive Snapshot
 
-**Latest saved flight:** 2026-08-20 18:36:25 UTC
-**Archive range:** 2026-03-27 22:00:26 UTC to 2026-08-20 18:36:25 UTC
+**Latest saved flight:** 2026-08-20 19:31:03 UTC
+**Archive range:** 2026-03-27 22:00:26 UTC to 2026-08-20 19:31:03 UTC
 
-- **220,196** saved flights
-- **69,086** unique routes
+- **220,205** saved flights
+- **69,090** unique routes
 - **144** countries touched by saved routes
 - **100** airports in the archive
 - **50** airlines identified
-- **220,196** saved routes in the archive
+- **220,205** saved routes in the archive
 - **1h 14m** average flight duration
 
 ### Carbon Footprint Estimate
 
-- **2,651,221.6 tonnes** estimated CO2 emissions
-- **153,694,005 km** total distance flown
+- **2,651,230.3 tonnes** estimated CO2 emissions
+- **153,694,512 km** total distance flown
 - **857 km** average flight distance
 *Based on ICAO avg: 115g CO2/passenger-km, ~150 passengers*
 
@@ -82,7 +82,7 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 | # | Country | Flights |
 |---:|---------|--------:|
-| 1 | 🇺🇸 US | 185266 |
+| 1 | 🇺🇸 US | 185281 |
 | 2 | 🇪🇸 ES | 14124 |
 | 3 | 🇧🇷 BR | 12717 |
 | 4 | 🇦🇺 AU | 12418 |
@@ -188,7 +188,7 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 | 24 | Kuala Lumpur International Airport (WMKK) | Batu Pahat Airport (WMAB) | 253 | 19m | 165 km | 719.7 t |
 | 25 | Don Mueang International Airport (VTBD) | Surat Thani Airport (VTSB) | 251 | 44m | 555 km | 2,403.4 t |
 | 26 | Reykjavik Airport (BIRK) | Hveravellir Airport (BIHI) | 251 | 19m | 144 km | 624.3 t |
-| 27 | Kawaihapai Airfield (PHDH) | Kawaihapai Airfield (PHDH) | 246 | 12m | - | - |
+| 27 | Kawaihapai Airfield (PHDH) | Kawaihapai Airfield (PHDH) | 247 | 12m | - | - |
 | 28 | Cancun International Airport (MMUN) | Atizapan De Zaragoza Airport (MMJC) | 237 | 1h 49m | 1,304 km | 5,331.9 t |
 | 29 | Harry Reid International Airport (KLAS) | Reno/Tahoe International Airport (KRNO) | 235 | 50m | 556 km | 2,252.7 t |
 | 30 | La Aurora Airport (MGGT) | Copan Ruinas Airport (MHRU) | 232 | 28m | 152 km | 606.3 t |
@@ -197,6 +197,15 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 
 | Callsign | Airline | From | To | Departure | Arrival | Duration |
 |----------|---------|------|-----|-----------|---------|----------|
+| CXK139 | CXK | Brunswick Golden Isles Airport (KBQK) | Brunswick Golden Isles Airport (KBQK) | 2026-08-20 19:17 UTC | 2026-08-20 19:31 UTC | 13m |
+| N580JH |  | K4R4 (K4R4) | Auburn University Regional Airport (KAUO) | 2026-08-20 18:47 UTC | 2026-08-20 19:29 UTC | 42m |
+| N950TT |  | Kawaihapai Airfield (PHDH) | Kawaihapai Airfield (PHDH) | 2026-08-20 18:45 UTC | 2026-08-20 19:28 UTC | 43m |
+| N172SX |  | Montgomery-Gibbs Executive Airport (KMYF) | Hemet-Ryan Airport (KHMT) | 2026-08-20 18:34 UTC | 2026-08-20 19:28 UTC | 53m |
+| BTZ159 | BTZ | South Lafourche Leonard Miller Jr Airport (KGAO) | Louis Armstrong New Orleans International Airport (KMSY) | 2026-08-20 19:06 UTC | 2026-08-20 19:21 UTC | 14m |
+| N111XX |  | Yuba County Airport (KMYV) | San Carlos Airport (KSQL) | 2026-08-20 18:44 UTC | 2026-08-20 19:21 UTC | 37m |
+| N248PA |  | Lanai Airport (PHNY) | Kawaihapai Airfield (PHDH) | 2026-08-20 19:06 UTC | 2026-08-20 19:17 UTC | 10m |
+| N322CG |  | Flying Cloud Airport (KFCM) | 98IN (98IN) | 2026-08-20 18:10 UTC | 2026-08-20 19:11 UTC | 1h 0m |
+| DRACO51 | DRA | 4XA5 (4XA5) | Ramsak Airport (OK67) | 2026-08-20 18:35 UTC | 2026-08-20 19:04 UTC | 28m |
 | N356CT |  | Montgomery-Gibbs Executive Airport (KMYF) | Ramona Airport (KRNM) | 2026-08-20 17:20 UTC | 2026-08-20 18:36 UTC | 1h 16m |
 | N814SS |  | Kenai Municipal Airport (PAEN) | Trading Bay Production Airport (5AK0) | 2026-08-20 18:23 UTC | 2026-08-20 18:35 UTC | 11m |
 | CODE21 | COD | 75OK (75OK) | Good Life Ranch Airport (17OK) | 2026-08-20 18:11 UTC | 2026-08-20 18:31 UTC | 20m |
@@ -208,15 +217,6 @@ Historical archive of saved air traffic routes collected from the [OpenSky Netwo
 | N92DV |  | Vance Brand Airport (KLMO) | Vance Brand Airport (KLMO) | 2026-08-20 17:55 UTC | 2026-08-20 18:17 UTC | 21m |
 | N8710U |  | Savannah/Hilton Head International Airport (KSAV) | Briar Patch Airport (9GA1) | 2026-08-20 17:40 UTC | 2026-08-20 18:17 UTC | 36m |
 | URSA02 | URS | Ladd Army Air Field (PAFB) | Ladd Army Air Field (PAFB) | 2026-08-20 17:47 UTC | 2026-08-20 18:16 UTC | 28m |
-| N8379Z |  | Daniel K Inouye International Airport (PHNL) | Kalaeloa (John Rodgers Field) Airport (PHJR) | 2026-08-20 17:38 UTC | 2026-08-20 18:16 UTC | 37m |
-| N1660H |  | Kansas City Downtown/Wheeler Field (KMKC) | Bland Airport (52KS) | 2026-08-20 17:40 UTC | 2026-08-20 18:14 UTC | 34m |
-| N5106D |  | Limon Municipal Airport (KLIC) | Limon Municipal Airport (KLIC) | 2026-08-20 17:58 UTC | 2026-08-20 18:13 UTC | 14m |
-| CXK1149 | CXK | Long Beach (Daugherty Field) Airport (KLGB) | Little Buttes Antique Airfield (1CL1) | 2026-08-20 17:41 UTC | 2026-08-20 18:13 UTC | 31m |
-| UAL2744 | United Airlines | George Bush Intcntl/Houston Airport (KIAH) | San Francisco International Airport (KSFO) | 2026-08-20 14:42 UTC | 2026-08-20 18:07 UTC | 3h 24m |
-| WIF1VR | WIF | Oslo Gardermoen Airport (ENGM) | Sogndal Airport (ENSG) | 2026-08-20 17:22 UTC | 2026-08-20 18:05 UTC | 42m |
-| CGTTM | CGT | Calgary International Airport (CYYC) | Rocky Mountain House Airport (CYRM) | 2026-08-20 17:37 UTC | 2026-08-20 18:04 UTC | 27m |
-| N46JM |  | Blue Grass Airport (KLEX) | Fulton County Executive/Charlie Brown Field (KFTY) | 2026-08-20 17:16 UTC | 2026-08-20 18:04 UTC | 48m |
-| EJM800 | EJM | Portland International Airport (KPDX) | Mahlon Sweet Field (KEUG) | 2026-08-20 17:33 UTC | 2026-08-20 18:03 UTC | 30m |
 
 ---
 
