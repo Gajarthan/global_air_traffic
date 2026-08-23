@@ -1,44 +1,44 @@
 {
   "mode": "historical",
-  "timestamp": 1787483350,
+  "timestamp": 1787484888,
   "archive_start": 1774648826,
-  "archive_end": 1787483350,
-  "total_flights": 228212,
-  "unique_routes": 70652,
+  "archive_end": 1787484888,
+  "total_flights": 228247,
+  "unique_routes": 70656,
   "countries": {
     "US": 190656,
-    "ES": 14637,
-    "BR": 13296,
-    "AU": 12953,
-    "CA": 12620,
-    "IT": 12293,
-    "IN": 12041,
-    "DE": 11228,
-    "GB": 10728,
+    "ES": 14644,
+    "BR": 13298,
+    "AU": 12955,
+    "CA": 12622,
+    "IT": 12302,
+    "IN": 12048,
+    "DE": 11231,
+    "GB": 10733,
     "CO": 9384,
     "JP": 9304,
-    "FR": 9128,
-    "TR": 6714,
-    "GR": 6700,
+    "FR": 9130,
+    "TR": 6718,
+    "GR": 6701,
     "MX": 6358,
-    "CH": 6035,
-    "NO": 5606,
+    "CH": 6040,
+    "NO": 5610,
     "MY": 4049,
-    "ZA": 3965,
+    "ZA": 3967,
     "TH": 3962,
     "PL": 3792,
     "NZ": 3169,
     "PH": 3134,
     "GT": 2873,
-    "KR": 2703,
-    "HR": 2596,
+    "KR": 2705,
+    "HR": 2598,
     "MA": 2305,
-    "ME": 2068,
+    "ME": 2069,
     "NL": 2037,
     "ID": 1972,
-    "AT": 1788,
+    "AT": 1789,
     "AL": 1746,
-    "MO": 1594,
+    "MO": 1595,
     "BS": 1555,
     "BE": 1514,
     "IE": 1488,
@@ -51,16 +51,16 @@
     "CL": 1275,
     "CN": 1265,
     "PT": 1235,
-    "TW": 1183,
+    "TW": 1184,
     "IL": 1140,
-    "BA": 1085,
+    "BA": 1086,
     "FI": 1023,
     "AR": 991,
     "KE": 975,
     "CR": 966,
     "BG": 966,
     "PE": 902,
-    "BT": 836,
+    "BT": 837,
     "RS": 821,
     "RU": 771,
     "DK": 761,
@@ -69,7 +69,7 @@
     "CY": 583,
     "HK": 506,
     "BD": 505,
-    "EG": 492,
+    "EG": 495,
     "SG": 469,
     "XK": 403,
     "QA": 398,
@@ -177,7 +177,7 @@
       "country": "IN",
       "lat": 28.5665,
       "lon": 77.1031,
-      "count": 2784
+      "count": 2786
     },
     {
       "icao": "RJTT",
@@ -213,7 +213,7 @@
       "country": "CH",
       "lat": 47.4647,
       "lon": 8.54917,
-      "count": 2373
+      "count": 2374
     },
     {
       "icao": "KMSP",
@@ -303,7 +303,7 @@
       "country": "ES",
       "lat": 40.4936,
       "lon": -3.56676,
-      "count": 1780
+      "count": 1783
     },
     {
       "icao": "LIAU",
@@ -312,7 +312,7 @@
       "country": "IT",
       "lat": 41.116,
       "lon": 14.178,
-      "count": 1774
+      "count": 1775
     },
     {
       "icao": "SBGR",
@@ -348,7 +348,7 @@
       "country": "IT",
       "lat": 45.6306,
       "lon": 8.72811,
-      "count": 1625
+      "count": 1626
     },
     {
       "icao": "YSSY",
@@ -366,7 +366,7 @@
       "country": "MO",
       "lat": 22.1496,
       "lon": 113.592,
-      "count": 1594
+      "count": 1595
     },
     {
       "icao": "LFPG",
@@ -411,7 +411,7 @@
       "country": "ES",
       "lat": 41.2971,
       "lon": 2.07846,
-      "count": 1424
+      "count": 1425
     },
     {
       "icao": "MMJC",
@@ -429,7 +429,7 @@
       "country": "IN",
       "lat": 13.1979,
       "lon": 77.7063,
-      "count": 1353
+      "count": 1354
     },
     {
       "icao": "SKMD",
@@ -447,7 +447,7 @@
       "country": "BR",
       "lat": -23.0074,
       "lon": -47.1345,
-      "count": 1348
+      "count": 1349
     },
     {
       "icao": "KSEA",
@@ -663,7 +663,7 @@
       "country": "AT",
       "lat": 48.1103,
       "lon": 16.5697,
-      "count": 1035
+      "count": 1036
     },
     {
       "icao": "KMIA",
@@ -684,6 +684,15 @@
       "count": 1031
     },
     {
+      "icao": "EGKK",
+      "name": "London Gatwick Airport",
+      "city": "",
+      "country": "GB",
+      "lat": 51.1481,
+      "lon": -0.19028,
+      "count": 1007
+    },
+    {
       "icao": "KAPA",
       "name": "Centennial Airport",
       "city": "",
@@ -691,15 +700,6 @@
       "lat": 39.570119,
       "lon": -104.849293,
       "count": 1007
-    },
-    {
-      "icao": "EGKK",
-      "name": "London Gatwick Airport",
-      "city": "",
-      "country": "GB",
-      "lat": 51.1481,
-      "lon": -0.19028,
-      "count": 1006
     },
     {
       "icao": "EGSS",
@@ -780,7 +780,7 @@
       "country": "ME",
       "lat": 42.4047,
       "lon": 18.7233,
-      "count": 875
+      "count": 876
     },
     {
       "icao": "PHUP",
@@ -915,7 +915,7 @@
       "country": "IT",
       "lat": 45.6739,
       "lon": 9.70417,
-      "count": 793
+      "count": 794
     },
     {
       "icao": "YMML",
@@ -936,6 +936,15 @@
       "count": 789
     },
     {
+      "icao": "VQ10",
+      "name": "Yongphulla Airport",
+      "city": "",
+      "country": "BT",
+      "lat": 27.2564,
+      "lon": 91.5145,
+      "count": 786
+    },
+    {
       "icao": "LGSR",
       "name": "Santorini Airport",
       "city": "",
@@ -945,22 +954,13 @@
       "count": 785
     },
     {
-      "icao": "VQ10",
-      "name": "Yongphulla Airport",
-      "city": "",
-      "country": "BT",
-      "lat": 27.2564,
-      "lon": 91.5145,
-      "count": 785
-    },
-    {
       "icao": "LIRF",
       "name": "Leonardo Da Vinci (Fiumicino) International Airport",
       "city": "",
       "country": "IT",
       "lat": 41.8045,
       "lon": 12.2508,
-      "count": 780
+      "count": 781
     },
     {
       "icao": "RKSS",
@@ -969,7 +969,7 @@
       "country": "KR",
       "lat": 37.5583,
       "lon": 126.791,
-      "count": 767
+      "count": 768
     },
     {
       "icao": "EDDH",
@@ -1054,21 +1054,21 @@
     }
   ],
   "airlines": {
-    "Ryanair": 9160,
+    "Ryanair": 9162,
     "SkyWest Airlines": 8104,
     "EJA": 4393,
-    "IndiGo": 3863,
+    "IndiGo": 3865,
     "American Airlines": 3740,
     "Southwest Airlines": 3549,
     "Delta Air Lines": 2919,
     "ENY": 2791,
     "LATAM Airlines": 2185,
-    "AZU": 2112,
-    "Vueling": 1935,
+    "AZU": 2113,
+    "Vueling": 1936,
     "Lufthansa": 1868,
-    "WIF": 1799,
+    "WIF": 1800,
     "LXJ": 1790,
-    "easyJet": 1590,
+    "easyJet": 1591,
     "Swiss International": 1522,
     "AXM": 1517,
     "QLK": 1448,
@@ -1079,7 +1079,7 @@
     "GLO": 1265,
     "VIV": 1253,
     "PGT": 1251,
-    "WMT": 1244,
+    "WMT": 1246,
     "Air France": 1241,
     "Wizz Air": 1185,
     "JetBlue": 1142,
@@ -1088,11 +1088,11 @@
     "TKR": 1084,
     "MXY": 1072,
     "EWG": 1050,
-    "VOE": 1024,
-    "AXB": 1008,
+    "VOE": 1025,
+    "AXB": 1009,
     "Cathay Pacific": 1004,
     "SXS": 964,
-    "Turkish Airlines": 941,
+    "Turkish Airlines": 942,
     "AIQ": 922,
     "Japan Airlines": 883,
     "JIA": 858,
@@ -1103,9 +1103,9 @@
     "Air India": 781,
     "LYM": 751,
     "LNK": 749,
-    "ANE": 743
+    "ANE": 745
   },
-  "route_count": 228212,
+  "route_count": 228247,
   "avg_duration": "1h 14m",
   "avg_duration_min": 74,
   "top_routes": [
@@ -1766,11 +1766,11 @@
       "arr_country": "IN",
       "arr_lat": 32.2338,
       "arr_lon": 75.6346,
-      "flights": 209,
+      "flights": 210,
       "avg_duration_min": 41,
       "avg_duration": "41m",
       "distance_km": 431.4,
-      "total_co2_kg": 1555304.8
+      "total_co2_kg": 1562746.5
     },
     {
       "dep_icao": "SKBO",
@@ -1824,6 +1824,23 @@
       "total_co2_kg": 0.0
     },
     {
+      "dep_icao": "LEMD",
+      "dep_name": "Madrid Barajas International Airport",
+      "dep_country": "ES",
+      "dep_lat": 40.4936,
+      "dep_lon": -3.56676,
+      "arr_icao": "LEMR",
+      "arr_name": "La Morgal Airport",
+      "arr_country": "ES",
+      "arr_lat": 43.4292,
+      "arr_lon": -5.83056,
+      "flights": 199,
+      "avg_duration_min": 35,
+      "avg_duration": "35m",
+      "distance_km": 376.2,
+      "total_co2_kg": 1291400.6
+    },
+    {
       "dep_icao": "SBSP",
       "dep_name": "Congonhas Airport",
       "dep_country": "BR",
@@ -1839,23 +1856,6 @@
       "avg_duration": "53m",
       "distance_km": 609.5,
       "total_co2_kg": 2092261.1
-    },
-    {
-      "dep_icao": "LEMD",
-      "dep_name": "Madrid Barajas International Airport",
-      "dep_country": "ES",
-      "dep_lat": 40.4936,
-      "dep_lon": -3.56676,
-      "arr_icao": "LEMR",
-      "arr_name": "La Morgal Airport",
-      "arr_country": "ES",
-      "arr_lat": 43.4292,
-      "arr_lon": -5.83056,
-      "flights": 198,
-      "avg_duration_min": 35,
-      "avg_duration": "35m",
-      "distance_km": 376.2,
-      "total_co2_kg": 1284911.1
     },
     {
       "dep_icao": "SKBO",
@@ -1962,6 +1962,33 @@
   ],
   "recent_flights": [
     {
+      "callsign": "DFLOC",
+      "airline": "DFL",
+      "from": "Bomoen Airport (ENBM)",
+      "to": "Bomoen Airport (ENBM)",
+      "departure": "2026-08-23 11:16 UTC",
+      "arrival": "2026-08-23 11:34 UTC",
+      "duration": "18m"
+    },
+    {
+      "callsign": "OKPON",
+      "airline": "OKP",
+      "from": "LZRY (LZRY)",
+      "to": "LZRY (LZRY)",
+      "departure": "2026-08-23 11:05 UTC",
+      "arrival": "2026-08-23 11:25 UTC",
+      "duration": "20m"
+    },
+    {
+      "callsign": "DMPAF",
+      "airline": "DMP",
+      "from": "Bonn-Hangelar Airport (EDKB)",
+      "to": "Bad Neuenahr-Ahrweiler Airport (EDRA)",
+      "departure": "2026-08-23 11:13 UTC",
+      "arrival": "2026-08-23 11:24 UTC",
+      "duration": "11m"
+    },
+    {
       "callsign": "FHBBZ",
       "airline": "FHB",
       "from": "Saint-Cyr-l'Ecole Airport (LFPZ)",
@@ -1971,6 +1998,15 @@
       "duration": "51m"
     },
     {
+      "callsign": "FLJ61H",
+      "airline": "FLJ",
+      "from": "Inverness Airport (EGPE)",
+      "to": "Southampton Airport (EGHI)",
+      "departure": "2026-08-23 09:59 UTC",
+      "arrival": "2026-08-23 11:08 UTC",
+      "duration": "1h 9m"
+    },
+    {
       "callsign": "GCJKO",
       "airline": "GCJ",
       "from": "Colerne Airport (EGUO)",
@@ -1978,6 +2014,24 @@
       "departure": "2026-08-23 10:37 UTC",
       "arrival": "2026-08-23 11:00 UTC",
       "duration": "22m"
+    },
+    {
+      "callsign": "WIF8HK",
+      "airline": "WIF",
+      "from": "Bod\u00f8 Airport (ENBO)",
+      "to": "Svolv\u00e6r Helle Airport (ENSH)",
+      "departure": "2026-08-23 10:33 UTC",
+      "arrival": "2026-08-23 10:50 UTC",
+      "duration": "17m"
+    },
+    {
+      "callsign": "LLR513",
+      "airline": "LLR",
+      "from": "Bengaluru International Airport (VOBL)",
+      "to": "Hosur Airport (VO95)",
+      "departure": "2026-08-23 10:26 UTC",
+      "arrival": "2026-08-23 10:47 UTC",
+      "duration": "21m"
     },
     {
       "callsign": "EJU3629",
@@ -1996,6 +2050,15 @@
       "departure": "2026-08-23 10:23 UTC",
       "arrival": "2026-08-23 10:40 UTC",
       "duration": "17m"
+    },
+    {
+      "callsign": "IGO5033",
+      "airline": "IndiGo",
+      "from": "Indira Gandhi International Airport (VIDP)",
+      "to": "Jaipur International Airport (VIJP)",
+      "departure": "2026-08-23 10:24 UTC",
+      "arrival": "2026-08-23 10:40 UTC",
+      "duration": "15m"
     },
     {
       "callsign": "VOZ878",
@@ -2025,6 +2088,24 @@
       "duration": "25m"
     },
     {
+      "callsign": "URT",
+      "airline": "URT",
+      "from": "Adelaide International Airport (YPAD)",
+      "to": "Quondong Airport (YQON)",
+      "departure": "2026-08-23 09:52 UTC",
+      "arrival": "2026-08-23 10:37 UTC",
+      "duration": "44m"
+    },
+    {
+      "callsign": "AUA617",
+      "airline": "Austrian Airlines",
+      "from": "Vienna International Airport (LOWW)",
+      "to": "Otocac Airport (LDRO)",
+      "departure": "2026-08-23 10:00 UTC",
+      "arrival": "2026-08-23 10:36 UTC",
+      "duration": "35m"
+    },
+    {
       "callsign": "N799LG",
       "airline": "",
       "from": "John C Tune Airport (KJWN)",
@@ -2034,116 +2115,35 @@
       "duration": "2h 6m"
     },
     {
-      "callsign": "CHX32",
-      "airline": "CHX",
-      "from": "ETT1 (ETT1)",
-      "to": "ETT1 (ETT1)",
-      "departure": "2026-08-23 10:26 UTC",
-      "arrival": "2026-08-23 10:29 UTC",
-      "duration": "3m"
-    },
-    {
-      "callsign": "PH876",
-      "airline": "",
-      "from": "Teuge Airport (EHTE)",
-      "to": "Teuge Airport (EHTE)",
-      "departure": "2026-08-23 08:51 UTC",
-      "arrival": "2026-08-23 10:24 UTC",
-      "duration": "1h 33m"
-    },
-    {
-      "callsign": "TLJ813R",
-      "airline": "TLJ",
-      "from": "Paris-Le Bourget Airport (LFPB)",
-      "to": "Olbia / Costa Smeralda Airport (LIEO)",
-      "departure": "2026-08-23 08:55 UTC",
-      "arrival": "2026-08-23 10:23 UTC",
-      "duration": "1h 27m"
-    },
-    {
-      "callsign": "EWG15HR",
-      "airline": "EWG",
-      "from": "Alexander the Great International Airport (LGKV)",
-      "to": "Stuttgart Airport (EDDS)",
-      "departure": "2026-08-23 07:55 UTC",
-      "arrival": "2026-08-23 10:21 UTC",
-      "duration": "2h 26m"
-    },
-    {
-      "callsign": "UBG537",
-      "airline": "UBG",
-      "from": "VGZR (VGZR)",
-      "to": "Shillong Airport (VEBI)",
-      "departure": "2026-08-23 09:55 UTC",
-      "arrival": "2026-08-23 10:21 UTC",
-      "duration": "25m"
-    },
-    {
-      "callsign": "EWG54J",
-      "airline": "EWG",
-      "from": "Palma De Mallorca Airport (LEPA)",
-      "to": "Dusseldorf International Airport (EDDL)",
-      "departure": "2026-08-23 08:29 UTC",
-      "arrival": "2026-08-23 10:20 UTC",
-      "duration": "1h 50m"
-    },
-    {
-      "callsign": "SPNTS",
-      "airline": "SPN",
-      "from": "Nowy Targ Airport (EPNT)",
-      "to": "Nowy Targ Airport (EPNT)",
-      "departure": "2026-08-23 10:02 UTC",
-      "arrival": "2026-08-23 10:18 UTC",
-      "duration": "16m"
-    },
-    {
-      "callsign": "SAMU05",
-      "airline": "SAM",
-      "from": "Gap - Tallard Airport (LFNA)",
-      "to": "Barcelonnette - Saint-Pons Airport (LFMR)",
-      "departure": "2026-08-23 09:54 UTC",
-      "arrival": "2026-08-23 10:14 UTC",
-      "duration": "20m"
-    },
-    {
-      "callsign": "EAI31F",
-      "airline": "EAI",
-      "from": "Edinburgh Airport (EGPH)",
-      "to": "Dublin Airport (EIDW)",
-      "departure": "2026-08-23 09:10 UTC",
-      "arrival": "2026-08-23 10:12 UTC",
-      "duration": "1h 1m"
-    },
-    {
-      "callsign": "FIN2MF",
-      "airline": "Finnair",
-      "from": "Helsinki Vantaa Airport (EFHK)",
-      "to": "EFML (EFML)",
+      "callsign": "MNE311",
+      "airline": "MNE",
+      "from": "Zurich Airport (LSZH)",
+      "to": "Dubrovnik Airport (LDDU)",
       "departure": "2026-08-23 09:23 UTC",
-      "arrival": "2026-08-23 10:10 UTC",
-      "duration": "47m"
+      "arrival": "2026-08-23 10:32 UTC",
+      "duration": "1h 9m"
     },
     {
-      "callsign": "UBG149",
-      "airline": "UBG",
-      "from": "VGZR (VGZR)",
-      "to": "Shah Amanat International Airport (VGEG)",
-      "departure": "2026-08-23 09:31 UTC",
-      "arrival": "2026-08-23 10:09 UTC",
-      "duration": "37m"
+      "callsign": "EZY17NC",
+      "airline": "easyJet",
+      "from": "Geneva Cointrin International Airport (LSGG)",
+      "to": "Bristol International Airport (EGGD)",
+      "departure": "2026-08-23 09:02 UTC",
+      "arrival": "2026-08-23 10:30 UTC",
+      "duration": "1h 28m"
     },
     {
-      "callsign": "TVL5302",
-      "airline": "TVL",
-      "from": "Budapest Ferenc Liszt International Airport (LHBP)",
-      "to": "Antalya International Airport (LTAI)",
-      "departure": "2026-08-23 08:06 UTC",
-      "arrival": "2026-08-23 10:09 UTC",
-      "duration": "2h 3m"
+      "callsign": "IBS1695",
+      "airline": "IBS",
+      "from": "Madrid Barajas International Airport (LEMD)",
+      "to": "Ibiza Airport (LEIB)",
+      "departure": "2026-08-23 09:49 UTC",
+      "arrival": "2026-08-23 10:30 UTC",
+      "duration": "41m"
     }
   ],
-  "total_distance_km": 159561384.3,
-  "total_co2_kg": 2752433879.7,
-  "total_co2_tonnes": 2752433.88,
+  "total_distance_km": 159587995.5,
+  "total_co2_kg": 2752892922.3,
+  "total_co2_tonnes": 2752892.92,
   "avg_distance_km": 858
 }
